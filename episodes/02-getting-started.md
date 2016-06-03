@@ -9,4 +9,127 @@ objectives:
 keypoints:
 - "TODO: add key points"
 ---
+### Using Git
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language is by using it but having an overview of the language and the way Git is used will provide a good starting point.
 
+<!demonstrate Git commands whilst outlining what they mean>
+
+### Some Git commands/language - what they mean and how to use them
+
+**Repository** A repository is the place where are projects and associated changes are stored. Repositories can contain one single readme file or hundreds of different folders making up the source code for extensive projects. We can create repositories in a number of different ways; we can make our own from scratch, we can fork (copy) an existing repository or we can create a Git repository from an existing folder we have been working on.
+
+**init** Create a repository
+
+Whenever we use Git on the command line, we need to preface our command with `git`. This is so the computer knows we are trying to get Git to do something rather than another program.
+
+To try out some of the Git commands, we can make a repository for today's session. We can either delete this directory later or keep it as a place to test out new Git commands.
+
+We covered the command line last week but we will go over them again. <!explain commands as we go along>
+
+~~~
+$ mkdir git_test
+$ cd git_test
+$ git init
+~~~
+
+This initiates `git_test` as a git repository.
+
+We now need to configure Git locally - this is a one-time set up, but settings can be changed at any time.
+~~~
+$ git config --global user.name "Mary Citizen"
+$ git config --global user.email "mary_citizen@gitmail.com"
+$ git config --global color.ui "auto"
+$ git config --global core.editor "nano -w"
+~~~
+
+Now we have set the directory up as a repository, and configured it locally, we can see how we are going.
+
+**Git status**
+we can use `git status` at any time to let us know what Git is up to.
+
+If we try it now, we should get something like this
+~~~
+$ On branch master
+$ Initial commit
+$ nothing to commit (create/copy files and use "git add" to track)
+~~~
+
+This is telling us that we are on the master branch (more on this later) and that we have nothing to commit (nothing to save changes from).
+If we use list directory we can see currently we don't have any files to track. Let's change that by adding a txt file. Touch allows us to create an empty file.
+
+~~~
+$ ls
+$ touch git_test.txt
+~~~
+
+We now have a txt file. If we try `git status` again, we will get the following
+
+~~~
+$ git status
+On branch master
+Initial commit
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    git_test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+~~~
+
+This status is Git telling us that it has noticed a new file in our directory that we currently aren't tracking. With colourised output, the filename will appear in red.
+
+To change this, and to tell Git we want to track any changes we make to git_test.txt, we use `git add`
+
+~~~
+$ git add git_test.txt
+~~~
+
+This adds our txt file to the **staging area** (the area where Git checks for file changes). Because we are not alerted that this has happened, we might want to use `git status` again.
+
+~~~
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+    new file:   git_test.txt
+~~~
+
+If we opted for colourised output, we can see that the file has changed colour (from red to green) and Git also tells us that it has got a new file.
+
+Let's make some changes to this file before we commit it:
+
+~~~
+$ nano git_test.txt
+~~~
+Open the file in nano or another text editor.
+
+We should now be able to add some text to our text file. For now let's just write 'hello world'. If we try `git status` again. We should get the following message
+
+~~~
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+    modified:   git_test.txt
+~~~
+
+This lets us know that Git has spotted changes to our txt file but that it hasn't yet 'staged' them. This means Git won't currently record the changes we made. We can add the file to the staging area again
+
+~~~
+git add git_test.txt
+~~~
+
+We can now **commit** our first changes. Commit is similar to 'saving' a file to Git. However compared to saving, a lot more information about the changes we made is recorded and visible to us later.
+
+~~~
+git commit -m 'hello world'
+[master (root-commit) 27c3f19] hello world
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_test.txt
+~~~
+
+We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
