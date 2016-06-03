@@ -1,13 +1,16 @@
 ---
 layout: lesson_homepage
 ---
-This lesson shows how to use the
-[Software Carpentry]({{ site.swc_site }}) and
-[Data Carpentry]({{ site.dc_site }}) lesson template.
-For guidelines on how to help improve our lessons and this template,
-please see [the contribution guidelines][contributing];
-for guidelines on how to set up your machine to preview changes locally,
-please see [the setup instructions](/setup/).
+#### what we will try to do
+**begin** to understand and use Git/Github. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, like any skill, using Git takes practice.
+
+#### be excellent to each other
+* If you spot someone who is struggling with something and you think you know how to help, please give them a hand. Try not to do the task for them: instead explain the steps they need to take and *what* these steps will achieve.
+
+#### be patient with me and yourself
+* This is a big group, with different levels of knowledge, different computer systems.
+* This isn't my full-time job (though if someone wants to pay me to play with computers all day I'd probably accept). I'll do my best to make this session useful.
+* This is your session. If you feel we are going too fast, then please put up a pink sticky. We can decide as a group what to cover.
 
 > ## Prerequisites
 >
