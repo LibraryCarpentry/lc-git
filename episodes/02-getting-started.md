@@ -14,6 +14,10 @@ One of the main barriers to getting started with Git is the language. Although s
 
 <!demonstrate Git commands whilst outlining what they mean>
 
+### Exercise for our first git repository
+
+We will try to do this session as a group, but those who prefer to go at a slower pace can follow the instructions on the [github page](https://github.com/data-lessons/library-git).  
+
 ### Some Git commands/language - what they mean and how to use them
 
 **Repository** A repository is the place where are projects and associated changes are stored. Repositories can contain one single readme file or hundreds of different folders making up the source code for extensive projects. We can create repositories in a number of different ways; we can make our own from scratch, we can fork (copy) an existing repository or we can create a Git repository from an existing folder we have been working on.
