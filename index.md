@@ -11,7 +11,9 @@ please see [the setup instructions](/setup/).
 
 > ## Prerequisites
 >
-> Use the `.prereq` style to specify prerequisites.
+> 1. Setup a [github account](https://github.com/)
+> 2. [Install git](https://help.github.com/articles/set-up-git/)
+> 3. Configure your git setup
 {: .prereq}
 
 [contributing]: {{ site.repo }}/blob/gh-pages/CONTRIBUTING.md
