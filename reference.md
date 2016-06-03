@@ -48,6 +48,11 @@ permalink: /reference/
 
 ### Basic Git commands 
 
+Git cheat sheet handouts:
+
+* https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf 
+* http://www.git-tower.com/blog/git-cheat-sheet/
+
 `git init`
 : creates a git repository
 
@@ -74,3 +79,26 @@ permalink: /reference/
 
 `git remote add origin`
 : add a repository where changes will be stored -
+
+## Useful library github repositories
+
+* [DavidChouinard/mrc_to_csv](https://github.com/DavidChouinard/mrc_to_csv): 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
+* [Process MARC records from Python](https://github.com/edsu/pymarc)
+  * http://python.org/pypi/pymarc
+* [edsu/git-intro](http://edsu.github.io/git-intro): high level intro to git 
+* [edsu/mirador](https://github.com/edsu/mirador)
+* [edsu/microdata](https://github.com/edsu/microdata)
+* [kcl/ddh](https://github.com/kcl/ddh)
+* [dhtaxonomy/TaDiRAH](https://github.com/dhtaxonomy/TaDiRAH)
+* [OpenAPC/openapc-de](https://github.com/OpenAPC/openapc-de)
+* [JiscMonitor/allapc](https://github.com/JiscMonitor/allapc)
+* http://fbkarsdorp.github.io/python-course/
+* https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/
+* http://book.openingscience.org/
+
+## Further reading
+
+* The help pages of github are a good place to start: https://help.github.com/ 
+* Github has 'activities' which aim to explain how git works: https://guides.github.com/activities/hello-world/
+* Some indepth but clear tutorials on using git. https://www.atlassian.com/git/tutorials
+* A website aimed at historians but useful for librarians/those interested in Digital Humanities. The project uses Github and a programme called Jekyll to manage new lessons/the website. A useful place to see a non coding use of github in action: http://programminghistorian.org 
