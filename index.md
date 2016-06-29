@@ -16,7 +16,7 @@ layout: lesson_homepage
 >
 > 1. Setup a [github account](https://github.com/)
 > 2. [Install git](https://help.github.com/articles/set-up-git/)
-> 3. Configure your git setup
+> 3. [Configure your git setup](http://data-lessons.github.io/library-git/install/)
 {: .prereq}
 
 [contributing]: {{ site.repo }}/blob/gh-pages/CONTRIBUTING.md
