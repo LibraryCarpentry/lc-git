@@ -3,11 +3,11 @@ title: "Sharing your work"
 teaching: 30
 exercises: 0
 questions:
-- "TODO: add questions"
+- "what does `push` and `pull` mean?"
 objectives:
-- "TODO: add objectives"
+- "to understand how to create an GitHu repository and push to it"
 keypoints:
-- "TODO: add key points"
+- "remote repositories on GitHub help you collaborate"
 ---
 When we have logged in to GitHub, we will see an option to create a new repository. Let's make one for the GitHub experiments we are going to do today.
 
