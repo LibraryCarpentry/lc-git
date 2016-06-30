@@ -3,9 +3,9 @@ title: "Git in libraries"
 teaching: 10
 exercises: 50
 questions:
-- "What could git be useful for?"
+- "What could Git be useful for?"
 objectives:
-- "TODO: add objectives"
+- "to understand how Git can be used in your library"
 keypoints:
-- "TODO: add key points"
+- "the version control features of Git are ideally suited to libraries"
 ---
