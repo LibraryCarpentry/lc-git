@@ -3,12 +3,12 @@ title: "What is git?"
 teaching: 10
 exercises: 0
 questions:
-- "What is git?"
-- "What is github?"
+- "What is Git?"
+- "What is Github?"
 objectives:
-- "TODO: add objectives"
+- "to understand what Git and Github are?"
 keypoints:
-- "TODO: add key points"
+- "Git and Github are not the same"
 ---
 ### What is Git?
 
