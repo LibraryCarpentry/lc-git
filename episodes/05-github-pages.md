@@ -3,11 +3,11 @@ title: "Github pages"
 teaching: 15
 exercises: 20
 questions:
-- "TODO: add questions"
+- "what is GitHub Pages?"
 objectives:
-- "TODO: add objectives"
+- "to understand how to setup and use GitHub Pages"
 keypoints:
-- "TODO: add key points"
+- "GitHub Pages use the Git/GitHub workflow to help you build webpages"
 ---
 ## GitHub Pages
 
