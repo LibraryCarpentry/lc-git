@@ -3,11 +3,11 @@ title: "Getting started"
 teaching: 20
 exercises: 0
 questions:
-- "TODO: add questions"
+- "what do `add` and `commit` mean?"
 objectives:
-- "TODO: add objectives"
+- "to understand how to initiate a repository and track files"
 keypoints:
-- "TODO: add key points"
+- "start with `git init` and go from there!"
 ---
 ### Using Git
 One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language is by using it but having an overview of the language and the way Git is used will provide a good starting point.
