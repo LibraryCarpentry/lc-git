@@ -3,11 +3,11 @@ title: "Review"
 teaching: 5
 exercises: 20
 questions:
-- "TODO: add questions"
+- "can you express git commands in a non 'git' way?"
 objectives:
-- "TODO: add objectives"
+- "to understand the Git/GitHub workflow"
 keypoints:
-- "TODO: add key points"
+- "the workflow isn't tricky, but it the language takes some time to settle in"
 ---
 ## Let's review
 
