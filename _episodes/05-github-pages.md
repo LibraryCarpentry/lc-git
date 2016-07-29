@@ -37,6 +37,6 @@ To practise using Git, GitHub pages and Markdown we can contribute to a GitHub p
 7. When we make a pull request, we have the option of explaining what the pull request relates to. It is important to give a short concise explanation of what it is about.
 
 #### pull-request (slightly more complicated way)
-* instead of making edits on the github website you can 'clone' the repository to your local machine.
+* instead of making edits on the GitHub website you can 'clone' the repository to your local machine.
 * follow steps 1 and 2 above.
-* then follow the steps outline here: http://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message
+* then follow the steps outlined here: http://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message
