@@ -10,7 +10,7 @@ keypoints:
 - "start with `git init` and go from there!"
 ---
 ### Using Git
-One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language is by using it but having an overview of the language and the way Git is used will provide a good starting point.
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language - which consists of a number of verbs, or commands, e.g. add, commit, precended by the word Git - is by using it but having an overview of the language and the way Git is used will provide a good starting point.
 
 <!demonstrate Git commands whilst outlining what they mean>
 
@@ -36,9 +36,13 @@ $ cd git_test
 $ git init
 ~~~
 
-This initiates `git_test` as a git repository.
+This initiates `git_test` as a git repository. 
 
-We now need to configure Git locally - this is a one-time set up, but settings can be changed at any time.
+If you do an `ls` now, the repository might seem empty. However, an `ls -a` will show the hidden files, which includes the new file `.git`.
+
+This signifies that the directory is now a Git repository. Were the `.git` file ever to be deleted after you have begun committing files, all versioning of the data would be lost. 
+
+We now need to configure Git locally - this need only be done once, i.e. the first time we are setting up Git. However, each of the settings can be changed at any time if we decide we want to use a different email address, say, or switch to a different text editor.
 ~~~
 $ git config --global user.name "Mary Citizen"
 $ git config --global user.email "mary_citizen@gitmail.com"
@@ -80,7 +84,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ~~~
 
-This status is Git telling us that it has noticed a new file in our directory that we currently aren't tracking. With colourised output, the filename will appear in red.
+This status is Git telling us that it has noticed a new file in our directory that we are not yet tracking. With colourised output, the filename will appear in red.
 
 To change this, and to tell Git we want to track any changes we make to git_test.txt, we use `git add`
 
@@ -136,4 +140,4 @@ git commit -m 'hello world'
  create mode 100644 git_test.txt
 ~~~
 
-We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friend and collegues but will also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friends and colleagues but will also allow other people to use or build on our work.
