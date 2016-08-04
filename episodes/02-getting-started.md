@@ -5,7 +5,9 @@ exercises: 0
 questions:
 - "what do `add` and `commit` mean?"
 objectives:
-- "to understand how to initiate a repository and track files"
+- "initiate a git repository on the command line"
+- "configure git locally"
+- "track and commit files to a git repository"
 keypoints:
 - "start with `git init` and go from there!"
 ---
