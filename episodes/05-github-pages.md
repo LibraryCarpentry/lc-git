@@ -5,7 +5,8 @@ exercises: 20
 questions:
 - "what is GitHub Pages?"
 objectives:
-- "to understand how to setup and use GitHub Pages"
+- "set up a website using Github Pages"
+- "share work and collaborate using GitHub"
 keypoints:
 - "GitHub Pages use the Git/GitHub workflow to help you build webpages"
 ---
