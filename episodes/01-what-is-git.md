@@ -6,7 +6,8 @@ questions:
 - "What is Git?"
 - "What is Github?"
 objectives:
-- "to understand what Git and Github are?"
+- "explain why version control is useful"
+- "explain the difference between git and GitHub"
 keypoints:
 - "Git and Github are not the same"
 ---
