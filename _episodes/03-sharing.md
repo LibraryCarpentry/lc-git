@@ -5,7 +5,10 @@ exercises: 0
 questions:
 - "what does `push` and `pull` mean?"
 objectives:
-- "to understand how to create an GitHub repository and push to it"
+- "create a repository on GitHub"
+- "link a local repository with a repository on GitHub"
+- "push changes from the local repository to GitHub"
+- "pull changes back from GitHub to the local repository"
 keypoints:
 - "remote repositories on GitHub help you collaborate"
 ---
