@@ -19,4 +19,6 @@ Posters for conferences could be collaboratively produced and version controlled
 
 Advice on data management could be collaboratively drafted and only marked up once text has been finalised. Given the constantly changing nature of this advice, this material is a perfect candidate for version control. The collaborative nature of Git means that contributions could be many and various - even among libraries.
 
+For storing and maintaining Learning Management System content e.g. Information Literacy modules. See [GitHub for Academics: the open-source way to host, create and curate knowledge](http://blogs.lse.ac.uk/impactofsocialsciences/2013/06/04/github-for-academics/?utm_content=buffer6ed71&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer).
+
 Blog software like [JekyllNow](https://github.com/barryclark/jekyll-now) could be deployed for event announcements.  
