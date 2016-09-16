@@ -1,5 +1,7 @@
 # Library Carpentry
 
+The Library Carpentry module '[Git Intro for Librarians](http://data-lessons.github.io/library-git/)' is maintained by [Belinda Weaver](https://github.com/weaverbel) and [Jez Cope](https://github.com/jezcope).
+
 ## Background
 
 Library Carpentry is a software skills training programme aimed at library and information professions. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/).
