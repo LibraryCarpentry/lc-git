@@ -1,10 +1,6 @@
 ---
 layout: page
-<<<<<<< HEAD
-title: Contributor Code of Conduct
-=======
 title: "Contributor Code of Conduct"
->>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 permalink: /conduct/
 ---
 As contributors and maintainers of this project,
