@@ -3,7 +3,11 @@
   Days are displayed if at least one episode has 'start = true'.
 {% endcomment %}
 <div class="syllabus">
+<<<<<<< HEAD
   <h2>Schedule</h2>
+=======
+  <h2 id="schedule">Schedule</h2>
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 
   {% assign day = 0 %}
   {% assign multiday = false %}
@@ -34,14 +38,27 @@
       {% if multiday %}<td class="col-md-1">{% if episode.start %}Day {{ day }}{% endif %}</td>{% endif %}
       <td class="col-md-1">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
       <td class="col-md-3">
+<<<<<<< HEAD
         <a href="{{ site.root }}{{ episode.url }}">{{ episode.title }}</a>
+=======
+        <a href="{{ page.root }}{{ episode.url }}">{{ episode.title }}</a>
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
       </td>
       <td class="col-md-7">
         {% if episode.break %}
           Break
         {% else %}
           {% if episode.questions %}
+<<<<<<< HEAD
             {{ episode.questions | join: '<br/>' }}
+=======
+            {% for question in episode.questions %}
+              {{question|markdownify|strip_html}}
+              {% unless forloop.last %}
+              <br/>
+              {% endunless %}
+            {% endfor %}
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
           {% endif %}
         {% endif %}
       </td>
@@ -53,8 +70,20 @@
   <tr>
     {% if multiday %}<td></td>{% endif %}
     <td class="col-md-1">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
+<<<<<<< HEAD
     <td class="col-md-3">Finish and next lesson (<a href="http://data-lessons.github.io/library-openrefine/">OpenRefine for Librarians</a>)</td>
     <td class="col-md-7"></td>
   </tr>
   </table>
+=======
+    <td class="col-md-3">Finish</td>
+    <td class="col-md-7"></td>
+  </tr>
+  </table>
+
+  <p>
+    The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
+  </p>
+
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 </div>

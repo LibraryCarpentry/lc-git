@@ -3,11 +3,14 @@ layout: page
 title: "Licenses"
 permalink: /license/
 ---
+<<<<<<< HEAD
 
 *Library Carpentry builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). It uses the same license as these projects. This can be found below.*
 
 ______
 
+=======
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 ## Instructional Material
 
 All Software Carpentry and Data Carpentry instructional material is

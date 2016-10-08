@@ -1,4 +1,13 @@
+<<<<<<< HEAD
 *~
 .DS_Store
 .sass-cache
+=======
+*.pyc
+*~
+.DS_Store
+.ipynb_checkpoints
+.sass-cache
+__pycache__
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 _site

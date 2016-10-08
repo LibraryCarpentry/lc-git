@@ -14,6 +14,7 @@ $color-output:      #303030 !default;
 $color-source:      #6e5494 !default;
 
 // blockquotes
+<<<<<<< HEAD
 
 {% if site.carpentry == "swc" %}
 $color-callout:     #00B3A3 !default;
@@ -36,6 +37,17 @@ $color-prereq:      #9cd6dc !default;
 $color-solution:    #e3bb70 !default;
 $color-testimonial: #f4fd9c !default;
 {% endif %}
+=======
+$color-callout:     #f4fd9c !default;
+$color-challenge:   #eec275 !default;
+$color-checklist:   #dfd2a0 !default;
+$color-discussion:  #eec275 !default;
+$color-keypoints:   #7ae78e !default;
+$color-objectives:  #daee84 !default;
+$color-prereq:      #9cd6dc !default;
+$color-solution:    #ded4b9 !default;
+$color-testimonial: #fc8dc1 !default;
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 
 //----------------------------------------
 // Specialized code blocks.
@@ -51,6 +63,16 @@ $color-testimonial: #f4fd9c !default;
 .output { @include cdSetup($color-output); }
 .source { @include cdSetup($color-source); }
 
+<<<<<<< HEAD
+=======
+.bash   { @include cdSetup($color-source); }
+.make   { @include cdSetup($color-source); }
+.matlab { @include cdSetup($color-source); }
+.python { @include cdSetup($color-source); }
+.r      { @include cdSetup($color-source); }
+.sql    { @include cdSetup($color-source); }
+
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 //----------------------------------------
 // Specialized blockquote environments for learning objectives, callouts, etc.
 //----------------------------------------
@@ -94,6 +116,10 @@ $codeblock-padding: 5px !default;
 .callout{ @include bkSetup($color-callout, "\e146"); }
 .challenge{ @include bkSetup($color-challenge, "\270f"); }
 .checklist{ @include bkSetup($color-checklist, "\e067"); }
+<<<<<<< HEAD
+=======
+.discussion{ @include bkSetup($color-discussion, "\e123"); }
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 .keypoints{ @include bkSetup($color-keypoints, "\e101"); }
 .objectives{ @include bkSetup($color-objectives, "\e085"); }
 .prereq{ @include bkSetup($color-prereq, "\e124"); }
@@ -110,6 +136,13 @@ code {
   background-color: inherit;
 }
 
+<<<<<<< HEAD
+=======
+img {
+  max-width: 100%;
+}
+
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 //----------------------------------------
 // Miscellaneous.
 //----------------------------------------
@@ -137,7 +170,10 @@ ol {
   padding-left: 1em;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7f8e13d704e49b625b25b7b655d4c21db70c7ccf
 span.fold-unfold {
   margin-left: 1em;
   opacity: 0.5;
