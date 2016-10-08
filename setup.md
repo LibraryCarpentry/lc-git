@@ -3,32 +3,26 @@ layout: page
 title: Setup
 permalink: /setup/
 ---
-1. Installation instructions for core lessons are included in the [workshop template's home page][template],
-   so that they are all in one place.
-   The `setup.md` files of core lessons link to the appropriate sections of the [workshop template page][template].
+## Install for week three
 
-2. Other lessons' `setup.md` include full installation instructions organized by OS
-   (following the model of the workshop template home page).
+* As in week two we will want to use a laptop during this session.
+* If you didn't attend week two and haven't using the command line before you will want to make sure if you are using Mac OSx and Linux you know how to get to the command line. If you are on a Windows system you will want to follow the installation instructions from week two.
+* Though it isn't completely necessary, it would be helpful if you missed week two to try and understand some of the basic commands for moving between directories on the command line.
 
---------
+### 1. Setup a GitHub account
+* If you don't already have a GitHub account set one up here: [https://github.com/](https://github.com/)
 
-If you want to set up Jekyll
-so that you can preview changes on your own machine before pushing them to GitHub,
-you must install the software described below.
-(Note: Julian Thilo has written instructions for [installing Jekyll on Windows](http://jekyll-windows.juthilo.com/).)
+### 2.  Install Git
+* For Windows users: make sure you followed the steps for week two then move to step 3.
+* Follow the instructions for installing Git on your operating system here:
+<https://help.github.com/articles/set-up-git/>.
+* These instructions will install a GUI version of Git which we won't be using during the session but might be handy in the future. It will install the command line software at the same time.
 
-1.  **Ruby**.
-    This is included with Linux and Mac OS X;
-    the simplest option on Windows is to use [RubyInstaller](http://rubyinstaller.org/).
-    You can test your installation by running `ruby --version`.
-    For more information,
-    see [the Ruby installation guidelines](https://www.ruby-lang.org/en/downloads/).
-
-2.  **[RubyGems](https://rubygems.org/pages/download)**
-    (the package manager for Ruby).
-    You can test your installation by running `gem --version`.
-
-3.  **[Jekyll](https://jekyllrb.com/)**.
-    You can install this by running `gem install jekyll`.
-
-[template]: {{ site.workshop_repo }}
+### 3. Configuring your Git setup
+* It will be useful to configure your github setup before we begin week three.
+~~~
+$ git config --global user.name "your name"
+$ git config --global user.email "your@email"
+$ git config --global color.ui "auto"
+~~~
+{: .bash}
