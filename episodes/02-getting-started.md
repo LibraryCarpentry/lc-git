@@ -22,7 +22,7 @@ We will try to do this session as a group, but those who prefer to go at a slowe
 
 ### Some Git commands/language - what they mean and how to use them
 
-**Repository** A repository is the place where are projects and associated changes are stored. Repositories can contain one single readme file or hundreds of different folders making up the source code for extensive projects. We can create repositories in a number of different ways; we can make our own from scratch, we can fork (copy) an existing repository or we can create a Git repository from an existing folder we have been working on.
+**Repository** A repository is the place where projects and associated changes are stored. Repositories can contain one single readme file or hundreds of different folders making up the source code for extensive projects. We can create repositories in a number of different ways; we can make our own from scratch, we can fork (copy) an existing repository or we can create a Git repository from an existing folder we have been working on.
 
 **init** Create a repository
 
@@ -165,4 +165,4 @@ $ git commit -m 'hello world'
 ~~~
 {: .output}
 
-We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friends and colleagues but will also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of our work. Hosting here will allow us to share our work with our friends and colleagues but will also allow other people to use or build on our work.
