@@ -37,32 +37,37 @@ $ mkdir git_test
 $ cd git_test
 $ git init
 ~~~
+{: .bash}
 
 This initiates `git_test` as a git repository. 
 
 If you do an `ls` now, the repository might seem empty. However, an `ls -a` will show the hidden files, which includes the new file `.git`.
 
 This signifies that the directory is now a Git repository. Were the `.git` file ever to be deleted after you have begun committing files, all versioning of the data would be lost. 
-
 We now need to configure Git locally - this need only be done once, i.e. the first time we are setting up Git. However, each of the settings can be changed at any time if we decide we want to use a different email address, say, or switch to a different text editor.
+
 ~~~
 $ git config --global user.name "Mary Citizen"
 $ git config --global user.email "mary_citizen@gitmail.com"
 $ git config --global color.ui "auto"
 $ git config --global core.editor "nano -w"
 ~~~
+{: .bash}
 
 Now we have set the directory up as a repository, and configured it locally, we can see how we are going.
 
 **Git status**
+
 we can use `git status` at any time to let us know what Git is up to.
 
 If we try it now, we should get something like this
+
 ~~~
-$ On branch master
-$ Initial commit
-$ nothing to commit (create/copy files and use "git add" to track)
+On branch master
+Initial commit
+nothing to commit (create/copy files and use "git add" to track)
 ~~~
+{: .output}
 
 This is telling us that we are on the master branch (more on this later) and that we have nothing to commit (nothing to save changes from).
 If we use list directory we can see currently we don't have any files to track. Let's change that by adding a txt file. Touch allows us to create an empty file.
@@ -71,11 +76,15 @@ If we use list directory we can see currently we don't have any files to track. 
 $ ls
 $ touch git_test.txt
 ~~~
+{: .bash}
 
 We now have a txt file. If we try `git status` again, we will get the following
 
 ~~~
 $ git status
+~~~
+{: .bash}
+~~~
 On branch master
 Initial commit
 Untracked files:
@@ -85,6 +94,7 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ~~~
+{: .output}
 
 This status is Git telling us that it has noticed a new file in our directory that we are not yet tracking. With colourised output, the filename will appear in red.
 
@@ -93,11 +103,15 @@ To change this, and to tell Git we want to track any changes we make to git_test
 ~~~
 $ git add git_test.txt
 ~~~
+{: .bash}
 
 This adds our txt file to the **staging area** (the area where Git checks for file changes). Because we are not alerted that this has happened, we might want to use `git status` again.
 
 ~~~
 $ git status
+~~~
+{: .bash}
+~~~
 On branch master
 
 Initial commit
@@ -107,6 +121,7 @@ Changes to be committed:
 
     new file:   git_test.txt
 ~~~
+{: .output}
 
 If we opted for colourised output, we can see that the file has changed colour (from red to green) and Git also tells us that it has got a new file.
 
@@ -115,6 +130,8 @@ Let's make some changes to this file before we commit it:
 ~~~
 $ nano git_test.txt
 ~~~
+{: .bash}
+
 Open the file in nano or another text editor.
 
 We should now be able to add some text to our text file. For now let's just write 'hello world'. If we try `git status` again. We should get the following message
@@ -126,20 +143,26 @@ Changes not staged for commit:
 
     modified:   git_test.txt
 ~~~
+{: .output}
 
 This lets us know that Git has spotted changes to our txt file but that it hasn't yet 'staged' them. This means Git won't currently record the changes we made. We can add the file to the staging area again
 
 ~~~
-git add git_test.txt
+$ git add git_test.txt
 ~~~
+{: .bash}
 
 We can now **commit** our first changes. Commit is similar to 'saving' a file to Git. However compared to saving, a lot more information about the changes we made is recorded and visible to us later.
 
 ~~~
-git commit -m 'hello world'
+$ git commit -m 'hello world'
+~~~
+{: .bash}
+~~~
 [master (root-commit) 27c3f19] hello world
  1 file changed, 1 insertion(+)
  create mode 100644 git_test.txt
 ~~~
+{: .output}
 
 We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of work. Hosting here will allow us to share our work with our friends and colleagues but will also allow other people to use or build on our work.
