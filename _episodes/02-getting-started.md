@@ -9,7 +9,9 @@ objectives:
 - "configure git locally"
 - "track and commit files to a git repository"
 keypoints:
-- "start with `git init` and go from there!"
+- "`git init` can initialize a directory on your computer as a Git repository"
+- "Your Git configuration on your computer is important to attributing your work to you"
+- "Git uses a two-stage commit process. Changes must be added to the staging area and then committed from there"
 ---
 ### Using Git
 One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language - which consists of a number of verbs, or commands, e.g. add, commit, precended by the word Git - is by using it but having an overview of the language and the way Git is used will provide a good starting point.
