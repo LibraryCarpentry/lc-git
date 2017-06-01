@@ -10,7 +10,7 @@ objectives:
 - "track and commit files to a git repository"
 keypoints:
 - "`git init` can initialize a directory on your computer as a Git repository"
-- "Your Git configuration on your computer is important ot attributing your work to you"
+- "Your Git configuration on your computer is important to attributing your work to you"
 - "Git uses a two-stage commit process. Changes must be added to the staging area and then committed from there"
 ---
 ### Using Git
