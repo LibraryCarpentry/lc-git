@@ -57,7 +57,7 @@ $ git config --global core.editor "nano -w"
 ~~~
 {: .bash}
 
-It is required that we tell Git who we are so that our committs can be attributed to us. This attribution is important for how Git is used as a collaborative tool. In order for us to collaborate, we must be able to identify our collaborators uniquely.
+It is required that we tell Git who we are so that our commits can be attributed to us. This attribution is important for how Git is used as a collaborative tool. In order for us to collaborate, we must be able to identify our collaborators uniquely.
 
 Now we have set the directory up as a repository, and configured it locally, we can see how we are going.
 
