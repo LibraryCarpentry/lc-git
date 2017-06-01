@@ -56,7 +56,9 @@ $ git config --global core.editor "nano -w"
 
 Now we have set the directory up as a repository, and configured it locally, we can see how we are going.
 
-**Git status**
+### Tracking files in Git
+
+Git is able to track changes to files and new files that get added into a Git repository. To track files in Git we need to `add` them and then `commit` them. This is a two-stage process, `add` places the file in the staging area, or "On the stage", `commit` cleans off the stage and adds the changes to the reposiotory. This is a two-stage process in order to give you control over what should and should not be included in a particular commit.
 
 we can use `git status` at any time to let us know what Git is up to.
 
