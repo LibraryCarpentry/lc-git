@@ -15,7 +15,7 @@ keypoints:
 
 Git is a 'free and open source distributed version control system'. We probably know what free and open source both mean but we might be less sure about what a 'distributed version control system is'. One way to understand what Git and version control systems do is to look at the types of problems they are built to address. 
 
-[PhD comics](http://www.phdcomics.com/comics/archive/phd101212s.gif)
+![PhD comics](http://www.phdcomics.com/comics/archive/phd101212s.gif)
 
 Many of us will have had an experience similar to this. We are working on an important piece of work and we attempt to maintain multiple versions of this document, all at different stages of completeness, many of which may have comments, suggestions or other forms of input from other people. 
 
