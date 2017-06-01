@@ -44,7 +44,10 @@ This initiates `git_test` as a git repository.
 If you do an `ls` now, the repository might seem empty. However, an `ls -a` will show the hidden files, which includes the new file `.git`.
 
 This signifies that the directory is now a Git repository. Were the `.git` file ever to be deleted after you have begun committing files, all versioning of the data would be lost. 
-We now need to configure Git locally - this need only be done once, i.e. the first time we are setting up Git. However, each of the settings can be changed at any time if we decide we want to use a different email address, say, or switch to a different text editor.
+
+### Configure Git 
+
+We now need to configure Git locally - this need only be done once, i.e. the first time we are setting up Git on a new computer. However, each of the settings can be changed at any time if we decide we want to use a different email address, say, or switch to a different text editor.
 
 ~~~
 $ git config --global user.name "Mary Citizen"
@@ -53,6 +56,8 @@ $ git config --global color.ui "auto"
 $ git config --global core.editor "nano -w"
 ~~~
 {: .bash}
+
+It is required that we tell Git who we are so that our committs can be attributed to us. This attribution is important for how Git is used as a collaborative tool. In order for us to collaborate, we must be able to identify our collaborators uniquely.
 
 Now we have set the directory up as a repository, and configured it locally, we can see how we are going.
 
