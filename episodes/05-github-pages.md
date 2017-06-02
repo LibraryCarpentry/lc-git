@@ -3,7 +3,7 @@ title: "Github pages"
 teaching: 15
 exercises: 20
 questions:
-- "what is GitHub Pages?"
+- "What is GitHub Pages?"
 objectives:
 - "set up a website using Github Pages"
 - "share work and collaborate using GitHub"
