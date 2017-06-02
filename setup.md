@@ -7,8 +7,8 @@ permalink: /setup/
 If you haven't done so already, to follow this lesson you will need to:
 
 1. Setup a GitHub account here: [https://github.com/](https://github.com/)
-2. Download and install git for you operating system: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-3. Configure git by opening a termainal window and entering the following commands:
+2. Download and install git for your operating system: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+3. Configure git by opening a terminal window and entering the following commands:
 
 ~~~
 $ git config --global user.name "Your Name"
