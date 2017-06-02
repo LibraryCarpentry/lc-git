@@ -6,7 +6,6 @@ questions:
 - "What do `add` and `commit` mean?"
 objectives:
 - "initiate a git repository on the command line"
-- "configure git locally"
 - "track and commit files to a git repository"
 keypoints:
 - "`git init` can initialize a directory on your computer as a Git repository"
