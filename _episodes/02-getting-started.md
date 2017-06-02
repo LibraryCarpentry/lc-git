@@ -3,7 +3,7 @@ title: "Getting started"
 teaching: 20
 exercises: 0
 questions:
-- "what do `add` and `commit` mean?"
+- "What do `add` and `commit` mean?"
 objectives:
 - "initiate a git repository on the command line"
 - "configure git locally"
@@ -20,7 +20,7 @@ One of the main barriers to getting started with Git is the language. Although s
 
 ### Exercise for our first git repository
 
-We will try to do this session as a group, but those who prefer to go at a slower pace can follow the instructions on the [github page](https://github.com/data-lessons/library-git).  
+We will try to do this session as a group, but those who prefer to go at a slower pace can follow the instructions on the [github page](https://github.com/data-lessons/library-git).
 
 ### Some Git commands/language - what they mean and how to use them
 
@@ -41,13 +41,13 @@ $ git init
 ~~~
 {: .bash}
 
-This initiates `git_test` as a git repository. 
+This initiates `git_test` as a git repository.
 
 If you do an `ls` now, the repository might seem empty. However, an `ls -a` will show the hidden files, which includes the new file `.git`.
 
-This signifies that the directory is now a Git repository. Were the `.git` file ever to be deleted after you have begun committing files, all versioning of the data would be lost. 
+This signifies that the directory is now a Git repository. Were the `.git` file ever to be deleted after you have begun committing files, all versioning of the data would be lost.
 
-### Configure Git 
+### Configure Git
 
 We now need to configure Git locally - this need only be done once, i.e. the first time we are setting up Git on a new computer. However, each of the settings can be changed at any time if we decide we want to use a different email address, say, or switch to a different text editor.
 
