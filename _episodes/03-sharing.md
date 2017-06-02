@@ -45,6 +45,12 @@ $ git remote add origin <web address of your repo.git>
 ~~~
 {: .bash}
 
+> ## Why `origin`?
+> `origin` in the `git remote add` line is just a short name or alias we're giving to that big long repository URL.
+> It could be almost any string we want, but by convention in Git, it is usually called `origin`, representing where
+> the repo originated.
+{: .callout}
+
 This will add a repository on GitHub for our changes to be committed to.
 
 Check that it is set up correctly with the command:
