@@ -11,7 +11,22 @@ objectives:
 - "pull changes back from GitHub to the local repository"
 keypoints:
 - "remote repositories on GitHub help you collaborate"
+- "`push` is a Git verb for sending changes from the local repository to a remote repository"
+- "`pull` is a Git verb for bringing changes from a remote repository to the local repository"
 ---
+
+## Create a GitHub Account
+
+Go to https://github.com and create an account. GitHub.com is a company that makes Git easy to use on the web. 
+GitHub is a company trying to make a profit, but they are committed to supporting open source. There are specific 
+[terms of serivce](https://help.github.com/articles/github-terms-of-service/) which you should carefully review 
+before you share your major creative works via GitHub. Their policies and procedures are, today, generally open and 
+reasonable, which is why so many organizations use GitHub. They allow free hosting of Open Source projects if you agree
+to make the content available to the world. If you would like to keep some of your code or creative works private, GitHub
+has a fee-for-service subscription model you can look into.
+
+## Create a reposiotry 
+
 When we have logged in to GitHub, we will see an option to create a new repository. Let's make one for the GitHub experiments we are going to do today.
 
 * new repository
@@ -19,6 +34,11 @@ When we have logged in to GitHub, we will see an option to create a new reposito
 
 GitHub will ask you to create README.md, add a license and a `.gitignore` file. Do not do any of that for now.
 Once we have created the new repository, we still need to link the repository we have on our computer with the one we've just set up on GitHub.
+
+Choosing a license is an important part of openly sharing your creative work online. For help in wading through the 
+many types of open source licenses, please visit https://choosealicense.com/.
+
+## Connecting your local repository to a remote repository
 
 ~~~
 $ git remote add origin <web address of your repo.git>
@@ -33,6 +53,8 @@ Check that it is set up correctly with the command:
 $ git remote -v
 ~~~
 {: .bash}
+
+## "Pushing" changes
 
 Then enter:
 
@@ -120,11 +142,13 @@ This shows us the two commits we have made and shows the messages we wrote. It i
 
 We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is worth learning one more command.
 
-**git pull**
+## "Pulling" changes
 
 We can try to see how this works by making changes on the GitHub website and then 'pulling' them back to our computer.
 
 Let's go to our repository. We can see our txt file and make changes. However, you may have noticed only our first change is there. This is because we didn't push our last commit yet. This might seem like a mistake in design but it is often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't necessarily want to push all these changes one by one.
+
+## Pushing and Pulling
 
 Let's go back and push our changes
 
