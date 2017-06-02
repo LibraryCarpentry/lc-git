@@ -3,26 +3,18 @@ layout: page
 title: Setup
 permalink: /setup/
 ---
-## Install for week three
 
-* As in week two we will want to use a laptop during this session.
-* If you didn't attend week two and haven't using the command line before you will want to make sure if you are using Mac OSx and Linux you know how to get to the command line. If you are on a Windows system you will want to follow the installation instructions from week two.
-* Though it isn't completely necessary, it would be helpful if you missed week two to try and understand some of the basic commands for moving between directories on the command line.
+If you haven't done so already, to follow this lesson you will need to:
 
-### 1. Setup a GitHub account
-* If you don't already have a GitHub account set one up here: [https://github.com/](https://github.com/)
+1. Setup a GitHub account here: [https://github.com/](https://github.com/)
+2. Download and install git for you operating system: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+3. Configure git by opening a termainal window and entering the following commands:
 
-### 2.  Install Git
-* For Windows users: make sure you followed the steps for week two then move to step 3.
-* Follow the instructions for installing Git on your operating system here:
-<https://help.github.com/articles/set-up-git/>.
-* These instructions will install a GUI version of Git which we won't be using during the session but might be handy in the future. It will install the command line software at the same time.
-
-### 3. Configuring your Git setup
-* It will be useful to configure your github setup before we begin week three.
 ~~~
-$ git config --global user.name "your name"
+$ git config --global user.name "Your Name"
 $ git config --global user.email "your@email"
 $ git config --global color.ui "auto"
 ~~~
 {: .bash}
+
+Note that the email address should be the same one you used when setting up your GitHub account.
