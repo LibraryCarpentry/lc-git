@@ -12,6 +12,15 @@ objectives:
 keypoints:
 - "remote repositories on GitHub help you collaborate"
 ---
+
+Go to https://github.com and create an account. GitHub.com is a company that makes Git easy to use on the web. 
+GitHub is a company trying to make a profit, but they are committed to supporting open source. There are specific 
+[terms of serivce](https://help.github.com/articles/github-terms-of-service/) which you should carefully review 
+before you share your major creative works via GitHub. Their policies and procedures are today, generally open and 
+reasonable, which is why so many organizations use GitHub, they allow free hosting of Open Source projects if you agree
+to make the content available to the world. If you would like to keep some of your code or creative works private, GitHub
+has a fee-for service subscription model you can loo into.
+
 When we have logged in to GitHub, we will see an option to create a new repository. Let's make one for the GitHub experiments we are going to do today.
 
 * new repository
@@ -19,6 +28,9 @@ When we have logged in to GitHub, we will see an option to create a new reposito
 
 GitHub will ask you to create README.md, add a license and a `.gitignore` file. Do not do any of that for now.
 Once we have created the new repository, we still need to link the repository we have on our computer with the one we've just set up on GitHub.
+
+Choosing a license is an important part of openly sharing your creative work online. For help in wading through the 
+many types of open source licenses, please visit https://choosealicense.com/.
 
 ~~~
 $ git remote add origin <web address of your repo.git>
