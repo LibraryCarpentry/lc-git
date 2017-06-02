@@ -21,7 +21,7 @@ When we make commits in a true version control system like Git, we can record a 
 
 *GitHub* on the otherhand is a popular website for hosting and sharing Git repositories, that is to say, your group of project files. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. 
 
-###Uses in a Library Context###
+### Uses in a Library Context
 
 One way to understand what Git and GitHub versional control systems can do is to look at a few scenarios relevant to Library applications: 
 
