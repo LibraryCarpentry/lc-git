@@ -15,7 +15,7 @@ keypoints:
 
 We often hear the terms *Git* and *GitHub* used interchangeably but they are slightly different things.
 
-*Git* is one of the most widely used version control systems in the world. It is a free and open source tool used for tracking changes in computer files (primarily source code for software projects) and for coordinating work on those files among distributed groups of people. It originally came about to help software developers work collaboratively on coding projects but can be and are used for managing revisions to any file type on a computer system.
+*Git* is one of the most widely used version control systems in the world. It is a free and open source tool used for tracking changes in computer files (primarily source code for software projects) and for coordinating work on those files among distributed groups of people. It originally came about to help software developers work collaboratively on coding projects but can be and are used for managing revisions to any file type on a computer system, including text documents.
 
 When we make commits in a true version control system like Git, we can record a message explaining, in as much detail as we like, what changes we have made to a document or file. This makes it especially useful for collaborating. Rather than sending an email with a document with track changes and some comments, we can include all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made over time. And all earlier versions of the documents still remain in their original form, they are not overwritten, should we ever wish to 'roll back' to them.
 
@@ -23,7 +23,7 @@ When we make commits in a true version control system like Git, we can record a 
 
 ### Uses in a Library Context
 
-One way to understand what Git and GitHub versional control systems can do is to look at a few scenarios relevant to Library applications: 
+One way to understand what Git and GitHub version control systems can do is to look at a few scenarios relevant to Library applications: 
 
 Scenario 1: 
 
