@@ -67,7 +67,7 @@ Now we have set the directory up as a repository, and configured it locally, we 
 
 Git is able to track changes to files and new files that get added into a Git repository. To track files in Git we need to `add` them and then `commit` them. This is a two-stage process, `add` places the file in the staging area, or "On the stage", `commit` cleans off the stage and adds the changes to the reposiotory. This is a two-stage process in order to give you control over what should and should not be included in a particular commit.
 
-we can use `git status` at any time to let us know what Git is up to.
+We can use `git status` at any time to let us know what Git is up to.
 
 If we try it now, we should get something like this
 
@@ -79,7 +79,7 @@ nothing to commit (create/copy files and use "git add" to track)
 {: .output}
 
 This is telling us that we are on the master branch (more on this later) and that we have nothing to commit (nothing to save changes from).
-If we use list directory we can see currently we don't have any files to track. Let's change that by adding a txt file. Touch allows us to create an empty file.
+If we use `ls` we can see currently we don't have any files to track. Let's change that by adding a txt file. `touch` is a command which allows us to quickly create an empty file.
 
 ~~~
 $ ls
@@ -87,7 +87,7 @@ $ touch git_test.txt
 ~~~
 {: .bash}
 
-We now have a txt file. If we try `git status` again, we will get the following
+We now have an empty file. If we try `git status` again, we will get the following
 
 ~~~
 $ git status
@@ -174,4 +174,4 @@ $ git commit -m 'hello world'
 ~~~
 {: .output}
 
-We can see that one file changed and we made one insertion which was our 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of our work. Hosting here will allow us to share our work with our friends and colleagues but will also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was a line with the text 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded localy on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of our work. Hosting here will allow us to share our work with our friends and colleagues but will also allow other people to use or build on our work.
