@@ -3,7 +3,7 @@ title: "Review"
 teaching: 5
 exercises: 20
 questions:
-- "can you express git commands in a non 'git' way?"
+- "Can you express git commands in a non 'git' way?"
 objectives:
 - "to understand the Git/GitHub workflow"
 keypoints:
