@@ -44,7 +44,7 @@ Library Carpentry is authored and maintained by the [community](https://github.c
 
 Please cite as:
 
-Library Carpentry. Git Intro for Librarians. June 2016. http://data-lessons.github.io/library-shell/.
+Library Carpentry. Git Intro for Librarians. June 2016. http://data-lessons.github.io/library-git/.
 
 ## License
 
