@@ -1,5 +1,5 @@
 ---
-title: "What is git?"
+title: "What is Git/GitHub?"
 teaching: 10
 exercises: 0
 questions:
@@ -7,7 +7,7 @@ questions:
 - "What is Github?"
 objectives:
 - "explain why version control is useful"
-- "explain the difference between git and GitHub"
+- "explain the difference between Git and GitHub"
 keypoints:
 - "Git and Github are not the same"
 ---
@@ -25,7 +25,7 @@ When we make commits in a true version control system like Git, we can record a 
 
 One way to understand what Git and GitHub version control systems can do is to look at a few scenarios relevant to Library applications: 
 
-Scenario 1: 
+Scenario 1: Local Librarian looking to start a crowdsourcing project
 
-You are a local librarian looking to create a crowdsourcing project allowing people to tag historical photographs. Your team looks at a few other crowdsourcing projects on the web and even though they all appear unique to each institution, they seem to have similar functionality and structure. Rather than build your version from scratch, you wish there was a way to just copy that version, and modify it to reflect your project. You notice the GitHub icon at the bottom of these pages. 
+You are a local librarian looking to put thousands of historical photographs of the area online so that the community can help you identify the people and places they depict. You look at a few existing crowdsourcing projects on the web for ideas, and even though they all appear unique to each institution, they seem to have similar functionality and structure. Rather than build a whole new version from scratch yourself, you wish there was a way to just copy the code of an existing one, and modify it to reflect your project. You notice the GitHub icon at the bottom of these pages but clicking on the link just brings you to a confusing list of files and indecipherable language like "Fork".  
 
