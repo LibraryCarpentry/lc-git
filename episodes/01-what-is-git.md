@@ -25,7 +25,7 @@ When we make commits in a true version control system like Git, we can record a 
 
 Consider these common scenarios: 
 
-Scenario 1: Local Librarian looking to start a crowdsourcing project
+#### Scenario 1: Local Librarian looking to start a crowdsourcing project
 
 A local librarian is looking to put thousands of historical photographs of the area online so that the community can help identify the people and places they depict. She looks at a few existing crowdsourcing projects online for ideas, and even though they all appear unique to each institution, they seem to have similar functionality and structure. Rather than build a whole new version from scratch herself, she wishes there was a way to just copy the code of an existing one, and modify it to reflect her project. She notices the GitHub icon at the bottom of these pages but clicking on the link just brings her to a confusing directory of files and oddly labeled buttons such as "Fork".  
 
