@@ -23,10 +23,10 @@ When we make commits in a true version control system like Git, we can record a 
 
 ### Uses in a Library Context
 
-One way to understand what Git and GitHub version control systems can do is to look at a few scenarios relevant to Library applications: 
+Consider these common scenarios: 
 
 Scenario 1: Local Librarian looking to start a crowdsourcing project
 
-You are a local librarian looking to put thousands of historical photographs of the area online so that the community can help you identify the people and places they depict. You look at a few existing crowdsourcing projects on the web for ideas, and even though they all appear unique to each institution, they seem to have similar functionality and structure. Rather than build a whole new version from scratch yourself, you wish there was a way to just copy the code of an existing one, and modify it to reflect your project. You notice the GitHub icon at the bottom of these pages but clicking on the link just brings you to a confusing list of files and indecipherable language like "Fork".  
+A local librarian is looking to put thousands of historical photographs of the area online so that the community can help identify the people and places they depict. She looks at a few existing crowdsourcing projects online for ideas, and even though they all appear unique to each institution, they seem to have similar functionality and structure. Rather than build a whole new version from scratch herself, she wishes there was a way to just copy the code of an existing one, and modify it to reflect her project. She notices the GitHub icon at the bottom of these pages but clicking on the link just brings her to a confusing directory of files and oddly labeled buttons such as "Fork".  
 
->Example: GitHub hosts open-licensed projects...and allows any user to fork any public project. By clicking the “fork” button, any GitHub user can almost instantaneously create their own version of an existing project. That “forked” project can be used as the basis for a new project, or can be used to work out new features that can be merged back into the original. (From: [GitHub for Academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/) )
+>GitHub hosts open-licensed projects...and allows any user to fork any public project. By clicking the “fork” button, any GitHub user can almost instantaneously create their own version of an existing project. That “forked” project can be used as the basis for a new project, or can be used to work out new features that can be merged back into the original. (From: [GitHub for Academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/) )
