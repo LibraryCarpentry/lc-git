@@ -15,7 +15,7 @@ keypoints:
 
 We often hear the terms **_Git_** and **_GitHub_** used interchangeably but they are slightly different things.
 
-**_Git_** is one of the most widely used version control systems in the world. It is a free and open source tool that is downloaded to your local machine and is used for logging all changes made to a group of designated computer files (referred to as "git repository" or "repo" for short) overtime. It can be used locally by you alone on your computer, but is perhaps most powerful when employed to coordinate work on a group of files shared by distributed groups of people. 
+**_Git_** is one of the most widely used version control systems in the world. It is a free and open source tool that is downloaded to your local machine and is used for logging all changes made to a group of designated computer files (referred to as "git repository" or "repo" for short) overtime. It can be used locally by you alone on your computer, but is perhaps most powerful when employed to coordinate simultaneous work on a group of files shared by distributed groups of people. 
 
 Rather than sending an email around with a document with track changes and some comments and renaming files (example.txt, exampleV2.txt, exampleV3.text) when using Git we can include (or "commit") all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made over time. And all earlier versions of the documents still remain in their original form, they are not overwritten, should we ever wish to 'roll back' to them. 
 
