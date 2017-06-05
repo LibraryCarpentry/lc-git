@@ -15,11 +15,22 @@ keypoints:
 
 We often hear the terms **_Git_** and **_GitHub_** used interchangeably but they are slightly different things.
 
-**_Git_** is one of the most widely used version control systems in the world. It is a free and open source tool used for tracking changes in computer files (primarily source code for software projects) and for coordinating work on those files among distributed groups of people. It originally came about to help software developers work collaboratively on coding projects but can be and is used for managing revisions to any file type on a computer system, including text documents.
+**_Git_** is one of the most widely used version control systems in the world. It is a free and open source tool that is downloaded to your local machine and is used for logging all changes made to a group of designated computer files (referred to as "git repository" or "repo" for short) overtime. It can be used locally by you alone on your computer, but is perhaps most powerful when employed to coordinate work on a group of files shared by distributed groups of people. 
 
-When we make commits in a true version control system like Git, we can record a message explaining, in as much detail as we like, what changes we have made to a document or file. This makes it especially useful for collaborating. Rather than sending an email with a document with track changes and some comments, we can include all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made over time. And all earlier versions of the documents still remain in their original form, they are not overwritten, should we ever wish to 'roll back' to them.
+Rather than sending an email around with a document with track changes and some comments and renaming files (example.txt, exampleV2.txt, exampleV3.text) when using Git we can include (or "commit") all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made over time. And all earlier versions of the documents still remain in their original form, they are not overwritten, should we ever wish to 'roll back' to them. 
 
-**_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories, that is to say, your group of project files. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. 
+Git originally came about to help software developers work collaboratively on software projects but can be and is used for managing revisions to any file type on a computer system, including text documents. Once installed, interaction with Git is done through the Command Prompt in Windows, or the Terminal on Mac/Linux.   
+
+*What can understanding Git do for Librarians?*
+* Enables you to contribute, collaborate and support digital research projects 
+* True version control
+
+**_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories, that is to say, your group of project/computer files. It offers a web interface The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. 
+
+*What can understanding GitHub do for Librarians?* 
+* A place to discover and reuse ("fork") a huge amount of openly licensed digital projects and open source software
+* A new and alternative means for publishing content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.  
+
 
 ### Uses in a Library Context
 
