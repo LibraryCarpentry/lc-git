@@ -25,7 +25,7 @@ Git originally came about to help software developers work collaboratively on so
 * Enables you to contribute, collaborate and support digital research projects 
 * True version control
 
-**_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories, that is to say, your group of project/computer files. It offers a web interface The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. 
+**_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories remotely. It offers a web interface and offers a range of free and paid services and functionality for working with such repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. 
 
 *What can understanding GitHub do for Librarians?* 
 * A place to discover and reuse ("fork") a huge amount of openly licensed digital projects and open source software
