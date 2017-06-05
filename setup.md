@@ -6,15 +6,23 @@ permalink: /setup/
 
 If you haven't done so already, to follow this lesson you will need to:
 
-1. Setup a GitHub account here: [https://github.com/](https://github.com/)
-2. Download and install git for your operating system: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-3. Configure git by opening a terminal window and entering the following commands:
+1. Create a free [GitHub account](https://github.com/join) and confirm your email.
+2. Download and install Git for your operating system: [https://git-scm.com/downloads](https://git-scm.com/downloads) (*Note:* Git for Windows comes bundled with the Git BASH terminal that allows you use UNIX style commands on Windows)
+3. Configure Git by opening a terminal window and entering the following commands:
 
 ~~~
 $ git config --global user.name "Your Name"
 $ git config --global user.email "your@email"
-$ git config --global color.ui "auto"
 ~~~
 {: .bash}
 
-Note that the email address should be the same one you used when setting up your GitHub account.
+This user name and email will be recorded with each commit in the history of your repositories. 
+The email address should be the same one you used when setting up your GitHub account.
+
+By default, Git will use VI text editor. 
+Most people will want to change the default editor to something more familiar using the `core.editor` config (common options include Windows "notepad", Mac "edit -w", Linux "nano -w", or [others](https://help.github.com/articles/associating-text-editors-with-git/)): 
+
+~~~
+$ git config --global core.editor "notepad"
+~~~
+{: .bash}
