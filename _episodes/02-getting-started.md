@@ -13,7 +13,7 @@ keypoints:
 - "Git uses a two-stage commit process. Changes must be added to the staging area and then committed from there"
 ---
 ### Using Git
-One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language - which consists of a number of verbs, or commands, e.g. add, commit, precended by the word Git - is by using it but having an overview of the language and the way Git is used will provide a good starting point.
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language - which consists of a number of verbs, or commands, e.g. add, commit, preceded by the word Git - is by using it but having an overview of the language and the way Git is used will provide a good starting point.
 
 <!demonstrate Git commands whilst outlining what they mean>
 
