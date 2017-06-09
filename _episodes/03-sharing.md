@@ -113,7 +113,7 @@ $ git commit -m 'second line of changes'
 ~~~
 {: .bash}
 
-Say we are very forgetful and have already forgotten what we changes we have made. `git log` allows us to look at what we have been doing to our Git repository (in reverse chronological order, with the very latest changes first).
+Say we are very forgetful and have already forgotten what changes we have made. `git log` allows us to look at what we have been doing to our Git repository (in reverse chronological order, with the very latest changes first).
 
 ~~~
 $ git status
@@ -136,7 +136,7 @@ Date:   Sun Oct 18 13:27:31 2015 +0100
 
 This shows us the two commits we have made and shows the messages we wrote. It is important to try to use meaningful commit messages when we make changes. This is especially important when we are working with other people who might not be able to guess as easily what our short cryptic messages might mean.
 
-We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is worth learning one more command.
+We might get a little bit lonely working away on our own and want to work with other people. Before we get to that, it is worth learning one more command.
 
 ## "Pulling" changes
 
@@ -146,14 +146,14 @@ Let's go to our repository. We can see our txt file and make changes. However, y
 
 ## Pushing and Pulling
 
-Let's go back and push our changes
+Let's go back and push our changes.
 
 ~~~
 $ git push
 ~~~
 {: .bash}
 
-Now if we go back to our GitHub repo, we can see all our changes. Let's add an extra line of text there, and commit these changes. When we commit changes on GitHub itself, we don't have to push these.
+Now if we go back to our GitHub repo, we can see all our changes. Let's add an extra line of text there, and commit these changes. When we commit changes on GitHub itself, we don't have to push these. Instead, we will need to pull them back to our lcoal repository instead.
 
 Now let's get the third line on to our computer.
 
@@ -184,4 +184,4 @@ $ open git_test.txt
 
 we can see our new lines.
 
-When we begin collaborating on more complex projects, we may have to consider more aspects of Git functionality, but this should be a good start. In the second hour we can look more closely at collaborating and using GitHub pages.
+When we begin collaborating on more complex projects, we may have to consider more aspects of Git functionality, but this should be a good start. In the second hour, we can look more closely at collaborating and using GitHub pages.
