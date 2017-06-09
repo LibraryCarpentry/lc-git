@@ -13,7 +13,7 @@ keypoints:
 - "Git uses a two-stage commit process. Changes must be added to the staging area and then committed from there"
 ---
 ### Using Git
-One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to get to learn Git language - which consists of a number of verbs, or commands, e.g. add, commit, preceded by the word Git - is by using it but having an overview of the language and the way Git is used will provide a good starting point.
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is fairly self-explanatory, other terms are not so clear. The best way to learn Git language - which consists of a number of verbs, or commands, e.g., add, commit, always preceded by the word Git - is by using it, but having an overview of the language and the way Git is used will provide a good starting point.
 
 <!demonstrate Git commands whilst outlining what they mean>
 
@@ -48,7 +48,7 @@ This signifies that the directory is now a Git repository. Were the `.git` file 
 
 ### Tracking files in Git
 
-Git is able to track changes to files and new files that get added into a Git repository. To track files in Git we need to `add` them and then `commit` them. This is a two-stage process, `add` places the file in the staging area, or "On the stage", `commit` cleans off the stage and adds the changes to the reposiotory. This is a two-stage process in order to give you control over what should and should not be included in a particular commit.
+Git is able to track changes to files and new files that get added into a Git repository. To track files in Git we need to `add` them and then `commit` them. This is a two-stage process, `add` places the file in the staging area, or "On the stage", `commit` cleans off the stage and adds the changes to the reposiotory. This is a two-stage process that gives you control over what should and should not be included in a particular commit.
 
 We can use `git status` at any time to let us know what Git is up to.
 
@@ -115,7 +115,7 @@ Changes to be committed:
 ~~~
 {: .output}
 
-If we opted for colourised output, we can see that the file has changed colour (from red to green) and Git also tells us that it has got a new file.
+If we opted for colourised output, we can see that the filename has changed colour (from red to green) and Git also tells us that it has recognised a new file.
 
 Let's make some changes to this file before we commit it:
 
@@ -126,7 +126,7 @@ $ nano git_test.txt
 
 Open the file in nano or another text editor.
 
-We should now be able to add some text to our text file. For now let's just write 'hello world'. If we try `git status` again. We should get the following message
+We should now be able to add some text to our text file. For now, let's just write 'hello world'. If we try `git status` again. We should get the following message
 
 ~~~
 Changes not staged for commit:
@@ -137,14 +137,14 @@ Changes not staged for commit:
 ~~~
 {: .output}
 
-This lets us know that Git has spotted changes to our txt file but that it hasn't yet 'staged' them. This means Git won't currently record the changes we made. We can add the file to the staging area again
+This lets us know that Git has spotted changes to our txt file but that it hasn't yet 'staged' them. This means Git won't currently record the changes we made. We can add the file to the staging area again.
 
 ~~~
 $ git add git_test.txt
 ~~~
 {: .bash}
 
-We can now **commit** our first changes. Commit is similar to 'saving' a file to Git. However compared to saving, a lot more information about the changes we made is recorded and visible to us later.
+We can now **commit** our first changes. Commit is similar to 'saving' a file to Git. However compared to saving, a lot more information about the changes we have made is recorded and thus visible to us later.
 
 ~~~
 $ git commit -m 'hello world'
@@ -157,4 +157,4 @@ $ git commit -m 'hello world'
 ~~~
 {: .output}
 
-We can see that one file changed and we made one insertion which was a line with the text 'hello world'. We have now recorded our changes and we can later go back and see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded localy on our computer. At the moment, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we could decide to host some of our work. Hosting here will allow us to share our work with our friends and colleagues but will also allow other people to use or build on our work.
+We can see that one file changed and we made one insertion which was a line with the text 'hello world'. We have now recorded our changes and we can go back at any time to see when we made changes to our file and decided to add 'hello world'. We do have a problem now though. At the moment our changes are only recorded locally on our computer. Therefore, if we wanted to work with someone else, they would have no way of seeing what we've done. Let's fix that. Let's jump to the GitHub website where we will host some of our work. Hosting on GitHub will allow us to share our work with friends and colleagues but will also allow other people to use or build on our work.
