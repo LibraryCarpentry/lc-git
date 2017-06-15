@@ -3,26 +3,29 @@ layout: page
 title: Setup
 permalink: /setup/
 ---
-## Install for week three
 
-* As in week two we will want to use a laptop during this session.
-* If you didn't attend week two and haven't using the command line before you will want to make sure if you are using Mac OSx and Linux you know how to get to the command line. If you are on a Windows system you will want to follow the installation instructions from week two.
-* Though it isn't completely necessary, it would be helpful if you missed week two to try and understand some of the basic commands for moving between directories on the command line.
+If you haven't done so already, to follow this lesson you will need to:
 
-### 1. Setup a GitHub account
-* If you don't already have a GitHub account set one up here: [https://github.com/](https://github.com/)
+1. Create a free [GitHub account](https://github.com/join) and confirm your email.
+2. Download and install Git for your operating system: [https://git-scm.com/downloads](https://git-scm.com/downloads) (*Note:* Git for Windows comes bundled with the Git BASH terminal that allows you to use UNIX-style commands on Windows)
+3. Configure Git by opening a terminal window and entering the following commands:
 
-### 2.  Install Git
-* For Windows users: make sure you followed the steps for week two then move to step 3.
-* Follow the instructions for installing Git on your operating system here:
-<https://help.github.com/articles/set-up-git/>.
-* These instructions will install a GUI version of Git which we won't be using during the session but might be handy in the future. It will install the command line software at the same time.
-
-### 3. Configuring your Git setup
-* It will be useful to configure your github setup before we begin week three.
 ~~~
-$ git config --global user.name "your name"
+$ git config --global user.name "Your Name"
 $ git config --global user.email "your@email"
-$ git config --global color.ui "auto"
+~~~
+{: .bash}
+
+This user name and email will be recorded with each commit in the history of your repositories. 
+The email address should be the same one you used when setting up your GitHub account.
+
+By default, Git will open the Vi / Vim text editor to request commit messages (for example when merging conflicts).
+To avoid confusion, most people will want to change the default editor to something more familiar using the `core.editor` config. 
+Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)). 
+However, the simplest `core.editor` values are `"notepad"` on Windows,  `"edit -w"` on Mac, and `"nano -w"` on Linux. 
+For example:
+
+~~~
+$ git config --global core.editor "notepad"
 ~~~
 {: .bash}

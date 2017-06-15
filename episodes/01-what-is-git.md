@@ -1,5 +1,5 @@
 ---
-title: "What is git?"
+title: "What is Git/GitHub?"
 teaching: 10
 exercises: 0
 questions:
@@ -7,28 +7,37 @@ questions:
 - "What is Github?"
 objectives:
 - "explain why version control is useful"
-- "explain the difference between git and GitHub"
+- "explain the difference between Git and GitHub"
 keypoints:
 - "Git and Github are not the same"
 ---
-### What is Git?
+### What is Git and GitHub?
 
-Git is a 'free and open source distributed version control system'. We probably know what free and open source both mean but we might be less sure about what a 'distributed version control system is'. One way to understand what Git and version control systems do is to look at the types of problems they are built to address. 
+We often hear the terms **_Git_** and **_GitHub_** used interchangeably but they are slightly different things.
 
-![PhD comics](http://www.phdcomics.com/comics/archive/phd101212s.gif)
+**_Git_** is one of the most widely used version control systems in the world. It is a free, open source tool that can be downloaded to your local machine and used for logging all changes made to a group of designated computer files (referred to as a "git repository" or "repo" for short) over time. It can be used to control file versions locally by you alone on your computer, but is perhaps most powerful when employed to coordinate simultaneous work on a group of files shared among distributed groups of people. 
 
-Many of us will have had an experience similar to this. We are working on an important piece of work and we attempt to maintain multiple versions of this document, all at different stages of completeness, many of which may have comments, suggestions or other forms of input from other people. 
+Rather than emailing documents with tracked changes and some comments and renaming different versions of files (example.txt, exampleV2.txt, exampleV3.text) to differentiate them, we can use Git to save (or in Git parlance, "commit") all that information with the document itself. This makes it easy to get an overview of all changes made to a file over time by looking at a log of all the changes that have been made. And all earlier versions of each file still remain in their original form: they are not overwritten, should we ever wish to "roll back" to them. 
 
-Version control addresses this problem by recording the changes made to a file as we add to it, edit it, and improve it. Each 'commit' we make ('commit' is version control terminology for 'save') is recorded. We can go back to earlier versions of that file, or of other files we have committed, and look at the changes have been made. 
+Git was originally developed to help software developers work collaboratively on software projects, but it can be and is used for managing revisions to any file type on a computer system, including text documents. Once installed, interaction with Git is done through the Command Prompt in Windows, or the Terminal on Mac/Linux. Since Word documents contain special formatting, Git unfortunately cannot version control those, nor can it version control PDFs, though both file types can be stored in Git repositories.   
 
-True version control allow us to take this one step further. It can not only record changes to a file one person is working on but lets multiple people work on that same file and record the changes *they* make to it. It is then possible to merge these multiple files ('versions') into one. 
+*What can understanding Git do for Librarians?*
+* Enables you to contribute, collaborate and support digital research projects 
+* True version control
 
-This method came about to help software developers work collaboratively on coding projects. With version control, groups did not have to wait for someone else to finish working, nor did they have compare changes manually (and laboriously). 
+**_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories remotely. It offers a web interface and provides functionality and a mixture of both free and paid services for working with such repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. 
 
-When we make 'commits', we record a range of metadata about that change. As librarians, we might already know creating metadata is useful but an example of what information is recorded will illustrate why the information recorded by version control systems in particular is useful. 'Commits' record the time and date a commit was made. Although we can often see information about when we last edited or saved say, a Word document, the document itself reflects only the most recent version - all earlier versions are lost, unless we have saved them under different names. 
+*What can understanding GitHub do for Librarians?* 
+* A place to discover and reuse ("fork") a huge amount of openly licensed digital projects and open source software
+* A new and alternative means for publishing content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.  
 
-When we make commits in a version control system, we can record a message explaining, in as much detail as we like, what changes we have made to a document or file. This makes it especially useful for collaborating. Rather than sending an email with a document with track changes and some comments, we can include all that information with the document itself. This makes it easy to get an overview of changes that have been made to a document by looking at a log of all the changes that have been made over time. And all earlier versions of the documents still remain in their original form, should we ever wish to 'roll back' to them. 
 
-### Git vs. GitHub
+### Uses in a Library Context
 
-We often hear the terms Git and GitHub used interchangeably but they are slightly different things. Git refers to the software and principles used for a particular flavour of version control system, also called VCS in short (there are other systems such as Mercurial and SVN). GitHub is a popular Web site which hosts Git repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. GitHub is a great place to learn how to use Git but once you have learned the ideas and processes behind GitHub you can use Git on other storage systems. You can even host repositories on your own server or computer if you want to keep your files private or if you wanted to encrypt your repository. You can get private repositories on GitHub for a fee. Gitlab is an open source Git repository management and hosting software. You can host it on your own server and configure with unlimited private repositories.
+Consider these common library world scenarios: 
+
+#### Scenario 1: Local librarian looking to start a crowdsourcing project
+
+A local librarian is looking to put thousands of historical photographs of the area online so that the community can help identify the people and places they depict. She combs the web for examples of existing crowdsourcing projects, and even though they all appear unique to each institution, she notices quite a few seem to have almost the exact same functionality and structure. Rather than build a whole new version from scratch herself, she wishes there was a way to just copy the code of an existing one, and modify it to reflect her project. She notices the GitHub icon at the bottom of one of the projects she likes, but clicking on the link just brings her to a confusing directory of files and oddly labeled buttons such as "Fork".  
+
+> GitHub hosts open-licensed projects ... and allows any user to fork any public project. By clicking the "fork" button, any GitHub user can almost instantaneously create their own version of an existing project. That "forked" project can be used as the basis for a new project, or can be used to work out new features that can be merged back into the original. (From: [GitHub for Academics](http://www.digitalpedagogylab.com/hybridped/push-pull-fork-github-for-academics/) )
