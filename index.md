@@ -4,7 +4,7 @@ root: .
 ---
 #### What We Will Try to Do
 
-**begin** to understand and use Git/Github. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, like any skill, using Git takes practice.
+**Begin** to understand and use Git/Github. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, like any skill, using Git takes practice.
 
 #### Be Excellent to Each Other
 
