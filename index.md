@@ -8,7 +8,7 @@ root: .
 
 #### Be Excellent to Each Other
 
-* If you spot someone who is struggling with something and you think you know how to help, please give them a hand. Try not to do the task for them: instead explain the steps they need to take and *what* these steps will achieve.
+* If you spot someone in the class who is struggling with something and you think you know how to help, please give them a hand. Try not to do the task for them: instead explain the steps they need to take and *what* these steps will achieve.
 
 #### Be Patient With Me and Yourself
 
