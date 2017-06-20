@@ -12,7 +12,7 @@ objectives:
 keypoints:
 - "git repositories are data-structures used to track changes to files over time"
 - "Git uses a two-stage commit process. Changes must be added to the staging area then committed from there"
-
+---
 
 ### Using Git
 
