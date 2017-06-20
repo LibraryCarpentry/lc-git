@@ -4,7 +4,7 @@ root: .
 ---
 #### What We Will Try to Do
 
-**Begin** to understand and use Git/Github. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, like any skill, using Git takes practice.
+**Begin** to understand and use Git/Github. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, as with any skill, using Git takes practice.
 
 #### Be Excellent to Each Other
 
@@ -18,8 +18,8 @@ root: .
 
 > ## Prerequisites
 >
-> 1. Setup a [github account](https://github.com/)
-> 2. [Install git](https://help.github.com/articles/set-up-git/)
+> 1. Setup a [GitHub account](https://github.com/)
+> 2. [Install git on your own computer](https://help.github.com/articles/set-up-git/)
 > 3. [Configure your git setup]({{ page.root }}/setup/)
 {: .prereq}
 
