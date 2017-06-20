@@ -7,19 +7,19 @@ questions:
 - "What do `add` and `commit` mean?"
 objectives:
 - "initiate a git repository"
-- "track changes to project files"
+- "track changes to files in a project"
 - "persist changes to a git repository"
 keypoints:
 - "git repositories are data-structures used to track changes to files over time"
-- "Git uses a two-stage commit process. Changes must be added to the staging area then committed from there"
+- "Git uses a two-stage commit process. Changes must first be added to the staging area, then committed from there"
 ---
 
 ### Using Git
 
 One of the main barriers to getting started with git is the language. Although some of the language used in git is 
 fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a 
-number of verbs such as `add`, `commit` and `push` (precdeded by the 'git') - is by using it, which is what we will be doing during this 
-lesson. These commands will be explained as we proceed from setting up a new version controlled project to publishing 
+number of verbs such as `add`, `commit` and `push` (precdeded by the word 'git') - is by using it, which is what we will be doing during this 
+lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing 
 our own website.
 
 We will try to do this session as a group, but those who prefer to go at a slower pace can follow the instructions on 
@@ -29,8 +29,8 @@ the [GitHub page](https://github.com/data-lessons/library-git).
 ### Creating a repository
 
 A git **repository** is a data structure used to track changes to a set of project files over time. Repositories are 
-stored within the same directory as these project files, in a hidden subdirectory called `.git`. We can create a new git 
-repository by either using the GitHub interface, or via the command line. Let's use the command line to create a git 
+stored within the same directory as these project files, in a hidden file called `.git`. We can create a new git 
+repository either by using GitHub's web interface, or via the command line. Let's use the command line to create a git 
 repository for the experiments that we're going to do today.
 
 First, we will create a new directory for our project and enter that directory.
@@ -42,7 +42,7 @@ $ cd hello-world
 ~~~
 {: .bash}
 
-We will now create an empty git repository to track changes to our project. To do this we will use the **init** command, 
+We will now create an empty git repository to track changes to our project. To do this we will use the git **init** command, 
 which is simply short for *initialise*.
 
 ~~~
@@ -52,10 +52,10 @@ $ git init
 
 The `hello-world` directory is now a git repository. 
 
-If you run the `ls` command now the repository might seem empty, however, `ls -a` will show all hidden files, which 
-in this case includes the new subdirectory `.git`.
+If we run the `ls` command now, the repository might seem empty, however, `ls -a` will show all hidden files, which 
+in this case includes the new hidden file `.git`.
 
-Note that whenever we use git via the command line we need to preface our command with `git` so that the computer knows 
+Note that whenever we use git via the command line, we need to preface each command (or verb) with `git`, so that the computer knows 
 we are trying to get git to do something, rather than some other program.
 
 ### Displaying the current project's status
@@ -79,7 +79,7 @@ unsaved changes).
 
 ### Adding and committing
 
-We'll now create and persist our first project file. This is a two-stage process. First, we **add** any files for which 
+We'll now create and save our first project file. This is a two-stage process. First, we **add** any files for which 
 we want to save the changes to a staging area, then we **commit** those changes to the repository. This two-stage 
 process gives us fine-grained control over what should and should not be included in a particular commit.
 
