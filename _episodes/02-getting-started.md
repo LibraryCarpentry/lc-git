@@ -12,13 +12,13 @@ objectives:
 keypoints:
 - "git repositories are data-structures used to track changes to files over time"
 - "Git uses a two-stage commit process. Changes must be added to the staging area then committed from there"
----
+
 
 ### Using Git
 
 One of the main barriers to getting started with git is the language. Although some of the language used in git is 
 fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a 
-number of commands such as `add`, `commit` and `push` - is by using it, which is what we will be doing during this 
+number of verbs such as `add`, `commit` and `push` (precdeded by the 'git') - is by using it, which is what we will be doing during this 
 lesson. These commands will be explained as we proceed from setting up a new version controlled project to publishing 
 our own website.
 
@@ -58,10 +58,9 @@ in this case includes the new subdirectory `.git`.
 Note that whenever we use git via the command line we need to preface our command with `git` so that the computer knows 
 we are trying to get git to do something, rather than some other program.
 
+### Displaying the current project's status
 
-### Displaying the current project state
-
-We can run the `git status` command to display the current state of a project, let's do that now.
+We can run the `git status` command to display the current state of a project. Let's do that now.
 
 ~~~
 $ git status
@@ -80,7 +79,7 @@ unsaved changes).
 
 ### Adding and committing
 
-We'll now create and persist out first project file. This is a two-stage process. First, we **add** any files for which 
+We'll now create and persist our first project file. This is a two-stage process. First, we **add** any files for which 
 we want to save the changes to a staging area, then we **commit** those changes to the repository. This two-stage 
 process gives us fine-grained control over what should and should not be included in a particular commit.
 
@@ -91,12 +90,12 @@ $ touch index.md
 ~~~
 {: .bash}
 
-When sharing projects with others it is good practice to include a text document that gives a brief overview of the
-project, usually in the form of a README. The `.md` extension above signifies that we have chosen to format that we have 
+When sharing projects with others, it is good practice to include a text document that gives a brief overview of the
+project, usually in the form of a README file. The `.md` extension above signifies that we have chosen to format that we have 
 chosen to use Markdown, a lightweight markup language with plain text formatting syntax. We will explore Markdown a 
 bit later.
 
-Let's check the state of our project again.
+Let's check the status of our project again.
 
 ~~~
 $ git status
@@ -142,8 +141,9 @@ Changes to be committed:
 ~~~
 {: .output}
 
-With colourised output, we can see that the file has changed colour (from red to green). Git also tells us that there
+If we are using colourised output, we will see that the filename has changed colour (from red to green). Git also tells us that there
 is a new file to be committed but, before we do that, let's make some changes. 
+
 
 Open index.md with any text editor (e.g. Notepad on Windows or TextEdit on Mac OSX) and enter "# Hello, world!". The
 hash character is one way of writing a header with Markdown. Now, save the file within your text editor and check if git
@@ -153,6 +153,12 @@ has spotted the changes.
 $ git status
 ~~~
 {: .bash}
+
+Open the file in nano or another text editor.
+
+We should now be able to add some text to our text file. 
+For now, let's just write 'hello world'. If we try `git status` again. We should get the following message
+
 ~~~
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -170,7 +176,11 @@ $ git add index.md
 ~~~
 {: .bash}
 
-To make these changes persistent (i.e. to save them to our git repository) we can now run the `git commit` command.
+We can now **commit** our first changes. 
+Commit is similar to 'saving' a file to Git. 
+However, compared to saving, a commit provides a lot more information about the changes we have made,
+and this information will remain visible to us later.
+
 
 ~~~
 $ git commit -m 'Add index.md'
@@ -183,8 +193,9 @@ $ git commit -m 'Add index.md'
 ~~~
 {: .output}
 
-We can see that one file has changed and we made one insertion, which was a line with the text '#Hello, world!'. We can
-also see the commit message 'Add index.md', which we added by padding the `-m` flag to `git commit`.
+We can see that one file has changed and that we made one insertion, which was a line with the text '#Hello, world!'. 
+We can
+also see the commit message 'Add index.md', which we added by adding the `-m` flag to `git commit`.
 
 We now have a permanent record of what was changed, along with additional details such as when that change was made. 
 

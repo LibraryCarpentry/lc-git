@@ -144,6 +144,7 @@ $ git commit -m 'Add another line'
 If we are very forgetful and have already forgotten what we changes we have made, `git log` allows us to look at what 
 we have been doing with our git repository (in reverse chronological order, with the very latest changes first).
 
+
 ~~~
 $ git log
 ~~~
@@ -169,16 +170,18 @@ be able to guess as easily what our short cryptic messages might mean. Note that
 commit messages in the imperative (e.g. 'Add index.md', rather than 'Adding index.md').
 
 We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is 
-worth learning a couple more commands.
+worth learning a couple more git commands.
 
 ## Pushing changes
 
-If we have another look at our repository on GitHub we can see that only our first change is there. This is because we 
+If we have another look at our repository on GitHub, we can see that only our first change is there. This is because we 
 haven't yet pushed our local changes to the remote repository. This might seem like a mistake in design but it is 
 often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't 
 necessarily want to push all these changes one by one.
 
 Let's push our changes now, using the `git push` command.
+
+## Pushing and Pulling
 
 ~~~
 $ git push
@@ -235,5 +238,5 @@ The above output shows that we have fast-forwarded our local repository to inclu
 this by entering the `ls` command.
 
 When we begin collaborating on more complex projects, we may have to consider more aspects of git functionality, but 
-this should be a good start. In the second hour we can look more closely at collaborating and using GitHub pages to
+this should be a good start. In the next section, we can look more closely at collaborating and using GitHub pages to
 create a website for our project.
