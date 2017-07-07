@@ -5,12 +5,15 @@ permalink: /guide/
 ---
 
 ____
-# Making a handout
+# Tips and Tricks
+
+____
+## Making a handout
 
 Librarians like handouts. To make a handout for this lesson, adapt/print from [http://data-lessons.github.io/library-git/reference/](http://data-lessons.github.io/library-git/reference/).
 
 ____
-# General
+# General notes on Git
 
 Using a software tool to handle the versions of your project files
 lets you focus on the more interesting/innovative aspects of your project.
