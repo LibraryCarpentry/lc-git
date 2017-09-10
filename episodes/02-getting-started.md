@@ -141,41 +141,43 @@ Changes to be committed:
 {: .output}
 
 If we are using colourised output, we will see that the filename has changed colour (from red to green). Git also tells us that there
-is a new file to be committed but, before we do that, let's make some changes. 
+is a new file to be committed but, before we do that, let's add some text to the file.
 
-
-Open index.md with any text editor (e.g. Notepad on Windows or TextEdit on Mac OSX) and enter "# Hello, world!". The
-hash character is one way of writing a header with Markdown. Now, save the file within your text editor and check if git
+We will open the file `index.md` with any text editor we have at hand (e.g. Notepad on Windows or TextEdit on Mac OSX) and enter `# Hello, world!`. The
+hash character is one way of writing a header with Markdown. Now, let's save the file within the text editor and check if Git
 has spotted the changes.
 
 ~~~
 $ git status
 ~~~
 {: .bash}
-
-Open the file in nano or another text editor.
-
-We should now be able to add some text to our text file. 
-For now, let's just write 'hello world'. If we try `git status` again. We should get the following message
-
 ~~~
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   index.md
+
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-    modified:   index.md
+	modified:   index.md
 ~~~
 {: .output}
 
-This lets us know that git has indeed spotted the changes to our file but that it hasn't yet staged them, so let's add 
-the file to the staging area again.
+This lets us know that git has indeed spotted the changes to our file, but that it hasn't yet staged them, so let's add 
+the new version of the file to the staging area.
 
 ~~~
 $ git add index.md
 ~~~
 {: .bash}
 
-We can now **commit** our first changes. 
+Now we are ready to  **commit** our first changes. 
 Commit is similar to 'saving' a file to Git. 
 However, compared to saving, a commit provides a lot more information about the changes we have made,
 and this information will remain visible to us later.
