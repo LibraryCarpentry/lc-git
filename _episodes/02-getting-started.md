@@ -29,7 +29,7 @@ the [GitHub page](https://github.com/data-lessons/library-git).
 ### Creating a repository
 
 A git **repository** is a data structure used to track changes to a set of project files over time. Repositories are 
-stored within the same directory as these project files, in a hidden file called `.git`. We can create a new git 
+stored within the same directory as these project files, in a hidden directory called `.git`. We can create a new git 
 repository either by using GitHub's web interface, or via the command line. Let's use the command line to create a git 
 repository for the experiments that we're going to do today.
 
@@ -53,7 +53,7 @@ $ git init
 The `hello-world` directory is now a git repository. 
 
 If we run the `ls` command now, the repository might seem empty, however, `ls -a` will show all hidden files, which 
-in this case includes the new hidden file `.git`.
+in this case includes the new hidden directory `.git`.
 
 Note that whenever we use git via the command line, we need to preface each command (or verb) with `git`, so that the computer knows 
 we are trying to get git to do something, rather than some other program.
