@@ -90,8 +90,7 @@ $ touch index.md
 ~~~
 {: .bash}
 
-When sharing projects with others, it is good practice to include a text document that gives a brief overview of the
-project, usually in the form of a README file. The `.md` extension above signifies that we have chosen to format that we have 
+The `.md` extension above signifies that we have chosen to format that we have 
 chosen to use Markdown, a lightweight markup language with plain text formatting syntax. We will explore Markdown a 
 bit later.
 
