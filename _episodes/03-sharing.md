@@ -27,7 +27,8 @@ GitHub will ask if you want to add a README.md, license or a `.gitignore` file. 
 
 > ## Choosing a license
 > Choosing a license is an important part of openly sharing your creative work online. For help in wading through the
-> many types of open source licenses, please visit https://choosealicense.com/.
+> many types of open source licenses, please visit <https://choosealicense.com/>.
+{: .callout}
 
 ## Connecting your local repository to a remote repository
 
