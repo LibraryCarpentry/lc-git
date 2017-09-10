@@ -197,9 +197,13 @@ $ git commit -m 'Add index.md'
 We can see that one file has changed and that we made one insertion, which was a line with the text '#Hello, world!'. 
 We can
 also see the commit message 'Add index.md', which we added by adding the `-m` flag to `git commit`.
+The commit message is used to record a short, descriptive, and specific summary of what we did to help us remember later on without having to look at the actual changes.
+If we just run `git commit` without the `-m` option, Git will launch nano (or whatever other editor we configured as `core.editor`)
+so that we can write a longer message.
 
-We now have a permanent record of what was changed, along with additional details such as when that change was made. 
+Having made a commit, we now have a permanent record of what was changed,
+along with metadata about who made the commit and at what time.
 
-However, we now have a problem. At the moment our changes are only recorded locally, on our computer. If we wanted to 
-work collaboratively with someone else they would have no way of seeing what we've done. Let's fix that by using GitHub 
-to share our work.
+But at the moment our changes are only recorded locally, on our computer. If we wanted to 
+work collaboratively with someone else they would have no way of seeing what we've done.
+We will fix that in the next episode by using GitHub to share our work.
