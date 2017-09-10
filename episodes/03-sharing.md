@@ -15,7 +15,7 @@ keypoints:
 - "`pull` is a Git verb for bringing changes from a remote repository to the local repository"
 ---
 
-## Create a repository
+## Create a repository on GitHub
 
 When we have logged in to GitHub, we can create a new repository by clicking the **+** icon in the upper-right corner of
 any page then selecting **New repository**. Let's do this now.
@@ -30,15 +30,48 @@ GitHub will ask if you want to add a README.md, license or a `.gitignore` file. 
 > many types of open source licenses, please visit <https://choosealicense.com/>.
 {: .callout}
 
-## Connecting your local repository to a remote repository
+## Connecting your local repository to the GitHub repository
 
-We now need to link the local repository that we created in the previous lesson with the remote repository that we have 
-just created on GitHub.
+In the previous episode we created a local repository on our own computer.
+Now we have also created a remote repository on GitHub.
+But at this point, the two are completely isolated from each other.
+We want to link them together to synchronize them and share our project with the world.
+
+To do this, we need the GitHub repository URL, which should look something like this
+(with "some-librarian" replaced with your username):
+
+![The repository URL on GitHub](../fig/repository-url.png)
+
+If the URL starts with `git@` rather than `https://`, please click the "HTTPS" button to change it.
+
+> ## HTTPS vs. SSH
+>
+> We use HTTPS here because it does not require additional configuration, which vary
+> from operating system to operating system. If you start using Git regularly, you would
+> like to set up SSH access, which is a bit more secure and convenient, by
+> following one of the great tutorials from
+> [GitHub](https://help.github.com/articles/generating-ssh-keys),
+> [Atlassian/BitBucket](https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git)
+> and [GitLab](https://about.gitlab.com/2014/03/04/add-ssh-key-screencast/)
+> (this one has a screencast).
+{: .callout}
+
+Notice that GitHub is actually helpful enough to provide instructions for us
+so we don't have to remember these commands:
+
+![GitHub instructions](../fig/github-instructions.png)
+
+You can therefore choose to copy these and paste them on the command line.
+Or you can choose to type them out to get them into your fingers.
+I will do that. So we start with the command to link our local repository
+to the GitHub repository:
 
 ~~~
-$ git remote add origin <web_address_of_your_repo.git>
+$ git remote add origin https://github.com/some-librarian/hello-world.git
 ~~~
 {: .bash}
+
+where `some-librarian` should be replaced with your own username.
 
 > ## Why `origin`?
 > `origin` in the `git remote add` line is just a short name or alias we're giving to that big long repository URL.
@@ -58,10 +91,12 @@ origin  https://github.com/<your_github_username>/hello-world (push)
 ~~~
 {: .output}
 
-## "Pushing" changes
+## Pushing changes
 
-To add the changes we previously made to our local repository to the remote repository that we have just created on 
-GitHub we need to run the `git push` command.
+Now we have established a connection between the two repositories, but we still haven't
+synchronized their content, so the remote repository is still empty. To fix that, we
+will have to "push" our local changes to the GitHub repository. We do this using
+`git push` command:
 
 ~~~
 $ git push -u origin master
@@ -81,8 +116,9 @@ nothing to commit, working tree clean
 ~~~
 {: .output}
 
-The nickname of our remote is origin and the default local branch name is master. The `-u` flag tells git to remember 
-the parameters, so that next time we can simply run `git push` and Git will know what to do. Go ahead and push it!
+The nickname of our remote repository is "origin" and the default local branch name is "master".
+The `-u` flag tells git to remember the parameters, so that next time we can simply run `git push`
+and Git will know what to do.
 
 You may be prompted to enter your GitHub username and password to complete the command.
 
