@@ -87,30 +87,6 @@ You might remember from earlier that we did `git push -u origin master` to
 set up the master branch. The `-u` is a shorthand for `--set-upstream`, so
 above you could also have typed `git push -u origin gh-pages`.
 
-### Exercise - Contributing to a GitHub pages site
-
-To practise using Git, GitHub pages and Markdown we can contribute to a GitHub pages site. This page is currently 
-very bare but we can change that by making some pull requests and suggesting changes.
-
-#### pull-request (slightly easier way)
-1. Navigate to the https://github.com/davanstrien/week-three-library-carpentry
-2. Click on 'fork' repository. You will then be asked to choose where to 'fork' your repository.
-3. Once we have our own fork, we can edit files directly from the GitHub site. This is a good chance to practise some 
-markdown syntax. You can preview how it will look before you commit changes. N.B. this is 'GitHub' flavour of markdown; 
-there are slight differences between different 'flavours'.
-4. Once we have done this, we can commit our changes.
-5. If we've made some changes which we think would be worth adding to the original site, then we can create a pull 
-request. This slightly confusing terminology basically means you are asking the owner of the original source if they 
-would like to add (pull) some of your changes into their version.
-6. Click on compare changes. This will show you if there are any differences between the two versions you have. From 
-here we can make a pull request.
-7. When we make a pull request, we have the option of explaining what the pull request relates to. It is important to 
-give a short concise explanation of what it is about.
-
-#### pull-request (slightly more complicated way)
-* instead of making edits on the GitHub website you can 'clone' the repository to your local machine.
-* follow steps 1 and 2 above.
-* then follow the steps outlined here: http://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message
 And remember, we only have to do this the first time we push to a new branch.
 The next time we can just do `git push`.
 
@@ -118,3 +94,81 @@ If we now visit http://your-github-username.github.io/hello-world/ ,
 we should see the contents of the index.md file that created earlier.
 Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
 
+> ## Challenge: Contributing to a page owned by someone else (slightly easier way)
+>
+> To practise using Git, GitHub pages and Markdown we can contribute to a GitHub pages site.
+> Pair up in groups of two (or more if needed) and do the exercises below together.
+> 
+> 1. Go to https://github.com/some-librarian/hello-world, where "some-librarian" is the username of your exercise partner.
+> 2. Click on "Fork" in the upper right part of the screen to create a copy of the repository on your account. Once you have a fork > of your partner's repository, you can edit the files in your own fork directly.
+> 3. Click the "index.md" file, then click the edit pencil icon:
+> 
+>    ![GitHub edit pencil](../fig/github-edit-pencil.png)
+> 
+> 4. Now is good chance to try some Markdown syntax.
+>    Try some of the examples at [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+>    You can preview how it will look before you commit changes.
+> 5. Once you are ready to commit, enter a short commit message,
+>    select "Create a new branch for this commit and start a pull request"
+>    and press "Propose file change".
+> 
+>    ![Commit and create pull request](../fig/github-commit-pr.png)
+> 
+> 8. You will now get the option to review the changes and add an additional
+>    explanation before sending the pull request (this is especially useful
+>    if you make a single pull request for multiple commits).
+> 9. Your partner should now see a pull request under the "Pull requests" tab
+>    and can accept ("Merge pull request") the changes there. Try this.
+> 
+> This whole process of making a fork and a pull request might seem a bit cumbersome.
+> Try to think of why it was needed? And why it's called "pull request"?
+>
+> > ## Solution
+> > We made a fork and a pull request because we did not have permission to edit
+> > (or commit) the repository directly. A fork is a copy of the repository that
+> > we *can* edit. By making a pull request we ask the owner of the repository if
+> > they would like to accept (pull in) the changes from our fork (our copy) into
+> > their version. The owner can then review the changes and choose to accept or
+> > reject them.
+> >
+> > You can open pull requests on any repository you find on GitHub. If you are a
+> > group of people who plan to collaborate closely, on the other hand,
+> > it's more practical to grant everyone access to commit directly instead.
+> >
+> {: .solution}
+{: .challenge}
+
+> ## Optional challenge: Contributing to a page owned by someone else (slightly more complicated way)
+>
+> Instead of making edits on the GitHub website you can 'clone' the fork to your local machine
+> and work there.
+>
+> Try following the rest of the steps under "Time to Submit Your First PR"
+> at this guide: <https://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message#Time-to-Submit-Your-First-PR>
+>
+> (If you followed step 1 and 2 in the previous challenge, you already have a fork and you can
+> skip the creation of a new fork if you like. You can submit multiple pull requests using the same fork.)
+>
+{: .challenge}
+
+
+> ## Optional challenge: Adding an HTML page
+>
+> GitHub Pages is not limited to Markdown. If you know some HTML, try adding an HTML page
+> to your repository. You could do this on the command line or directly on GitHub. The
+> steps below are for working directly on GitHub:
+>
+> 1. Make sure you are working on the "gh-pages" branch. Select it from the menu if not:
+>
+>    ![Branch selector on GitHub](../fig/github-gh-pages.png)
+>
+> 2. To add a new file directly on GitHub, press the "Create new file" button. 
+>
+>    ![Create new file on GitHub](../fig/github-create-new-file.png)
+>
+> 3. Name it 'test.html', add some HTML and click "Commit new file".
+> 4. Try opening <https://some-librarian.github.io/hello-world/test>
+>    (replace "some-librarian" with your username).
+>    Notice that the HTML extension is not included.
+>
+{: .challenge}
