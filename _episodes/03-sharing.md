@@ -99,7 +99,7 @@ will have to "push" our local changes to the GitHub repository. We do this using
 `git push` command:
 
 ~~~
-$ git push -u origin master
+$ git push origin master
 ~~~
 {: .bash}
 ~~~
