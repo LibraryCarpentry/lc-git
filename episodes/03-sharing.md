@@ -15,7 +15,7 @@ keypoints:
 - "`pull` is a Git verb for bringing changes from a remote repository to the local repository"
 ---
 
-## Create a repository
+## Create a repository on GitHub
 
 When we have logged in to GitHub, we can create a new repository by clicking the **+** icon in the upper-right corner of
 any page then selecting **New repository**. Let's do this now.
@@ -27,17 +27,51 @@ GitHub will ask if you want to add a README.md, license or a `.gitignore` file. 
 
 > ## Choosing a license
 > Choosing a license is an important part of openly sharing your creative work online. For help in wading through the
-> many types of open source licenses, please visit https://choosealicense.com/.
+> many types of open source licenses, please visit <https://choosealicense.com/>.
+{: .callout}
 
-## Connecting your local repository to a remote repository
+## Connecting your local repository to the GitHub repository
 
-We now need to link the local repository that we created in the previous lesson with the remote repository that we have 
-just created on GitHub.
+In the previous episode we created a local repository on our own computer.
+Now we have also created a remote repository on GitHub.
+But at this point, the two are completely isolated from each other.
+We want to link them together to synchronize them and share our project with the world.
+
+To do this, we need the GitHub repository URL, which should look something like this
+(with "some-librarian" replaced with your username):
+
+![The repository URL on GitHub](../fig/repository-url.png)
+
+If the URL starts with `git@` rather than `https://`, please click the "HTTPS" button to change it.
+
+> ## HTTPS vs. SSH
+>
+> We use HTTPS here because it does not require additional configuration, which vary
+> from operating system to operating system. If you start using Git regularly, you would
+> like to set up SSH access, which is a bit more secure and convenient, by
+> following one of the great tutorials from
+> [GitHub](https://help.github.com/articles/generating-ssh-keys),
+> [Atlassian/BitBucket](https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git)
+> and [GitLab](https://about.gitlab.com/2014/03/04/add-ssh-key-screencast/)
+> (this one has a screencast).
+{: .callout}
+
+Notice that GitHub is actually helpful enough to provide instructions for us
+so we don't have to remember these commands:
+
+![GitHub instructions](../fig/github-instructions.png)
+
+You can therefore choose to copy these and paste them on the command line.
+Or you can choose to type them out to get them into your fingers.
+I will do that. So we start with the command to link our local repository
+to the GitHub repository:
 
 ~~~
-$ git remote add origin <web_address_of_your_repo.git>
+$ git remote add origin https://github.com/some-librarian/hello-world.git
 ~~~
 {: .bash}
+
+where `some-librarian` should be replaced with your own username.
 
 > ## Why `origin`?
 > `origin` in the `git remote add` line is just a short name or alias we're giving to that big long repository URL.
@@ -57,10 +91,12 @@ origin  https://github.com/<your_github_username>/hello-world (push)
 ~~~
 {: .output}
 
-## "Pushing" changes
+## Pushing changes
 
-To add the changes we previously made to our local repository to the remote repository that we have just created on 
-GitHub we need to run the `git push` command.
+Now we have established a connection between the two repositories, but we still haven't
+synchronized their content, so the remote repository is still empty. To fix that, we
+will have to "push" our local changes to the GitHub repository. We do this using the
+`git push` command:
 
 ~~~
 $ git push -u origin master
@@ -80,8 +116,9 @@ nothing to commit, working tree clean
 ~~~
 {: .output}
 
-The nickname of our remote is origin and the default local branch name is master. The `-u` flag tells git to remember 
-the parameters, so that next time we can simply run `git push` and Git will know what to do. Go ahead and push it!
+The nickname of our remote repository is "origin" and the default local branch name is "master".
+The `-u` flag tells git to remember the parameters, so that next time we can simply run `git push`
+and Git will know what to do.
 
 You may be prompted to enter your GitHub username and password to complete the command.
 
@@ -104,7 +141,8 @@ This output lets us know where we are working (the master branch). We can also s
 and everything is in order.
 
 We can use the `git diff` command to see changes we have made before making a commit. Open index.md with any text 
-editor and enter a new line.
+editor and enter some text on a new line, for instance "A new line" or something else.
+We will then use `git diff` to see the changes we made:
 
 ~~~
 $ git diff
@@ -123,9 +161,10 @@ index aed0629..989787e 100644
 ~~~
 {: .output}
 
-We can see the changes we have made.
+The command produces lots of informatinon and it can be a bit overwhelming at first,
+but let's go through some key information here:
 
-1. The first line tells us that Git is producing output similar to the Unix diff command comparing the old and new 
+1. The first line tells us that Git is producing output similar to the Unix `diff` command, comparing the old and new 
 versions of the file.
 2. The second line tells exactly which versions of the file Git is comparing; `aed0629` and `989787e` are unique 
 computer-generated identifiers for those versions.
@@ -133,7 +172,7 @@ computer-generated identifiers for those versions.
 4. The remaining lines are the most interesting; they show us the actual differences and the lines on which they occur. 
 In particular, the + markers in the first column show where we have added lines.
 
-We can now commit these changes again:
+We can now commit these changes:
 
 ~~~
 $ git add index.md
@@ -169,19 +208,25 @@ commit messages when we make changes. This is especially important when we are w
 be able to guess as easily what our short cryptic messages might mean. Note that it is best practice to always write 
 commit messages in the imperative (e.g. 'Add index.md', rather than 'Adding index.md').
 
-We might get a lit bit lonely working away on our own and want to work with other people. Before we get to that, it is 
-worth learning a couple more git commands.
+## Pushing changes (again)
 
-## Pushing changes
+Now, let's have a look at the repository at GitHub again
+(that is, `https://github.com/some-librarian/hello-world` with `some-librarian` replaced with your username).
+We see that the `index.md` file is there, but there is only one commit:
 
-If we have another look at our repository on GitHub, we can see that only our first change is there. This is because we 
-haven't yet pushed our local changes to the remote repository. This might seem like a mistake in design but it is 
+![Only one commit on GitHub](../fig/github-one-commit.png)
+
+And if you click on `index.md` you will see that it contains the "Hello, world!" header,
+but not the new line we just added.
+
+This is because we haven't yet pushed our local changes to the remote repository.
+This might seem like a mistake in design but it is 
 often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't 
 necessarily want to push all these changes one by one.
 
-Let's push our changes now, using the `git push` command.
+Another benefit of this design is that you can make commits without being connected to internet.
 
-## Pushing and Pulling
+But let's push our changes now, using the `git push` command:
 
 ~~~
 $ git push
@@ -196,6 +241,7 @@ To https://github.com/<your_github_username>/hello-world
 ~~~
 {: .output}
 
+And let's check on GitHub that we now have 2 commits there.
 
 ## Pulling changes
 
@@ -211,6 +257,7 @@ file' (The default commit message will be 'Create README.md', which is fine for 
 > It is good practice to add a README file to each project to give a brief overview of what the project is about. If you 
 > put your README file in your repository's root directory, GitHub will recognize and automatically surface your README 
 > to repository visitors
+{: .callout}
 
 Our local repository is now out of sync with our remote repository, so let's fix that by pulling the remote changes into
 our local repository using the `git pull` command.
