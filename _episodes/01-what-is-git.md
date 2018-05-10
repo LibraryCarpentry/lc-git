@@ -6,9 +6,10 @@ questions:
 - "What is Git?"
 - "What is Github?"
 objectives:
-- "explain why version control is useful"
-- "explain the difference between Git and GitHub"
+- "recognize why version control is useful"
+- "distinguish between Git and GitHub"
 keypoints:
+- "Version control helps track changes to files and projects"
 - "Git and Github are not the same"
 ---
 
