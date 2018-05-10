@@ -5,13 +5,15 @@ exercises: 0
 questions:
 - "What are repositories and how are they created?"
 - "What do `add` and `commit` mean?"
+- "How do I check the status of my repository?"
 objectives:
-- "initiate a git repository"
-- "track changes to files in a project"
-- "persist changes to a git repository"
+- "create a git repository"
+- "track changes to files using the git repository"
+- "query the current status of the git repository"
 keypoints:
-- "git repositories are data-structures used to track changes to files over time"
-- "Git uses a two-stage commit process. Changes must first be added to the staging area, then committed from there"
+- "Git repositories contain metadata about files under version control"
+- "This metadata enables us to track changes to files over time"
+- "Git uses a two-stage commit process. Changes to files must first be added to the staging area, then committed to the repository"
 ---
 
 ### Using Git
