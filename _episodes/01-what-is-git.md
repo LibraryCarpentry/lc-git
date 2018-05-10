@@ -11,6 +11,23 @@ objectives:
 keypoints:
 - "Git and Github are not the same"
 ---
+
+### What is Version Control
+
+Version control is a name used for software which can help you record changes you make to the files in a directory on your computer. Version control software and tools (such as Git and Subversion/SVN) are often associated with software development. Increasingly though they can are being used for all kinds of files across research and academic collaborations. It is most useful when working with plain text files such as documents or computer code, but modern version control systems can be used to track changes in any type of file.
+
+At its most basic level, version control software helps us register and track sets of changes made to files on our computer. We can then reason about and share those changes with others. As we build up sets of changes over time, we begin to see some benefits.
+
+#### Benefits of using version control?
+
+* **Collaboration** - Version control allows us to define formalized ways we can work together and share writing and code. For example merging together sets of changes from different parties enables co-creation of documents and software across distributed teams.
+* **Versioning** - Having a robust and rigourous log of changes to a file, without renaming files (v1, v2, _final_copy)
+* **Rolling Back** - Version control allows us to quickly undo a set of changes. This can be useful when new writing or code introduces a problem elsewhere.
+* **Understanding** - Version control can help you understand how the code or writing came to be, who wrote or contributed particular parts and who you might ask to help understand it better.
+* **Backup** - While not meant to be a backup solution, using version control systems mean that your code and writing can be on multiple other computers.
+
+There are many more reasons to use version control, and we'll explore some of these in the Library context, but first lets learn a bit about a popular version control tool called Git.
+
 ### What is Git and GitHub?
 
 We often hear the terms **_Git_** and **_GitHub_** used interchangeably but they are slightly different things.
