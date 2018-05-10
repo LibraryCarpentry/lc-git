@@ -1,6 +1,6 @@
 # Library Carpentry
 
-The Library Carpentry module '[Git Intro for Librarians](http://data-lessons.github.io/library-git/)' is maintained by [Belinda Weaver](https://github.com/weaverbel) and [Jez Cope](https://github.com/jezcope).
+The Library Carpentry module '[Git Intro for Librarians](https://librarycarpentry.github.io/lc-git/)' is maintained by [Belinda Weaver](https://github.com/weaverbel) and [Jez Cope](https://github.com/jezcope).
 
 ## Background
 
@@ -14,7 +14,7 @@ There are many ways of contributing to Library Carpentry:
 
 - Join our [Gitter discussion forum](https://gitter.im/LibraryCarpentry/).
 - Follow updates on [Twitter](https://twitter.com/LibCarpentry).
-- Make a suggestion or correct an error by [raising an Issue](https://github.com/data-lessons/library-git/issues).
+- Make a suggestion or correct an error by [raising an Issue](https://github.com/librarycarpentry/lc-git/issues).
 
 ## Code of Conduct
 
@@ -22,10 +22,10 @@ All participants should agree to abide by the [Software Carpentry Code of Conduc
 
 ## Authors
 
-Library Carpentry is authored and maintained by the [community](https://github.com/data-lessons/library-git/network/members).
+Library Carpentry is authored and maintained by the [community](https://github.com/librarycarpentry/lc-git/network/members).
 
 ## Citation
 
 Please cite as:
 
-Library Carpentry. Git Intro for Librarians. June 2016. http://data-lessons.github.io/library-git/.
+Library Carpentry. Git Intro for Librarians. June 2016. https://librarycarpentry.github.io/lc-git/.
