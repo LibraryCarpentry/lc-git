@@ -4,11 +4,14 @@ teaching: 15
 exercises: 20
 questions:
 - "What is GitHub Pages?"
+- "How can I use GitHub Pages to collaborate and share my work?"
 objectives:
-- "set up a website using Github Pages"
-- "share work and collaborate using GitHub"
+- "create a GitHub Pages branch and push a file to it"
+- "with a partner, experiment with collaborating on a GitHub Pages website"
+- "apply the workflow between local and remote repositories to collaborate on a website"
 keypoints:
-- "GitHub Pages use the Git/GitHub workflow to help you build webpages"
+- "GitHub Pages offer an automated way to create a website that is version controlled and accessible for collaboration"
+- "Collaborating on a GitHub Pages website uses the same Git/GitHub workflow you learned for collaborating via a GitHub repository"
 ---
 ## GitHub Pages
 
