@@ -6,9 +6,10 @@ questions:
 - "What is Git?"
 - "What is Github?"
 objectives:
-- "explain why version control is useful"
-- "explain the difference between Git and GitHub"
+- "recognize why version control is useful"
+- "distinguish between Git and GitHub"
 keypoints:
+- "Version control helps track changes to files and projects"
 - "Git and Github are not the same"
 ---
 
@@ -28,7 +29,7 @@ At its most basic level, version control software helps us register and track se
 
 There are many more reasons to use version control, and we'll explore some of these in the library context, but first let's learn a bit about a popular version control tool called Git.
 
-### What is Git and GitHub?
+### What are Git and GitHub?
 
 We often hear the terms **_Git_** and **_GitHub_** used interchangeably but they are slightly different things.
 
@@ -39,8 +40,8 @@ Rather than emailing documents with tracked changes and some comments and renami
 Git was originally developed to help software developers work collaboratively on software projects, but it can be and is used for managing revisions to any file type on a computer system, including text documents. Once installed, interaction with Git is done through the Command Prompt in Windows, or the Terminal on Mac/Linux. Since Word documents contain special formatting, Git unfortunately cannot version control those, nor can it version control PDFs, though both file types can be stored in Git repositories.   
 
 *What can understanding Git do for Librarians?*
-* Enables you to contribute, collaborate and support digital research projects 
-* True version control
+* Enables you to contribute to, collaborate on, and support digital research projects 
+* Enables you to control changes to your files over time without keeping multiple copies of those files
 
 **_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories remotely. It offers a web interface and provides functionality and a mixture of both free and paid services for working with such repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals, blogs, and constantly updated text books. 
 
