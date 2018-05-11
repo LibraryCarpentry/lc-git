@@ -24,13 +24,10 @@ number of verbs such as `add`, `commit` and `push` (precdeded by the word 'git')
 lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing 
 our own website.
 
-We will try to do this session as a group, but those who prefer to go at a slower pace can follow the instructions on 
-the [GitHub page](https://github.com/data-lessons/library-git).
-
 
 ### Creating a repository
 
-A git **repository** is a data structure used to track changes to a set of project files over time. Repositories are 
+A Git **repository** is a data structure used to track changes to a set of project files over time. Repositories are 
 stored within the same directory as these project files, in a hidden directory called `.git`. We can create a new git 
 repository either by using GitHub's web interface, or via the command line. Let's use the command line to create a git 
 repository for the experiments that we're going to do today.
@@ -81,7 +78,7 @@ unsaved changes).
 
 ### Adding and committing
 
-We'll now create and save our first project file. This is a two-stage process. First, we **add** any files for which 
+We will now create and save our first project file. This is a two-stage process. First, we **add** any files for which 
 we want to save the changes to a staging area, then we **commit** those changes to the repository. This two-stage 
 process gives us fine-grained control over what should and should not be included in a particular commit.
 
@@ -92,9 +89,7 @@ $ touch index.md
 ~~~
 {: .bash}
 
-The `.md` extension above signifies that we have chosen to format that we have 
-chosen to use Markdown, a lightweight markup language with plain text formatting syntax. We will explore Markdown a 
-bit later.
+The `.md` extension above signifies that we have chosen to use the Markdown format, a lightweight markup language with plain text formatting syntax. We will explore Markdown a bit later.
 
 Let's check the status of our project again.
 
@@ -123,8 +118,7 @@ $ git add index.md
 ~~~
 {: .bash}
 
-This adds our Markdown file to the **staging area** (the area where git checks for file changes). To confirm this we 
-might want to use `git status` again.
+This adds our Markdown file to the **staging area** (the area where git checks for file changes). To confirm this we want to use `git status` again.
 
 ~~~
 $ git status
@@ -198,7 +192,7 @@ $ git commit -m 'Add index.md'
 
 We can see that one file has changed and that we made one insertion, which was a line with the text '#Hello, world!'. 
 We can
-also see the commit message 'Add index.md', which we added by adding the `-m` flag to `git commit`.
+also see the commit message 'Add index.md', which we added by using the `-m` flag after `git commit`.
 The commit message is used to record a short, descriptive, and specific summary of what we did to help us remember later on without having to look at the actual changes.
 If we just run `git commit` without the `-m` option, Git will launch nano (or whatever other editor we configured as `core.editor`)
 so that we can write a longer message.
@@ -226,6 +220,6 @@ along with metadata about who made the commit and at what time.
 > than you would like!
 {: .callout}
 
-But at the moment our changes are only recorded locally, on our computer. If we wanted to 
+At the moment, our changes are only recorded locally, on our computer. If we wanted to 
 work collaboratively with someone else they would have no way of seeing what we've done.
 We will fix that in the next episode by using GitHub to share our work.
