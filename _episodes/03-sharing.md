@@ -3,16 +3,20 @@ title: "Sharing your work"
 teaching: 30
 exercises: 0
 questions:
-- "What does `push` and `pull` mean?"
+- "How can I use Git and GitHub to share my work?"
+- "How do I link a local Git repository to GitHub?"
+- "How do I move changes between a local Git repository and a GitHub repository?"
+- "How can I see the differences between my current file and my most recent commit?"
 objectives:
-- "create a repository on GitHub"
-- "link a local repository with a repository on GitHub"
-- "push changes from the local repository to GitHub"
-- "pull changes back from GitHub to the local repository"
+- "create a remote repository on GitHub"
+- "link a local Git repository to a remote GitHub repository"
+- "move changes between the local and remote repositories using `push` and `pull`"
+- "examine the difference between an edited file and the file's most recently committed version"
 keypoints:
-- "remote repositories on GitHub help you collaborate"
+- "remote repositories on GitHub help you collaborate and share your work"
 - "`push` is a Git verb for sending changes from the local repository to a remote repository"
 - "`pull` is a Git verb for bringing changes from a remote repository to the local repository"
+- "`diff` is a Git verb for viewing the difference between an edited file and the file's most recent commit"
 ---
 
 ## Create a repository on GitHub
