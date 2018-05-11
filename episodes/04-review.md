@@ -3,11 +3,13 @@ title: "Review"
 teaching: 5
 exercises: 20
 questions:
-- "Can you express git commands in a non 'git' way?"
+- "How can I cement my understanding of Git's functions?"
 objectives:
-- "to understand the Git/GitHub workflow"
+- "rephrase Git commands using everyday language"
+- "demonstrate Git's functions by drawing or sketching" 
 keypoints:
-- "the workflow isn't tricky, but it the language takes some time to settle in"
+- "the language of Git can be confusing and intimidating"
+- "rephrasing commands and drawing concepts can clarify Git's workflow"
 ---
 ## Let's review
 
