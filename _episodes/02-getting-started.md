@@ -220,6 +220,8 @@ along with metadata about who made the commit and at what time.
 > than you would like!
 {: .callout}
 
+![The Git Staging Area](../fig/git-staging-area.svg)
+
 At the moment, our changes are only recorded locally, on our computer. If we wanted to 
 work collaboratively with someone else they would have no way of seeing what we've done.
 We will fix that in the next episode by using GitHub to share our work.
