@@ -202,7 +202,7 @@ so that we can write a longer message.
 Having made a commit, we now have a permanent record of what was changed,
 along with metadata about who made the commit and at what time.
 
-> ## Staging Area
+> ## More on the Staging Area
 >
 > If you think of Git as taking snapshots of changes over the life of a project,
 > `git add` specifies *what* will go in a snapshot
