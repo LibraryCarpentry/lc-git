@@ -85,16 +85,15 @@ Git cheat sheet handouts:
 * [DavidChouinard/mrc_to_csv](https://github.com/DavidChouinard/mrc_to_csv): 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
 * [Process MARC records from Python](https://github.com/edsu/pymarc)
   * http://python.org/pypi/pymarc
-* [edsu/git-intro](http://edsu.github.io/git-intro): high level intro to git 
+* [umd-mith/git-intro](https://umd-mith.github.io/git-intro/): high level intro to git 
 * [edsu/mirador](https://github.com/edsu/mirador)
 * [edsu/microdata](https://github.com/edsu/microdata)
-* [kcl/ddh](https://github.com/kcl/ddh)
 * [dhtaxonomy/TaDiRAH](https://github.com/dhtaxonomy/TaDiRAH)
 * [OpenAPC/openapc-de](https://github.com/OpenAPC/openapc-de)
 * [JiscMonitor/allapc](https://github.com/JiscMonitor/allapc)
-* http://fbkarsdorp.github.io/python-course/
+* http://www.karsdorp.io/python-course/
 * https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/
-* http://book.openingscience.org/
+* http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/
 
 ## Further reading
 
