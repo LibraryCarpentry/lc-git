@@ -1,7 +1,6 @@
 ---
 layout: reference
-title: Reference
-permalink: /reference/
+root: .
 ---
 
 ## Quick reference
