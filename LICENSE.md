@@ -32,7 +32,7 @@ Under the following terms:
 * **Attribution**---You must give appropriate credit (mentioning that
   your work is derived from work that is Copyright © Software
   Carpentry and, where practical, linking to
-  http://software-carpentry.org/), provide a [link to the
+  https://software-carpentry.org/), provide a [link to the
   license][cc-by-human], and indicate if changes were made. You may do
   so in any reasonable manner, but not in any way that suggests the
   licensor endorses you or your use.
@@ -85,5 +85,5 @@ are registered trademarks of [Community Initiatives][CI].
 [cc-by-human]: https://creativecommons.org/licenses/by/4.0/
 [cc-by-legal]: https://creativecommons.org/licenses/by/4.0/legalcode
 [mit-license]: https://opensource.org/licenses/mit-license.html
-[ci]: http://communityin.org/
+[ci]: https://communityin.org/
 [osi]: https://opensource.org

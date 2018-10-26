@@ -50,7 +50,7 @@ root: .
 Git cheat sheet handouts:
 
 * https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf 
-* http://www.git-tower.com/blog/git-cheat-sheet/
+* https://www.git-tower.com/blog/git-cheat-sheet/
 
 `git init`
 : creates a git repository
@@ -83,7 +83,7 @@ Git cheat sheet handouts:
 
 * [DavidChouinard/mrc_to_csv](https://github.com/DavidChouinard/mrc_to_csv): 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
 * [Process MARC records from Python](https://github.com/edsu/pymarc)
-  * http://python.org/pypi/pymarc
+  * https://pypi.org/project/pymarc/
 * [umd-mith/git-intro](https://umd-mith.github.io/git-intro/): high level intro to git 
 * [edsu/mirador](https://github.com/edsu/mirador)
 * [edsu/microdata](https://github.com/edsu/microdata)
@@ -100,4 +100,4 @@ Git cheat sheet handouts:
 * Github has 'activities' which aim to explain how git works: https://guides.github.com/activities/hello-world/
 * GitHub also has a [Learning Labs](https://lab.github.com/) and an interactive tutorial via their [Desktop](https://desktop.github.com/) app
 * Some indepth but clear tutorials on using git. https://www.atlassian.com/git/tutorials
-* A website aimed at historians but useful for librarians/those interested in Digital Humanities. The project uses Github and a programme called Jekyll to manage new lessons/the website. A useful place to see a non coding use of github in action: http://programminghistorian.org 
+* A website aimed at historians but useful for librarians/those interested in Digital Humanities. The project uses Github and a programme called Jekyll to manage new lessons/the website. A useful place to see a non coding use of github in action: https://programminghistorian.org 
