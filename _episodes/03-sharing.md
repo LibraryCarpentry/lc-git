@@ -55,7 +55,7 @@ If the URL starts with `git@` rather than `https://`, please click the "HTTPS" b
 > like to set up SSH access, which is a bit more secure and convenient, by
 > following one of the great tutorials from
 > [GitHub](https://help.github.com/articles/generating-ssh-keys),
-> [Atlassian/BitBucket](https://confluence.atlassian.com/display/BITBUCKET/Set+up+SSH+for+Git)
+> [Atlassian/BitBucket](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
 > and [GitLab](https://about.gitlab.com/2014/03/04/add-ssh-key-screencast/)
 > (this one has a screencast).
 {: .callout}
