@@ -2,6 +2,7 @@
 layout: page
 title: Setup
 permalink: /setup/
+root: ../
 ---
 
 If you haven't done so already, to follow this lesson you will need to:
