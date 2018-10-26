@@ -10,7 +10,7 @@ ____
 ____
 ## Making a handout
 
-Librarians like handouts. To make a handout for this lesson, adapt/print from [https://librarycarpentry.github.io/lc-git/reference](https://librarycarpentry.github.io/lc-git/reference/).
+Librarians like handouts. To make a handout for this lesson, adapt/print from [https://librarycarpentry.github.io/lc-git/reference](https://librarycarpentry.github.io/lc-git/reference).
 
 ____
 # General notes on Git
