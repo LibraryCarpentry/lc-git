@@ -103,7 +103,7 @@ will have to "push" our local changes to the GitHub repository. We do this using
 `git push` command:
 
 ~~~
-$ git push origin master
+$ git push -u origin master
 ~~~
 {: .bash}
 ~~~
