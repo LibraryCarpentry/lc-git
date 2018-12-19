@@ -22,8 +22,9 @@ The email address should be the same one you used when setting up your GitHub ac
 
 By default, Git will open the Vi / Vim text editor to request commit messages (for example when merging conflicts).
 To avoid confusion, most people will want to change the default editor to something more familiar using the `core.editor` config. 
-Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)). 
-However, the simplest `core.editor` values are `"notepad"` on Windows,  `"edit -w"` on Mac, and `"nano -w"` on Linux. 
+Any text 
+or can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)). 
+However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux. 
 For example:
 
 ~~~
