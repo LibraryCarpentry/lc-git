@@ -93,7 +93,9 @@ above you could also have typed `git push -u origin gh-pages`.
 And remember, we only have to do this the first time we push to a new branch.
 The next time we can just do `git push`.
 
-If we now visit https://your-github-username.github.io/hello-world/ ,
+### View your site
+
+If we now visit https://some-librarian.github.io/hello-world/ ,
 we should see the contents of the index.md file that created earlier.
 Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
 
