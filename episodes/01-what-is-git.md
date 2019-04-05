@@ -39,13 +39,13 @@ Rather than emailing documents with tracked changes and some comments and renami
 
 Git was originally developed to help software developers work collaboratively on software projects, but it can be and is used for managing revisions to any file type on a computer system, including text documents. Once installed, interaction with Git is done through the Command Prompt in Windows, or the Terminal on Mac/Linux. Since Word documents contain special formatting, Git unfortunately cannot version control those, nor can it version control PDFs, though both file types can be stored in Git repositories.   
 
-*How can understanding Git help with work in Libraries?*
+*How can understanding Git help with work in libraries?*
 * Enables you to contribute to, collaborate on, and support digital research projects 
 * Enables you to control changes to your files over time without keeping multiple copies of those files
 
 **_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories remotely. It offers a web interface and provides functionality and a mixture of both free and paid services for working with such repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals (e.g. [Journal of Open Source Software](https://joss.theoj.org/)), blogs, and constantly updated text books. 
 
-*How can GitHub help with work in Libraries?* 
+*How can GitHub help with work in libraries?* 
 * A place to discover and reuse ("fork") a huge amount of openly licensed digital projects and open source software
 * A new and alternative means for publishing content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.  
 
