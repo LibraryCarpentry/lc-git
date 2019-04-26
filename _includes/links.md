@@ -10,8 +10,16 @@
 [cran-knitr]: https://cran.r-project.org/package=knitr
 [cran-stringr]: https://cran.r-project.org/package=stringr
 [dc-lessons]: https://datacarpentry.org/lessons/
+[diffmerge]: https://sourcegear.com/diffmerge/
 [email]: mailto:team@carpentries.org
+[git-courses]: https://lab.github.com/paths
+[git-it]: https://github.com/jlord/git-it-electron#git-it-desktop-app
+[git-parable]: https://tom.preston-werner.com/2009/05/19/the-git-parable.html
+[github-gui]: https://git-scm.com/downloads/guis
 [github-importer]: https://import.github.com/
+[github-line-endings]: https://help.github.com/en/articles/dealing-with-line-endings
+[github-privacy]: https://help.github.com/en/articles/about-commit-email-addresses
+[github]: https://github.com/
 [importer]: https://github.com/new/import
 [jekyll-collection]: https://jekyllrb.com/docs/collections/
 [jekyll-install]: https://jekyllrb.com/docs/installation/
