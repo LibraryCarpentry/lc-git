@@ -87,9 +87,8 @@ working in teams or not, because it is
     widely used in the sciences right now.
 
 *   Further resources:
-    *    [git-it][git-it] is a self-paced command-line Git demo,
-         with [git-it-electron][git-it-electron] its GitHub Desktop successor.
-    *    [Code School][code-school] has a free interactive course, [Try Git][try-git].
+    *    [git-it][git-it] is a locally installed, self-paced Git and GitHub demo.
+    *    [GitHub Learning lab][git-courses] has free interactive courses.
     *    for instructors, [the Git parable][git-parable] is useful background reading
 
 {% include links.md %}
