@@ -91,3 +91,5 @@ working in teams or not, because it is
          with [git-it-electron][git-it-electron] its GitHub Desktop successor.
     *    [Code School][code-school] has a free interactive course, [Try Git][try-git].
     *    for instructors, [the Git parable][git-parable] is useful background reading
+
+{% include links.md %}
