@@ -101,7 +101,7 @@ $ git status
 {: .bash}
 ~~~
 On branch master
-Initial commit
+No commits yet
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
@@ -129,7 +129,7 @@ $ git status
 ~~~
 On branch master
 
-Initial commit
+No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
@@ -152,7 +152,7 @@ $ git status
 ~~~
 On branch master
 
-Initial commit
+No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
