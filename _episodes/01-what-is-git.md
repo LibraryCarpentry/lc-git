@@ -4,13 +4,13 @@ teaching: 10
 exercises: 0
 questions:
 - "What is Git?"
-- "What is Github?"
+- "What is GitHub?"
 objectives:
 - "recognize why version control is useful"
 - "distinguish between Git and GitHub"
 keypoints:
 - "Version control helps track changes to files and projects"
-- "Git and Github are not the same"
+- "Git and GitHub are not the same"
 ---
 
 ### What is Version Control
