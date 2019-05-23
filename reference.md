@@ -98,6 +98,6 @@ Git cheat sheet handouts:
 
 * The help pages of GitHub are a good place to start: https://help.github.com/ 
 * GitHub has 'activities' which aim to explain how git works: https://guides.github.com/activities/hello-world/
-* GitHub also has a [Learning Labs](https://lab.github.com/) and an interactive tutorial via their [Desktop](https://desktop.github.com/) app
+* GitHub also has interactive tutorials for their [online version (Learning Labs)](https://lab.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app)
 * Some indepth but clear tutorials on using git. https://www.atlassian.com/git/tutorials
 * A website aimed at historians but useful for librarians/those interested in Digital Humanities. The project uses GitHub and a programme called Jekyll to manage new lessons/the website. A useful place to see a non coding use of GitHub in action: https://programminghistorian.org 
