@@ -100,4 +100,4 @@ Git cheat sheet handouts:
 * GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works
 * GitHub also has a [Learning Labs](https://lab.github.com/) and an interactive tutorial via their [Desktop](https://desktop.github.com/) app
 * Atlassian has in depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git
-* The [Programming Historian](https://programminghistorian.org ) uses GitHub to manage lessons useful to historians and also people working in libraries. It is a useful resource for lessons but also to see GitHub in action.
+* The [Programming Historian](https://programminghistorian.org) uses GitHub to manage lessons useful to historians and also people working in libraries. It is a useful resource for lessons but also to see GitHub in action.
