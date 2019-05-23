@@ -79,7 +79,7 @@ Git cheat sheet handouts:
 `git remote add origin`
 : add a repository where changes will be stored -
 
-## Useful library github repositories
+## Useful library GitHub repositories
 
 * [DavidChouinard/mrc_to_csv](https://github.com/DavidChouinard/mrc_to_csv): 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
 * [Process MARC records from Python](https://github.com/edsu/pymarc)
@@ -96,8 +96,8 @@ Git cheat sheet handouts:
 
 ## Further reading
 
-* The [help pages](https://help.github.com/) of github are a good place to start
-* Github has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works
+* The [help pages](https://help.github.com/) of GitHub are a good place to start
+* GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works
 * GitHub also has a [Learning Labs](https://lab.github.com/) and an interactive tutorial via their [Desktop](https://desktop.github.com/) app
 * Atlassian has in depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git
 * The [Programming Historian](https://programminghistorian.org ) uses GitHub to manage lessons useful to historians and also people working in libraries. It is a useful resource for lessons but also to see GitHub in action.
