@@ -1,5 +1,5 @@
 ---
-title: "Github Pages"
+title: "GitHub Pages"
 teaching: 15
 exercises: 20
 questions:
