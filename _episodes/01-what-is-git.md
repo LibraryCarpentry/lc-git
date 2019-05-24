@@ -4,13 +4,13 @@ teaching: 10
 exercises: 0
 questions:
 - "What is Git?"
-- "What is Github?"
+- "What is GitHub?"
 objectives:
 - "recognize why version control is useful"
 - "distinguish between Git and GitHub"
 keypoints:
 - "Version control helps track changes to files and projects"
-- "Git and Github are not the same"
+- "Git and GitHub are not the same"
 ---
 
 ### What is Version Control
@@ -39,13 +39,13 @@ Rather than emailing documents with tracked changes and some comments and renami
 
 Git was originally developed to help software developers work collaboratively on software projects, but it can be and is used for managing revisions to any file type on a computer system, including text documents. Once installed, interaction with Git is done through the Command Prompt in Windows, or the Terminal on Mac/Linux. Since Word documents contain special formatting, Git unfortunately cannot version control those, nor can it version control PDFs, though both file types can be stored in Git repositories.   
 
-*What can understanding Git do for Librarians?*
+*How can understanding Git help with work in libraries?*
 * Enables you to contribute to, collaborate on, and support digital research projects 
 * Enables you to control changes to your files over time without keeping multiple copies of those files
 
 **_GitHub_** on the other hand is a popular website for hosting and sharing Git repositories remotely. It offers a web interface and provides functionality and a mixture of both free and paid services for working with such repositories. The majority of the content that GitHub hosts is open source software, though increasingly it is being used for other projects such as open access journals (e.g. [Journal of Open Source Software](https://joss.theoj.org/)), blogs, and constantly updated text books. 
 
-*What can understanding GitHub do for Librarians?* 
+*How can GitHub help with work in libraries?* 
 * A place to discover and reuse ("fork") a huge amount of openly licensed digital projects and open source software
 * A new and alternative means for publishing content online. Any GitHub repository can have its own project website, blog and wiki using GitHub Pages.  
 
@@ -54,14 +54,14 @@ Git was originally developed to help software developers work collaboratively on
 
 Consider these common library world scenarios: 
 
-#### Scenario 1: Local librarian looking to start a crowdsourcing project
+#### Scenario 1: Local library looking to start a crowdsourcing project
 
 A local librarian is looking to put thousands of historical photographs of the area online so that the community can help identify the people and places they depict. She combs the web for examples of existing crowdsourcing projects, and even though they all appear unique to each institution, she notices quite a few seem to have almost the exact same functionality and structure. Rather than build a whole new version from scratch herself, she wishes there was a way to just copy the code of an existing one, and modify it to reflect her project. She notices the [GitHub icon](https://github.com/logos) at the bottom of one of the projects she likes, but clicking on the link just brings her to a confusing directory of files and oddly labeled buttons such as "Fork".  
 
 GitHub hosts many open-licensed projects and allows any user to fork any public project. By clicking the "fork" button, any GitHub user can almost instantaneously create their own version of an existing project. That "forked" project can be used as the basis for a new project, or can be used to work out new features that can be merged back into the original. (From: [GitHub for Academics](https://hybridpedagogy.org/push-pull-fork-github-for-academics/) )
 
-#### Scenario 2: Multiple librarians editing metadata for a collection
+#### Scenario 2: Multiple people editing metadata for a collection
 
-A librarian has exported a spreadsheet of metadata from a repository for cleaning and editing. She's working with a group of librarians and students, so they need to make sure edits don't conflict. They also need to be able to undo any edits and preserve the original metadata. Once edits are complete, the whole group wants to review the changes before re-ingesting the spreadsheet of metadata into the repository.
+A metadata specialist has exported a spreadsheet from a repository for cleaning and editing. She's working with a group of library workers and students, so they need to make sure edits don't conflict. They also need to be able to undo any edits and preserve the original metadata. Once edits are complete, the whole group wants to review the changes before re-ingesting the spreadsheet of metadata into the repository.
 
 The team can choose to use Git by itself to track changes and resolve conflicts or they can choose to use GitHub to host the project so that users can collaborate and review changes on the Web. Git will preserve the original metadata as well as all edits. GitHub will facilitate discussion about what changes should be made, who should make them, and why.

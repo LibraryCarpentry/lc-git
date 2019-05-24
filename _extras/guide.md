@@ -10,7 +10,7 @@ ____
 ____
 ## Making a handout
 
-Librarians like handouts. To make a handout for this lesson, adapt/print from [https://librarycarpentry.github.io/lc-git/reference](https://librarycarpentry.github.io/lc-git/reference).
+To make a handout for this lesson, adapt/print from [https://librarycarpentry.org/lc-git/reference](https://librarycarpentry.org/lc-git/reference).
 
 ____
 # General notes on Git
@@ -22,7 +22,7 @@ lets you focus on the more interesting/innovative aspects of your project.
     *   It's easy to set up
     *   Every copy of a Git repository is a full backup of a project and its history
     *   A few easy-to-remember commands are all you need for most day-to-day version control tasks
-    *   The [GitHub][github] hosting service provides a web-based collaboration service
+    *   The [GitHub](https://github.com/) hosting service provides a web-based collaboration service
 *   Two main concepts
     *   *commit*: a recorded set of changes in your project's files
     *   *repository*: the history of all your project's commits
@@ -49,12 +49,12 @@ working in teams or not, because it is
 
 ## Teaching Notes
 
-*   Resources for "splitting" your shell so that recent commands remain in view: https://github.com/rgaiacs/swc-shell-split-window.
+*   Resources for "splitting" your shell so that recent commands remain in view: [https://github.com/rgaiacs/swc-shell-split-window](https://github.com/rgaiacs/swc-shell-split-window).
 
 *   Make sure the network is working *before* starting this lesson.
 
-*   Drawings are particularly useful in this lesson: if you have a whiteboard,
-    [use it][drawings]!
+*   Drawings are particularly useful in this lesson: if you have a whiteboard, 
+    use it to visualise and describe the [GitHub flow](https://guides.github.com/introduction/flow/).
 
 *   Version control is usually not the first subject in a workshop,
     so get learners to create a GitHub account after the session before.
@@ -62,7 +62,7 @@ working in teams or not, because it is
     during Git configuration) will be viewable to the public by default.
     However, there are many reasons why a learner may not want their personal
     information viewable, and GitHub has [resources for keeping an email address
-    private][github-privacy].
+    private](https://help.github.com/en/articles/about-commit-email-addresses).
 
 *   If some learners are using Windows, there will inevitably be issues
     merging files with different line endings.  (Even if everyone's on
@@ -70,16 +70,16 @@ working in teams or not, because it is
     newline to the last line of a file.) Take a moment to explain
     these issues, since learners will almost certainly trip over them
     again.  If learners are running into line ending problems, GitHub
-    has a [page][github-line-endings] that helps with troubleshooting.
+    has a [page](https://help.github.com/en/articles/dealing-with-line-endings) that helps with troubleshooting.
 
 *   We don't use a Git GUI in these notes because we haven't found one that
     installs easily and runs reliably on the three major operating systems, and
     because we want learners to understand what commands are being run.  That
     said, instructors should demo a GUI on their desktop at some point during
-    this lesson and point learners at [this page][github-gui].
+    this lesson and point learners at [this page](https://git-scm.com/downloads/guis).
 
 *   Instructors should show learners graphical diff/merge tools like
-    [DiffMerge][diffmerge].
+    [DiffMerge](https://sourcegear.com/diffmerge/).
 
 *   When appropriate, explain that we teach Git rather than CVS, Subversion, or
     Mercurial primarily because of GitHub's growing popularity: CVS and
@@ -87,7 +87,7 @@ working in teams or not, because it is
     widely used in the sciences right now.
 
 *   Further resources:
-    *    [git-it][git-it] is a self-paced command-line Git demo,
-         with [git-it-electron][git-it-electron] its GitHub Desktop successor.
-    *    [Code School][code-school] has a free interactive course, [Try Git][try-git].
-    *    for instructors, [the Git parable][git-parable] is useful background reading
+    *    [git-it](https://github.com/jlord/git-it-electron#git-it-desktop-app) is a self-paced command-line Git demo,
+         with [git-it-electron](https://github.com/jlord/git-it-electron) its GitHub Desktop successor.
+    *    Try GitHub's [resources to learn Git](https://try.github.io/) or Codeacademy's [Learn Git](https://www.codecademy.com/learn/learn-git).
+    *    For instructors, [the Git parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html) is useful background reading.

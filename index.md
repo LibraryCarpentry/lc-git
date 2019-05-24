@@ -3,7 +3,7 @@ layout: lesson
 root: .
 ---
 
-This Library Carpentry lesson covers the topics: What is Git/GitHub?; Getting started with Git; Sharing your work; Understanding Git’s functions; and Github Pages.
+This Library Carpentry lesson covers the topics: What is Git/GitHub?; Getting started with Git; Sharing your work; Understanding Git’s functions; and GitHub Pages.
 
 > ## Prerequisites
 >
