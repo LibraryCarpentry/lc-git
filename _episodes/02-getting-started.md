@@ -48,6 +48,11 @@ which is simply short for *initialise*.
 $ git init
 ~~~
 {: .bash}
+~~~
+Initialized empty Git repository in <your file path>/hello-world/.git/
+~~~
+{: .output}
+
 
 The `hello-world` directory is now a git repository. 
 
