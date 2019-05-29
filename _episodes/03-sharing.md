@@ -113,10 +113,6 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/<your_github_username/hello-world
  * [new branch]      master -> master
 Branch master set up to track remote branch master from origin.
-PS C:\github\hello-world> git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
-nothing to commit, working tree clean
 ~~~
 {: .output}
 
@@ -165,7 +161,7 @@ index aed0629..989787e 100644
 ~~~
 {: .output}
 
-The command produces lots of informatinon and it can be a bit overwhelming at first,
+The command produces lots of information and it can be a bit overwhelming at first,
 but let's go through some key information here:
 
 1. The first line tells us that Git is producing output similar to the Unix `diff` command, comparing the old and new 
