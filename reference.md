@@ -90,14 +90,14 @@ Git cheat sheet handouts:
 * [dhtaxonomy/TaDiRAH](https://github.com/dhtaxonomy/TaDiRAH)
 * [OpenAPC/openapc-de](https://github.com/OpenAPC/openapc-de)
 * [JiscMonitor/allapc](https://github.com/JiscMonitor/allapc)
-* http://www.karsdorp.io/python-course/
-* https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/
-* http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/
+* [Python Programming for Humanities](http://www.karsdorp.io/python-course/)
+* [Code4Lib 2008 lightning talk – Git and distributed cataloging](https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/)
+* [Open Science Guide](http://book.openingscience.org.s3-website-eu-west-1.amazonaws.com/)
 
 ## Further reading
 
-* The help pages of GitHub are a good place to start: https://help.github.com/ 
-* GitHub has 'activities' which aim to explain how git works: https://guides.github.com/activities/hello-world/
+* The [help pages](https://help.github.com/) of GitHub are a good place to start
+* GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works
 * GitHub also has interactive tutorials for their [online version (Learning Labs)](https://lab.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app)
-* Some indepth but clear tutorials on using git. https://www.atlassian.com/git/tutorials
-* A website aimed at historians but useful for librarians/those interested in Digital Humanities. The project uses GitHub and a programme called Jekyll to manage new lessons/the website. A useful place to see a non coding use of GitHub in action: https://programminghistorian.org 
+* Atlassian has in depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git
+* The [Programming Historian](https://programminghistorian.org) uses GitHub to manage lessons useful to historians and also people working in libraries. It is a useful resource for lessons but also to see GitHub in action.
