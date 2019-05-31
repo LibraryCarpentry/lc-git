@@ -1,6 +1,6 @@
 # Library Carpentry
 
-The Library Carpentry module '[Git Intro for Librarians](https://librarycarpentry.github.io/lc-git/)' is maintained by [Silvia di Giorgio](https://twitter.com/digiorgiosilvia ), [Chris Erdmann](https://github.com/libcce), [Thea Atwood](https://github.com/tpatwood), [Eric Lopatin](https://github.com/elopatin-uc3), *[Drew Heles](https://github.com/dheles)*, [Eva Seidlmayer](https://github.com/EvaSeidlmayer), [Belinda Weaver](https://github.com/weaverbel), and [Jez Cope](https://github.com/jezcope).
+The Library Carpentry module '[Git Intro for Librarians](https://librarycarpentry.github.io/lc-git/)' is maintained by [Silvia di Giorgio](https://twitter.com/digiorgiosilvia ), [Chris Erdmann](https://github.com/libcce), [Thea Atwood](https://github.com/tpatwood), [Eric Lopatin](https://github.com/elopatin-uc3), [Drew Heles](https://github.com/dheles), [Eva Seidlmayer](https://github.com/EvaSeidlmayer), [Belinda Weaver](https://github.com/weaverbel), and [Jez Cope](https://github.com/jezcope).
 
 ## Background
 
