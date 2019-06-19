@@ -27,7 +27,7 @@ our own website.
 
 ### Creating a repository
 
-A Git **repository** is a data structure used to track changes to a set of project files over time. Repositories are 
+A Git **repository** is a file used to track changes to a set of project files over time. Repositories are 
 stored within the same directory as these project files, in a hidden directory called `.git`. We can create a new git 
 repository either by using [GitHub's web interface](https://github.com/new), or via the command line. Let's use the command line to create a git 
 repository for the experiments that we're going to do today.
