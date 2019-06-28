@@ -20,5 +20,5 @@ root: .
 >
 > 1. Setup a [GitHub account](https://github.com/)
 > 2. [Install git on your own computer](https://help.github.com/articles/set-up-git/)
-> 3. [Configure your git setup]({% link setup.md %})
+> 3. [Configure your git setup](https://librarycarpentry.org/lc-git/setup.html)
 {: .prereq}
