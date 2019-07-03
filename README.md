@@ -11,7 +11,7 @@ Past Maintainers:
 
 - [Katrin Leinweber](https://github.com/katrinleinweber)
 - [Belinda Weaver](https://github.com/weaverbel)
-- [Jez Cope](https://github.com/jezcope))
+- [Jez Cope](https://github.com/jezcope)
 
 Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-git-maintainers).
 
