@@ -45,39 +45,39 @@ root: .
 `rm`
 : remove a file or files. NB: *USE WITH CAUTION!!!*
 
-### Basic Git commands 
+### Basic Git commands
 
 Git cheat sheet handouts:
 
-* https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf 
-* https://www.git-tower.com/blog/git-cheat-sheet/
+* [GitHub](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+* [Tower git client](https://www.git-tower.com/blog/git-cheat-sheet/)
 
 `git init`
-: creates a git repository
+: create a new local git repository
 
 `git status`
 : view the status of your files in the working directory and staging area
 
 `git add`
-: tells git to start tracking a file, or a series of files. 
+: tell git to start tracking a file, or a series of files
 
 `git commit`
-: commits 'saves' the staged snapshot to the project history. 
+: save file changes from the staging area permanently to the project history
 
 `git push`
-: commits the staged snapshot to the project history.
+: upload all commits to a remote repository, such as GitHub
 
 `git log`
-: history of commits in reverse chronological order.
+: show history of commits in reverse chronological order
 
 `git diff`
-: shows changes made to files
+: show changes made to tracked files
 
 `git pull`
-: Merges upstream changes into your local repository 
+: download upstream changes and merge them into your local repository
 
 `git remote add origin`
-: add a repository where changes will be stored -
+: add a remote repository named 'origin', to upload changes to or download changes from
 
 ## Useful library GitHub repositories
 
