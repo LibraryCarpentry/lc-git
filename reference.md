@@ -49,8 +49,8 @@ root: .
 
 Git cheat sheet handouts:
 
-* [GitHub](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
-* [Tower git client](https://www.git-tower.com/blog/git-cheat-sheet/)
+* [GitHub git cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)
+* [Tower client git cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet/)
 
 `git init`
 : create a new local git repository
