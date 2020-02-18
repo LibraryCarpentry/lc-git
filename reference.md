@@ -45,6 +45,9 @@ root: .
 `rm`
 : remove a file or files. NB: *USE WITH CAUTION!!!*
 
+`rm -i`
+: remove a file or files (Delete must also be confirmed. Less dangerous!!!)
+
 ### Basic Git commands
 
 Git cheat sheet handouts:
