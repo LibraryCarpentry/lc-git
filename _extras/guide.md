@@ -61,7 +61,7 @@ working in teams or not, because it is
     during Git configuration) will be viewable to the public by default.
     However, there are many reasons why a learner may not want their personal
     information viewable, and GitHub has [resources for keeping an email address
-    private](https://help.github.com/en/articles/about-commit-email-addresses).
+    private](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address).
 
 *   If some learners are using Windows, there will inevitably be issues
     merging files with different line endings.  (Even if everyone's on
