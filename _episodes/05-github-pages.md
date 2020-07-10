@@ -101,7 +101,7 @@ Usually it's available instantly, but it can take a few seconds and in the worst
 
 > ## Challenge: Contributing to a page owned by someone else (slightly easier way)
 >
-> To practise using Git, GitHub pages and Markdown we can contribute to a GitHub pages site.
+> To practice using Git, GitHub pages and Markdown we can contribute to a GitHub pages site.
 > Pair up in groups of two (or more if needed) and do the exercises below together.
 > 
 > 1. Go to https://github.com/some-librarian/hello-world, where "some-librarian" is the username of your exercise partner.
@@ -115,11 +115,12 @@ Usually it's available instantly, but it can take a few seconds and in the worst
 >    You can preview how it will look before you commit changes.
 > 5. Once you are ready to commit, enter a short commit message,
 >    select "Create a new branch for this commit and start a pull request"
->    and press "Propose file change".
+>    and press "Propose file change" to avoid commiting directly to the master branch.
 > 
 >    ![Commit and create pull request](../fig/github-commit-pr.png)
 > 
-> 8. You will now get the option to review the changes and add an additional
+> 8. You can now go to the repository on your account and click "New Pull Request" button, 
+>    where you can select base branches repositories, review the changes and add an additional
 >    explanation before sending the pull request (this is especially useful
 >    if you make a single pull request for multiple commits).
 > 9. Your partner should now see a pull request under the "Pull requests" tab
