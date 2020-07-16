@@ -10,10 +10,10 @@ root: .
 
 * If you spot someone in the class who is struggling with something and you think you know how to help, please give them a hand. Try not to do the task for them: instead explain the steps they need to take and *what* these steps will achieve.
 
-#### Be Patient With Me and Yourself
+#### Be Patient With The Instructor and Yourself
 
 * This is a big group, with different levels of knowledge, different computer systems.
-* This isn't my full-time job (though if someone wants to pay me to play with computers all day I'd probably accept). I'll do my best to make this session useful.
+* This isn't your instructor's full-time job (though if someone wants to pay them to play with computers all day they'd probably accept). They will do their best to make this session useful.
 * This is your session. If you feel we are going too fast, then please put up a pink sticky. We can decide as a group what to cover.
 
 > ## Prerequisites
