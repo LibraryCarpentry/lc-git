@@ -79,9 +79,25 @@ nothing to commit (create/copy files and use "git add" to track)
 ~~~
 {: .output}
 
-The output tells us that we are on the master branch (more on this later) and that we have nothing to commit (no 
-unsaved changes).
+The output tells us that we are on the master branch and that we have nothing to commit (no 
+unsaved changes, more on this later).
 
+### Changing the branch name
+
+The current default branch in git is master, however this [convention is changing](https://www.bbc.com/news/technology-53050955) to stop using this racist naming convention as the default in data science and software development. 
+
+To change the name of the branch, we can use `checkout` to create a new branch with the `-b` flag and provide it with our new branch name of `main`.
+
+~~~
+$ git checkout -b main
+~~~
+{: .bash}
+~~~
+On branch main
+No commits yet
+nothing to commit (create/copy files and use "git add" to track)
+~~~
+{: .output}
 
 ### Adding and committing
 
@@ -105,7 +121,7 @@ $ git status
 ~~~
 {: .bash}
 ~~~
-On branch master
+On branch main
 No commits yet
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -132,7 +148,7 @@ $ git status
 ~~~
 {: .bash}
 ~~~
-On branch master
+On branch main
 
 No commits yet
 
@@ -155,7 +171,7 @@ $ git status
 ~~~
 {: .bash}
 ~~~
-On branch master
+On branch main
 
 No commits yet
 
@@ -191,7 +207,7 @@ $ git commit -m 'Add index.md'
 ~~~
 {: .bash}
 ~~~
-[master (root-commit) e9e8fd3] Add index.md
+[main (root-commit) e9e8fd3] Add index.md
  1 file changed, 1 insertion(+)
  create mode 100644 index.md
 ~~~
