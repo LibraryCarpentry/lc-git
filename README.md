@@ -3,17 +3,18 @@
 # Maintainers for Library Carpentry: Introduction to Git
 
 - [Silvia di Giorgio](https://twitter.com/digiorgiosilvia )
-- [Thea Atwood](https://github.com/tpatwood)
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Drew Heles](https://github.com/dheles)
-- [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
+- [Chuck McAndrew](https://github.com/dcmcand)
 
 Past Maintainers: 
 
-- [Chris Erdmann](https://github.com/libcce)
+- [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
+- [Thea Atwood](https://github.com/tpatwood)
 - [Katrin Leinweber](https://github.com/katrinleinweber)
 - [Belinda Weaver](https://github.com/weaverbel)
 - [Jez Cope](https://github.com/jezcope)
+- [Chris Erdmann](https://github.com/libcce)
 
 Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-git-maintainers).
 
