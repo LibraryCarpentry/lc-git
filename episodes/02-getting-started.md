@@ -59,7 +59,7 @@ The `hello-world` directory is now a git repository.
 If we run the `ls` command now (`ls` lists the content of the `hello-world` 
 directory), the repository might seem empty; however, adding the `-a` flag 
 for all files via `ls -a` will show all hidden files, which in this case 
-includes the new hidden directory `.git`.
+includes the new hidden directory `.git`. Flags can simply be thought of as command line options that can be added to shell commands.
 
 Note that whenever we use git via the command line, we need to preface each command (or verb) with `git`, so that the computer knows 
 we are trying to get git to do something, rather than some other program.
