@@ -50,8 +50,8 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change this lesson,
-    please work in <https://github.com/librarycarpentry/lc-data-intro>,
-    which can be viewed at <https://librarycarpentry.github.io/lc-data-intro>.
+    please work in <https://github.com/librarycarpentry/lc-git>,
+    which can be viewed at <https://librarycarpentry.github.io/lc-git>.
 
 2.  If you wish to change the example lesson,
     please work in <https://github.com/swcarpentry/lesson-example>,
