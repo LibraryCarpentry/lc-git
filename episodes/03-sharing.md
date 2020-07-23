@@ -118,13 +118,17 @@ Branch master set up to track remote branch master from origin.
 
 The nickname of our remote repository is "origin" and the default local branch name is "master".
 The `-u` flag tells git to remember the parameters, so that next time we can simply run `git push`
-and Git will know what to do.
+and Git will know what to do. 
+
+Pushing our local changes to the Github repository is sometimes referred to as "pushing changes `upstream` to Github". 
+The word `upstream` here comes from the git flag we used earlier in the command `git push -u origin master`. 
+The flag `-u` refers to `-set-upstream`, so when we say pushing changes upstream, it refers to the remote repository. 
 
 You may be prompted to enter your GitHub username and password to complete the command.
 
 When we do a `git push`, we will see Git 'pushing' changes upstream to GitHub. Because our file is very small, this 
 won't take long but if we had made a lot of changes or were adding a very large repository, we might have to wait a 
-little longer. We can check where we're at with `git status`.
+little longer. We can check where we're at with `git status`. 
 
 ~~~
 $ git status
