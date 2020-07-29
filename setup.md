@@ -28,3 +28,10 @@ For example:
 $ git config --global core.editor "notepad"
 ~~~
 {: .bash}
+You will NOT get an immediate error message if you specify an incorrect or non-existent text editor command here. Therefore, you may first wish to test that the text editor you specify can be invoked, with (for the above example of `"notepad"` on Windows):
+
+~~~
+$ touch deleteme.txt
+$ notepad deleteme.txt 
+~~~
+{: .bash}
