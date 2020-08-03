@@ -13,25 +13,25 @@ If you haven't done so already, to follow this lesson you will need to:
 $ git config --global user.name "Your Name"
 $ git config --global user.email "your@email"
 ~~~
-{: .bash}
+{: .language-bash }
 
-This user name and email will be recorded with each commit in the history of your repositories. 
+This user name and email will be recorded with each commit in the history of your repositories.
 The email address should be the same one you used when setting up your GitHub account.
 
 By default, Git will open the Vi / Vim text editor to request commit messages (for example when merging conflicts).
-To avoid confusion, most people will want to change the default editor to something more familiar using the `core.editor` config. 
-Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)). 
-However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux. 
+To avoid confusion, most people will want to change the default editor to something more familiar using the `core.editor` config.
+Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
+However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux.
 For example:
 
 ~~~
 $ git config --global core.editor "notepad"
 ~~~
-{: .bash}
+{: .language-bash }
 You will NOT get an immediate error message if you specify an incorrect or non-existent text editor command here. Therefore, you may first wish to test that the text editor you specify can be invoked, with (for the above example of `"notepad"` on Windows):
 
 ~~~
 $ touch deleteme.txt
-$ notepad deleteme.txt 
+$ notepad deleteme.txt
 ~~~
-{: .bash}
+{: .language-bash }
