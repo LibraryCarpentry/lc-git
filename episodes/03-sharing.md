@@ -73,7 +73,7 @@ to the GitHub repository:
 ~~~
 $ git remote add origin https://github.com/some-librarian/hello-world.git
 ~~~
-{: .bash}
+{: .language-bash }
 
 where `some-librarian` should be replaced with your own username.
 
@@ -88,7 +88,7 @@ We can check that it is set up correctly with the command:
 ~~~
 $ git remote -v
 ~~~
-{: .bash}
+{: .language-bash }
 ~~~
 origin  https://github.com/<your_github_username>/hello-world (fetch)
 origin  https://github.com/<your_github_username>/hello-world (push)
@@ -105,7 +105,7 @@ will have to "push" our local changes to the GitHub repository. We do this using
 ~~~
 $ git push -u origin master
 ~~~
-{: .bash}
+{: .language-bash }
 ~~~
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 226 bytes | 0 bytes/s, done.
@@ -118,22 +118,22 @@ Branch master set up to track remote branch master from origin.
 
 The nickname of our remote repository is "origin" and the default local branch name is "master".
 The `-u` flag tells git to remember the parameters, so that next time we can simply run `git push`
-and Git will know what to do. 
+and Git will know what to do.
 
-Pushing our local changes to the Github repository is sometimes referred to as "pushing changes `upstream` to Github". 
-The word `upstream` here comes from the git flag we used earlier in the command `git push -u origin master`. 
-The flag `-u` refers to `-set-upstream`, so when we say pushing changes upstream, it refers to the remote repository. 
+Pushing our local changes to the Github repository is sometimes referred to as "pushing changes `upstream` to Github".
+The word `upstream` here comes from the git flag we used earlier in the command `git push -u origin master`.
+The flag `-u` refers to `-set-upstream`, so when we say pushing changes upstream, it refers to the remote repository.
 
 You may be prompted to enter your GitHub username and password to complete the command.
 
-When we do a `git push`, we will see Git 'pushing' changes upstream to GitHub. Because our file is very small, this 
-won't take long but if we had made a lot of changes or were adding a very large repository, we might have to wait a 
-little longer. We can check where we're at with `git status`. 
+When we do a `git push`, we will see Git 'pushing' changes upstream to GitHub. Because our file is very small, this
+won't take long but if we had made a lot of changes or were adding a very large repository, we might have to wait a
+little longer. We can check where we're at with `git status`.
 
 ~~~
 $ git status
 ~~~
-{: .bash}
+{: .language-bash }
 ~~~
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -141,17 +141,17 @@ nothing to commit, working tree clean
 ~~~
 {: .output}
 
-This output lets us know where we are working (the master branch). We can also see that we have no changes to commit 
+This output lets us know where we are working (the master branch). We can also see that we have no changes to commit
 and everything is in order.
 
-We can use the `git diff` command to see changes we have made before making a commit. Open index.md with any text 
+We can use the `git diff` command to see changes we have made before making a commit. Open index.md with any text
 editor and enter some text on a new line, for instance "A new line" or something else.
 We will then use `git diff` to see the changes we made:
 
 ~~~
 $ git diff
 ~~~
-{: .bash}
+{: .language-bash }
 ~~~
 diff --git a/index.md b/index.md
 index aed0629..989787e 100644
@@ -168,12 +168,12 @@ index aed0629..989787e 100644
 The command produces lots of information and it can be a bit overwhelming at first,
 but let's go through some key information here:
 
-1. The first line tells us that Git is producing output similar to the Unix `diff` command, comparing the old and new 
+1. The first line tells us that Git is producing output similar to the Unix `diff` command, comparing the old and new
 versions of the file.
-2. The second line tells exactly which versions of the file Git is comparing; `aed0629` and `989787e` are unique 
+2. The second line tells exactly which versions of the file Git is comparing; `aed0629` and `989787e` are unique
 computer-generated identifiers for those versions.
 3. The third and fourth lines once again show the name of the file being changed.
-4. The remaining lines are the most interesting; they show us the actual differences and the lines on which they occur. 
+4. The remaining lines are the most interesting; they show us the actual differences and the lines on which they occur.
 In particular, the + markers in the first column show where we have added lines.
 
 We can now commit these changes:
@@ -182,16 +182,16 @@ We can now commit these changes:
 $ git add index.md
 $ git commit -m 'Add another line'
 ~~~
-{: .bash}
+{: .language-bash }
 
-If we are very forgetful and have already forgotten what we changes we have made, `git log` allows us to look at what 
+If we are very forgetful and have already forgotten what we changes we have made, `git log` allows us to look at what
 we have been doing with our git repository (in reverse chronological order, with the very latest changes first).
 
 
 ~~~
 $ git log
 ~~~
-{: .bash}
+{: .language-bash }
 ~~~
 commit 8e2eb9920eaa0bf18a4adfa12474ad58b765fd06
 Author: Your Name <your_email>
@@ -207,9 +207,9 @@ Date:   Fri Jun 2 18:15:43 2017 +0100
 ~~~
 {: .output}
 
-This shows us the two commits we have made and shows the messages we wrote. It is important to try to use meaningful 
-commit messages when we make changes. This is especially important when we are working with other people who might not 
-be able to guess as easily what our short cryptic messages might mean. Note that it is best practice to always write 
+This shows us the two commits we have made and shows the messages we wrote. It is important to try to use meaningful
+commit messages when we make changes. This is especially important when we are working with other people who might not
+be able to guess as easily what our short cryptic messages might mean. Note that it is best practice to always write
 commit messages in the imperative (e.g. 'Add index.md', rather than 'Adding index.md').
 
 ## Pushing changes (again)
@@ -224,8 +224,8 @@ And if you click on `index.md` you will see that it contains the "Hello, world!"
 but not the new line we just added.
 
 This is because we haven't yet pushed our local changes to the remote repository.
-This might seem like a mistake in design but it is 
-often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't 
+This might seem like a mistake in design but it is
+often useful to make a lot of commits for small changes so you are able to make careful revisions later and you don't
 necessarily want to push all these changes one by one.
 
 Another benefit of this design is that you can make commits without being connected to internet.
@@ -235,7 +235,7 @@ But let's push our changes now, using the `git push` command:
 ~~~
 $ git push
 ~~~
-{: .bash}
+{: .language-bash }
 ~~~
 Counting objects: 3, done.
 Writing objects: 100% (3/3), 272 bytes | 0 bytes/s, done.
@@ -250,16 +250,16 @@ And let's check on GitHub that we now have 2 commits there.
 ## Pulling changes
 
 When working with others, or when we're making our own changes from different machines, we need a way of pulling those
-remote changes back into our local copy. For now, we can see how this works by making a change on the GitHub website and 
+remote changes back into our local copy. For now, we can see how this works by making a change on the GitHub website and
 then 'pulling' that change back to our computer.
 
-Let's go to our repository in GitHub and make a change. Underneath where our index.md file is listed you will see a 
-button to 'Add a README'. Do this now, entering whatever you like, scrolling to the bottom and clicking 'Commit new 
+Let's go to our repository in GitHub and make a change. Underneath where our index.md file is listed you will see a
+button to 'Add a README'. Do this now, entering whatever you like, scrolling to the bottom and clicking 'Commit new
 file' (The default commit message will be 'Create README.md', which is fine for our purposes).
 
 > ## The README file
-> It is good practice to add a README file to each project to give a brief overview of what the project is about. If you 
-> put your README file in your repository's root directory, GitHub will recognize and automatically surface your README 
+> It is good practice to add a README file to each project to give a brief overview of what the project is about. If you
+> put your README file in your repository's root directory, GitHub will recognize and automatically surface your README
 > to repository visitors
 {: .callout}
 
@@ -269,7 +269,7 @@ our local repository using the `git pull` command.
 ~~~
 $ git pull
 ~~~
-{: .bash}
+{: .language-bash }
 ~~~
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (2/2), done.
@@ -288,6 +288,6 @@ Fast-forward
 The above output shows that we have fast-forwarded our local repository to include the file README.md. We could confirm
 this by entering the `ls` command.
 
-When we begin collaborating on more complex projects, we may have to consider more aspects of git functionality, but 
+When we begin collaborating on more complex projects, we may have to consider more aspects of git functionality, but
 this should be a good start. In the next section, we can look more closely at collaborating and using GitHub pages to
 create a website for our project.
