@@ -82,7 +82,7 @@ Git cheat sheet handouts:
 ## Useful library GitHub repositories
 
 * [DavidChouinard/mrc_to_csv](https://github.com/DavidChouinard/mrc_to_csv): 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
-* [Process MARC records from Python](https://github.com/edsu/pymarc)
+* [Process MARC records from Python](https://gitlab.com/pymarc/pymarcc)
   * https://pypi.org/project/pymarc/
 * [umd-mith/git-intro](https://umd-mith.github.io/git-intro/): high level intro to git 
 * [edsu/mirador](https://github.com/edsu/mirador)
