@@ -35,3 +35,7 @@ $ touch deleteme.txt
 $ notepad deleteme.txt
 ~~~
 {: .language-bash }
+Finally, to check that your configuration changes have been made, use:
+~~~~
+$ git config --list
+~~~
