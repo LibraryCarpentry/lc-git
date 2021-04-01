@@ -46,7 +46,7 @@ There are various options for setting up a GitHub Pages site. Let's run through 
 
 GitHub Pages uses a special branch in your GitHub repository to look for website content,
 and by default this is the branch with the name 'gh-pages'.
-You can actually change this, under repository settings, to use for instance the master branch instead,
+You can actually change this, under repository settings, to use for instance the main branch instead,
 but let's stick with the default for now.
 
 It's possible to create a new branch directly on GitHub, but we will use the command line now.
@@ -86,8 +86,8 @@ Branch gh-pages set up to track remote branch gh-pages from origin.
 ~~~
 {: .output}
 
-You might remember from earlier that we did `git push -u origin master` to
-set up the master branch. The `-u` is a shorthand for `--set-upstream`, so
+You might remember from earlier that we did `git push -u origin main` to
+set up the main branch. The `-u` is a shorthand for `--set-upstream`, so
 above you could also have typed `git push -u origin gh-pages`.
 
 And remember, we only have to do this the first time we push to a new branch.
@@ -115,7 +115,7 @@ Usually it's available instantly, but it can take a few seconds and in the worst
 >    You can preview how it will look before you commit changes.
 > 5. Once you are ready to commit, enter a short commit message,
 >    select "Create a new branch for this commit and start a pull request"
->    and press "Propose file change" to avoid commiting directly to the master branch.
+>    and press "Propose file change" to avoid commiting directly to the main branch.
 >
 >    ![Commit and create pull request](../fig/github-commit-pr.png)
 >
