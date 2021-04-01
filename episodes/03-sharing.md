@@ -103,7 +103,7 @@ will have to "push" our local changes to the GitHub repository. We do this using
 `git push` command:
 
 ~~~
-$ git push -u origin master
+$ git push -u origin main
 ~~~
 {: .language-bash }
 ~~~
@@ -111,17 +111,17 @@ Counting objects: 3, done.
 Writing objects: 100% (3/3), 226 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/<your_github_username/hello-world
- * [new branch]      master -> master
-Branch master set up to track remote branch master from origin.
+ * [new branch]      main -> main
+Branch main set up to track remote branch main from origin.
 ~~~
 {: .output}
 
-The nickname of our remote repository is "origin" and the default local branch name is "master".
+The nickname of our remote repository is "origin" and the default local branch name is "main".
 The `-u` flag tells git to remember the parameters, so that next time we can simply run `git push`
 and Git will know what to do.
 
 Pushing our local changes to the Github repository is sometimes referred to as "pushing changes `upstream` to Github".
-The word `upstream` here comes from the git flag we used earlier in the command `git push -u origin master`.
+The word `upstream` here comes from the git flag we used earlier in the command `git push -u origin main`.
 The flag `-u` refers to `-set-upstream`, so when we say pushing changes upstream, it refers to the remote repository.
 
 You may be prompted to enter your GitHub username and password to complete the command.
@@ -135,13 +135,13 @@ $ git status
 ~~~
 {: .language-bash }
 ~~~
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 nothing to commit, working tree clean
 ~~~
 {: .output}
 
-This output lets us know where we are working (the master branch). We can also see that we have no changes to commit
+This output lets us know where we are working (the main branch). We can also see that we have no changes to commit
 and everything is in order.
 
 We can use the `git diff` command to see changes we have made before making a commit. Open index.md with any text
@@ -241,7 +241,7 @@ Counting objects: 3, done.
 Writing objects: 100% (3/3), 272 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/<your_github_username>/hello-world
-   e9e8fd3..8e2eb99  master -> master
+   e9e8fd3..8e2eb99  main -> main
 ~~~
 {: .output}
 
@@ -276,7 +276,7 @@ remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 From https://github.com/<your_github_username>/hello-world
-   8e2eb99..0f5a7b0  master     -> origin/master
+   8e2eb99..0f5a7b0  main     -> origin/main
 Updating 8e2eb99..0f5a7b0
 Fast-forward
  README.md | 1 +

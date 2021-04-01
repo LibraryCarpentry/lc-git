@@ -73,13 +73,13 @@ $ git status
 ~~~
 {: .language-bash }
 ~~~
-On branch master
+On branch main
 No commits yet
 nothing to commit (create/copy files and use "git add" to track)
 ~~~
 {: .output}
 
-The output tells us that we are on the master branch (more on this later) and that we have nothing to commit (no
+The output tells us that we are on the main branch (more on this later) and that we have nothing to commit (no
 unsaved changes).
 
 
@@ -105,7 +105,7 @@ $ git status
 ~~~
 {: .language-bash }
 ~~~
-On branch master
+On branch main
 No commits yet
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -132,7 +132,7 @@ $ git status
 ~~~
 {: .language-bash }
 ~~~
-On branch master
+On branch main
 
 No commits yet
 
@@ -155,7 +155,7 @@ $ git status
 ~~~
 {: .language-bash }
 ~~~
-On branch master
+On branch main
 
 No commits yet
 
@@ -191,7 +191,7 @@ $ git commit -m 'Add index.md'
 ~~~
 {: .language-bash }
 ~~~
-[master (root-commit) e9e8fd3] Add index.md
+[main (root-commit) e9e8fd3] Add index.md
  1 file changed, 1 insertion(+)
  create mode 100644 index.md
 ~~~
