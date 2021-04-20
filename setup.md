@@ -12,11 +12,14 @@ If you haven't done so already, to follow this lesson you will need to:
 ~~~
 $ git config --global user.name "Your Name"
 $ git config --global user.email "your@email"
+$ git config --global init.defaultBranch main
 ~~~
 {: .language-bash }
 
 This user name and email will be recorded with each commit in the history of your repositories.
 The email address should be the same one you used when setting up your GitHub account.
+
+The `init.defaultBranch` value configures git to set the default branch to `main` instead of `master`.
 
 By default, Git will open the Vi / Vim text editor to request commit messages (for example when merging conflicts).
 To avoid confusion, most people will want to change the default editor to something more familiar using the `core.editor` config.
