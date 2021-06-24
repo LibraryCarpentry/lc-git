@@ -11,9 +11,9 @@ objectives:
 - "track changes to files using the git repository"
 - "query the current status of the git repository"
 keypoints:
-- "Git repositories contain metadata about files under version control"
-- "This metadata enables us to track changes to files over time"
-- "Git uses a two-stage commit process. Changes to files must first be added to the staging area, then committed to the repository"
+- "When you initialize a Git repository in a directory, Git starts tracking the changes you make inside that directory."
+- "This tracking creates a history of the way the files have changed over time."
+- "Git uses a two-step process to record changes to your files. Changes to files must first be added to the staging area, then committed to the Git repository."
 ---
 
 ### Using Git
@@ -83,9 +83,9 @@ The output tells us that we are on the main branch (more on this later) and that
 unsaved changes).
 
 
-### Adding and committing
+### Two steps: Adding and committing
 
-We will now create and save our first project file. This is a two-stage process. First, we **add** any files for which
+We will now create and save our first project file. This is a two-step process. First, we **add** any files for which
 we want to save the changes to a staging area, then we **commit** those changes to the repository. This two-stage
 process gives us fine-grained control over what should and should not be included in a particular commit.
 
@@ -205,7 +205,7 @@ If we just run `git commit` without the `-m` option, Git will launch nano (or wh
 so that we can write a longer message.
 
 Having made a commit, we now have a permanent record of what was changed,
-along with metadata about who made the commit and at what time.
+and git has also recorded some additional metadata: who made the commit (you!) and when the commit was made (timestamp). You are building a mini-history of your process of working with the files in this directory. 
 
 > ## More on the Staging Area
 >
