@@ -5,10 +5,10 @@
 - [Silvia di Giorgio](https://twitter.com/digiorgiosilvia )
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Drew Heles](https://github.com/dheles)
-- [Chuck McAndrew](https://github.com/dcmcand)
 
 Past Maintainers: 
 
+- [Chuck McAndrew](https://github.com/dcmcand)
 - [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
 - [Thea Atwood](https://github.com/tpatwood)
 - [Katrin Leinweber](https://github.com/katrinleinweber)
