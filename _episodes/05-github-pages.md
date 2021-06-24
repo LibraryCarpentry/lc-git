@@ -34,64 +34,33 @@ communicate endlessly back and forwards about what changes need to be made, or h
 'issues' (things that need discussing or fixing), list things to do in the future, and allow other people visiting your
 website to quickly suggest, and help implement changes through pull requests.
 
-### Setting up a site
+### Enable GitHub Pages
 
-Now we're all persuaded of how awesome GitHub Pages is (or you've identified some fatal flaws in my reasoning), it
-would be useful to try playing around with some things we can do with it. This will help us cement what we
-have learned in the previous hour and may help spark discussion for the last section of this session.
+GitHub Pages is turned off by default for all new repositories, and can be turned on in the settings menu for any repository.
 
-There are various options for setting up a GitHub Pages site. Let's run through a few of them now.
+Let's set up a new site by enabling GitHub Pages for our project.
 
-### The gh-pages branch
+Go to the Pages section of your repository's Settings:
 
-GitHub Pages uses a special branch in your GitHub repository to look for website content,
-and by default this is the branch with the name 'gh-pages'.
-You can actually change this, under repository settings, to use for instance the main branch instead,
-but let's stick with the default for now.
+![GitHub repository's Pages settings](../fig/github-repo-settings-pages.png)
 
-It's possible to create a new branch directly on GitHub, but we will use the command line now.
-So we will move back to the command line and type
+#### Source branch (required)
 
-~~~
-$ git checkout -b gh-pages
-$ git push
-~~~
-{: .language-bash }
-~~~
-fatal: The current branch gh-pages has no upstream branch.
-To push the current branch and set the remote as upstream, use
+Pages needs to know the branch in your repository from which you want to serve your site. This can be any branch, including `main`.
 
-    git push --set-upstream origin gh-pages
-~~~
-{: .output}
+Select then save the source branch:
 
-Ouch, that didn't go as we wanted, we got a fatal error!
-Let's see what Git tells us.
-It says that it doesn't know where it should push the changes.
-But it's also friendly enough to tell us what we most likely want to do,
-which is to push to the `gh-pages` branch at "origin"
-(remember that "origin" in our case is just a nickname for our GitHub repository).
+![GitHub Pages source branch menu](../fig/github-repo-settings-pages-branch.png)
 
-So let's do that:
+![GitHub Pages source branch save](../fig/github-repo-settings-pages-save.png)
 
-~~~
-$ git push --set-upstream origin gh-pages
-~~~
-{: .language-bash }
-~~~
-Total 0 (delta 0), reused 0 (delta 0)
-To https://github.com/danmichaelo/hello-world.git
- * [new branch]      gh-pages -> gh-pages
-Branch gh-pages set up to track remote branch gh-pages from origin.
-~~~
-{: .output}
+#### Theme (optional)
 
-You might remember from earlier that we did `git push -u origin main` to
-set up the main branch. The `-u` is a shorthand for `--set-upstream`, so
-above you could also have typed `git push -u origin gh-pages`.
+GitHub Pages provides different themes to visually style and organize your site's content. Choosing a theme is optional, and themes can be interchanged quickly.
 
-And remember, we only have to do this the first time we push to a new branch.
-The next time we can just do `git push`.
+![GitHub Pages choose theme](../fig/github-repo-settings-pages-theme.png)
+
+See the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser) for further information on using themes.
 
 ### View your site
 
