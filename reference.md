@@ -5,7 +5,7 @@ root: .
 
 ## Quick reference
 
-### Basics - navigating the shell
+### Navigating the shell
 
 `pwd`
 : print working directory
@@ -19,7 +19,7 @@ root: .
 `cd`
 : change directory
 
-### Basics - interacting with files
+### Interacting with files in the shell
 
 `mkdir`
 : make directory
@@ -45,7 +45,7 @@ root: .
 `rm`
 : remove a file or files. NB: *USE WITH CAUTION!!!*
 
-### Basic Git commands
+### Git commands
 
 Git cheat sheet handouts:
 
