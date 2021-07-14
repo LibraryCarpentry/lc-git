@@ -4,6 +4,7 @@
 
 - [Silvia di Giorgio](https://twitter.com/digiorgiosilvia )
 - [Eric Lopatin](https://github.com/elopatin-uc3)
+- [Elizabeth McAulay](https://github.com/emcaulay)
 - [Drew Heles](https://github.com/dheles)
 
 Past Maintainers: 
