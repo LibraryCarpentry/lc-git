@@ -37,20 +37,25 @@ of configurations we will set as we get started with Git:
 On a command line interface, Git commands are written as `git verb options`,
 where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So let's get started with our setup.
 
-First, we will tell Git your user name and email. It is important to pick a user name and email address that you want associated with your work because the user name and email address you use locally on your computer will be the same one that you use for your Git hosting websites. For this lesson we ill be using GitHub as a hosting service.
+First, we will tell Git your user name and email. It is important to pick a user name and email address that you want associated with your work because the user name and email address you use locally on your computer will be the same one that you use for your Git hosting websites. For this lesson we will be using GitHub as a hosting service.
 
+If you think you might already have this set up on your computer, you can check first. 
 
-[BitBucket](https://bitbucket.org/),
-[GitLab](https://gitlab.com/) or
-another Git host server
-after this lesson will include this information.
+Open you shell terminal window and type:
+
 ~~~
-$ git config --global user.name "Vlad Dracula"
-$ git config --global user.email "vlad@tran.sylvan.ia"
+$ git config --list
+~~~
+
+
+
+~~~
+$ git config --global user.name "Savvy Librarian"
+$ git config --global user.email "savvy@library.la"
 ~~~
 {: .language-bash}
 
-Please use your own name and email address instead of Dracula's. This user name and email will be associated with your subsequent Git activity,
+Please use your own name and email address.uent Git activity,
 which means that any changes pushed to
 [GitHub](https://github.com/),
 [BitBucket](https://bitbucket.org/),
