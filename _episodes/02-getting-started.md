@@ -18,7 +18,7 @@ keypoints:
 
 ### Using Git
 
-One of the main barriers to getting started with Git is the language. Although some of the language used in git is
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is
 fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a
 number of verbs such as `add`, `commit` and `push` (preceded by the word 'git') - is by using it, which is what we will be doing during this
 lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing
@@ -27,19 +27,15 @@ our own website.
 ### Setting up Git
 
 When we use Git on a new computer for the first time,
-we need to configure a few things. Below are a few examples
-of configurations we will set as we get started with Git:
+we need to configure a few things. The basic elements of a configuration for Git are:
 
 *   our name and email address,
 *   what our preferred text editor is,
 *   and that we want to use these settings globally (i.e. for every project).
 
-On a command line interface, Git commands are written as `git verb options`,
-where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So let's get started with our setup.
+First, we will tell Git our user name and email. For this lesson, we will be interacting with [GitHub](https://github.com/) and so we want to use the same email address we used when we set up our GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy].
 
-First, we will tell Git your user name and email. It is important to pick a user name and email address that you want associated with your work because the user name and email address you use locally on your computer will be the same one that you use for your Git hosting websites. For this lesson we will be using GitHub as a hosting service.
-
-If you think you might already have this set up on your computer, you can check first. 
+It is possible you may have already set up Git on your computer in the past, so let's start by checking if there are any existing configurations.   
 
 Open you shell terminal window and type:
 
@@ -55,13 +51,6 @@ $ git config --global user.email "savvy@library.la"
 ~~~
 {: .language-bash}
 
-Please use your own name and email address.uent Git activity,
-which means that any changes pushed to
-[GitHub](https://github.com/),
-[BitBucket](https://bitbucket.org/),
-[GitLab](https://gitlab.com/) or
-another Git host server
-after this lesson will include this information.
 
 For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy]. 
 
@@ -80,6 +69,9 @@ $ mkdir hello-world
 $ cd hello-world
 ~~~
 {: .language-bash }
+
+On a command line interface, Git commands are written as `git verb options`,
+where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So let's get started with our setup.
 
 We will now create an empty git repository to track changes to our project. To do this we will use the git **init** command,
 which is simply short for *initialise*.
