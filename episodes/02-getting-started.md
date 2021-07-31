@@ -16,34 +16,57 @@ keypoints:
 - "Git uses a two-step process to record changes to your files. Changes to files must first be added to the staging area, then committed to the Git repository."
 ---
 
-### Using Git
-
-One of the main barriers to getting started with Git is the language. Although some of the language used in Git is
-fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a
-number of verbs such as `add`, `commit` and `push` (preceded by the word 'git') - is by using it, which is what we will be doing during this
-lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing
-our own website.
-
 ### Setting up Git
 
 When we use Git on a new computer for the first time,
 we need to configure a few things. The basic elements of a configuration for Git are:
 
-*   our name and email address,
-*   what our preferred text editor is,
-*   and that we want to use these settings globally (i.e. for every project).
+*   your name and email address,
+*   what your preferred text editor is,
+*   and that you want to use these settings globally (i.e. for every project).
 
 First, we will tell Git our user name and email. For this lesson, we will be interacting with [GitHub](https://github.com/) and so we want to use the same email address we used when we set up our GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy].
 
 It is possible you may have already set up Git on your computer in the past, so let's start by checking if there are any existing configurations.   
 
-Open you shell terminal window and type:
+Open your shell terminal window and type:
 
 ~~~
 $ git config --list
 ~~~
+{: .language-bash}
 
+On MacOS, without any configuration your output might look like this:
 
+~~~
+credential.helper=osxkeychain
+~~~
+{: .output}
+
+On Windows, without any configuration your output might look like this:
+~~~
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+~~~
+{: .output}
+
+Let's go ahead and add our information to our configuration now. 
+
+Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy].
+
+Type these two commands into your shell:
 
 ~~~
 $ git config --global user.name "Savvy Librarian"
@@ -51,8 +74,19 @@ $ git config --global user.email "savvy@library.la"
 ~~~
 {: .language-bash}
 
+If you enter the commands correctly, the shell will merely return a command prompt and no messages. To check your work, ask Git what your configuration is using the same command as above:
 
-For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy]. 
+~~~
+git config --list
+~~~
+{: .language-bash}
+
+~~~
+user.name=Savvy Librarian
+user.email=savvy@librarian.la
+~~~
+{: .output}
+
 
 ### Creating a repository
 
@@ -69,6 +103,14 @@ $ mkdir hello-world
 $ cd hello-world
 ~~~
 {: .language-bash }
+
+### Using Git
+
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is
+fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a
+number of verbs such as `add`, `commit` and `push` (preceded by the word 'git') - is by using it, which is what we will be doing during this
+lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing
+our own website.
 
 On a command line interface, Git commands are written as `git verb options`,
 where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So let's get started with our setup.
