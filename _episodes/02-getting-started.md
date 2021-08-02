@@ -66,7 +66,7 @@ Let's go ahead and add our information to our configuration now.
 
 Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy].
 
-Type these two commands into your shell:
+Type these two commands into your shell, replacing `Savvy Librarian` and the email address with your own:
 
 ~~~
 $ git config --global user.name "Savvy Librarian"
@@ -86,6 +86,13 @@ user.name=Savvy Librarian
 user.email=savvy@librarian.la
 ~~~
 {: .output}
+
+Let's also set our default text editor. A text editor is necessary with some of your git work and the default from Git is vim, which is a great tool, but not useful if you're not familiar with it. For our workshop, we recommend using the text editor nano. Let's configure Git to use that:
+
+~~~
+$ git config --global core.editor "nano -w"
+~~~
+{: .language-bash}
 
 
 ### Creating a repository
