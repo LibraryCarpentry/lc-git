@@ -19,10 +19,16 @@ keypoints:
 - "`diff` is a Git verb for viewing the difference between an edited file and the file's most recent commit"
 ---
 
+## The power of sharing
+
+The real power of Git lies in being able to share your work with others and in being able to work collaboratively. The best way to do this is to use a remote hosting platform. For this lesson, we are using GitHub. Let's log in there now. 
+
 ## Create a repository on GitHub
 
 When we have logged in to GitHub, we can create a new repository by clicking the **+** icon in the upper-right corner of
 any page then selecting **New repository**. Let's do this now.
+
+![The GitHub website top navigation with the 'add new ...' button. ](../fig/github-repo-new.png)
 
 * Create a new repository
 * Give it the name `hello-world`
