@@ -30,10 +30,15 @@ any page then selecting **New repository**. Let's do this now.
 
 ![The GitHub website top navigation with the 'add new ...' button. ](../fig/github-repo-new.png)
 
-* Create a new repository
-* Give it the name `hello-world`
+* Click "New Repository"
 
-GitHub will ask if you want to add a README.md, license or a `.gitignore` file. Do not do any of that for now.
+Clicking `New Repository` will take you to a creation page with different options. For this workshop, we are not using any of the options available. 
+
+* Name your repository "hello-world."
+
+![The 'create a new repository' form on GitHub](../fig/github-repo-new-setup.png) 
+
+This form on GitHub asks about several options. Do not do any of that for now.
 
 > ## Choosing a license
 > Choosing a license is an important part of openly sharing your creative work online. For help in wading through the
