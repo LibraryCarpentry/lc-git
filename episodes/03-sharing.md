@@ -25,7 +25,7 @@ The real power of Git lies in being able to share your work with others and in b
 
 ## Create a repository on GitHub
 
-When we have logged in to GitHub, we can create a new repository by clicking the **+** icon in the upper-right corner of
+Once we have logged in to GitHub, we can create a new repository by clicking the **+** icon in the upper-right corner of
 any page then selecting **New repository**. Let's do this now.
 
 ![The GitHub website top navigation with the 'add new ...' button. ](../fig/github-repo-new.png)
@@ -38,59 +38,50 @@ Clicking `New Repository` will take you to a creation page with different option
 
 ![The 'create a new repository' form on GitHub](../fig/github-repo-new-setup.png) 
 
-This form on GitHub asks about several options. Do not do any of that for now.
+* Click `Create Repository` button.
 
 > ## Choosing a license
-> Choosing a license is an important part of openly sharing your creative work online. For help in wading through the
+> When you are ready to use GitHub to host your own work, you should review the different license options. Choosing a license is an important part of openly sharing your creative and research  work online. For help in wading through the
 > many types of open source licenses, please visit <https://choosealicense.com/>.
 {: .callout}
 
 ## Connecting your local repository to the GitHub repository
 
+The next page that GitHub displays is some helper information to allow you to connect your repository on GitHub with your local repository. We want to make GitHub the `remote` repository for our local repository. In order to do that we need the information that GitHub displays in the "Quick setup" box on this page. 
+
+We will use the SSH protocol for this lesson, so please make sure that button shows that it is selected (gray highlight) and that the address in the text box starts with git@github. It will look something like this:
+
+![The repository set up page in GitHub showing the SSH address to use.](../fig/github-repo-connect.png)
+
+> ## HTTPS vs. SSH
+>
+> We use SSH here because, while it requires some additional configuration, it is a
+> security protocol widely used by many applications.  The steps below describe SSH at a
+> minimum level for GitHub. 
+{: .callout}
+<!--- A supplemental episode to this lesson discusses advanced setup, concepts of SSH and key pairs, and other material supplemental to git related SSH.--->
 In the previous episode we created a local repository on our own computer.
 Now we have also created a remote repository on GitHub.
 But at this point, the two are completely isolated from each other.
 We want to link them together to synchronize them and share our project with the world.
 
-To do this, we need the GitHub repository URL, which should look something like this
-(with "some-librarian" replaced with your username):
-
-![The repository URL on GitHub](../fig/repository-url.png)
-
-If the URL starts with `git@` rather than `https://`, please click the "HTTPS" button to change it.
-
-> ## HTTPS vs. SSH
->
-> We use HTTPS here because it does not require additional configuration, which vary
-> from operating system to operating system. If you start using Git regularly, you would
-> like to set up SSH access, which is a bit more secure and convenient, by
-> following one of the great tutorials from
-> [GitHub](https://help.github.com/articles/generating-ssh-keys),
-> [Atlassian/BitBucket](https://confluence.atlassian.com/bitbucket/set-up-an-ssh-key-728138079.html)
-> and [GitLab](https://about.gitlab.com/2014/03/04/add-ssh-key-screencast/)
-> (this one has a screencast).
-{: .callout}
-
-Notice that GitHub is actually helpful enough to provide instructions for us
-so we don't have to remember these commands:
+To connect the repository on our own computer (local) to the repository we just created on GitHub, we will use the commands provided by GitHub in the box with the heading "...or push an existing repository from the command line."
 
 ![GitHub instructions](../fig/github-instructions.png)
 
-You can therefore choose to copy these and paste them on the command line.
-Or you can choose to type them out to get them into your fingers.
-I will do that. So we start with the command to link our local repository
+Let's use these instructions now. Move back to your shell application and enter the first command, which links our local repository
 to the GitHub repository:
 
 ~~~
-$ git remote add origin https://github.com/some-librarian/hello-world.git
+$ git remote add origin git@github.com:savvy-librarian/hello-world.git 
 ~~~
 {: .language-bash }
 
-where `some-librarian` should be replaced with your own username.
+where `savvy-librarian` should be replaced with your own username.
 
 > ## Why `origin`?
-> `origin` in the `git remote add` line is just a short name or alias we're giving to that big long repository URL.
-> It could be almost any string we want, but by convention in git, it is usually called `origin`, representing where
+> `origin` in the `git remote add` line is just a nickname or alias we're giving to that big long repository URL.
+> It could be almost any string we want, but by convention in Git, it is usually called `origin`, representing where
 > the repo originated.
 {: .callout}
 
