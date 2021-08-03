@@ -23,6 +23,7 @@ we need to configure a few things. The basic elements of a configuration for Git
 
 *   your name and email address,
 *   what your preferred text editor is,
+*   set the name of your default branch (branches are an important component of Git that we will cover later)
 *   and that you want to use these settings globally (i.e. for every project).
 
 First, we will tell Git our user name and email. For this lesson, we will be interacting with [GitHub](https://github.com/) and so we want to use the same email address we used when we set up our GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy].
@@ -62,7 +63,7 @@ init.defaultbranch=main
 ~~~
 {: .output}
 
-Let's go ahead and add our information to our configuration now. 
+Assuming you have not set up Git on your computer before, let's go ahead and add our information to our configuration now. 
 
 Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy].
 
@@ -87,13 +88,30 @@ user.email=savvy@librarian.la
 ~~~
 {: .output}
 
-Let's also set our default text editor. A text editor is necessary with some of your git work and the default from Git is vim, which is a great tool, but not useful if you're not familiar with it. For our workshop, we recommend using the text editor nano. Let's configure Git to use that:
+Let's also set our default text editor. A text editor is necessary with some of your git work and the default from Git is vim, which is a great tool, but not useful if you're not familiar with it. 
+Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
+However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux.
+
+For example:
+
+~~~
+$ git config --global core.editor "notepad"
+~~~
+{: .language-bash }
 
 ~~~
 $ git config --global core.editor "nano -w"
 ~~~
 {: .language-bash}
 
+Lastly, we need to set the name of our default branch to `main.`
+
+~~~
+$ git config --global init.defaultBranch main
+~~~
+{: .language-bash }
+
+The `init.defaultBranch` value configures git to set the default branch to `main` instead of `master`.
 
 ### Creating a repository
 
