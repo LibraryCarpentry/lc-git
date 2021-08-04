@@ -2,27 +2,27 @@
 
 # Maintainers for Library Carpentry: Introduction to Git
 
+- [Christopher Felker](https://github.com/doingarchives)
+- [Drew Heles](https://github.com/dheles)
 - [Silvia di Giorgio](https://twitter.com/digiorgiosilvia)
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Elizabeth McAulay](https://github.com/emcaulay)
-- [Drew Heles](https://github.com/dheles)
-- [Christopher Felker](https://github.com/doingarchives)
 
 Past Maintainers:
 
-- [Chuck McAndrew](https://github.com/dcmcand)
-- [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
 - [Thea Atwood](https://github.com/tpatwood)
-- [Katrin Leinweber](https://github.com/katrinleinweber)
-- [Belinda Weaver](https://github.com/weaverbel)
 - [Jez Cope](https://github.com/jezcope)
 - [Chris Erdmann](https://github.com/libcce)
+- [Katrin Leinweber](https://github.com/katrinleinweber)
+- [Chuck McAndrew](https://github.com/dcmcand)
+- [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
+- [Belinda Weaver](https://github.com/weaverbel)
 
 Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-git-maintainers).
 
 ## Library Carpentry
 
-[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
+[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library and information related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
 
 ## License
 
