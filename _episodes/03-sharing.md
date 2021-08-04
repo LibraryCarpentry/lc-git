@@ -72,12 +72,12 @@ To connect the repository on our own computer (local) to the repository we just 
 Let's use these instructions now. Move back to your shell application and enter the first command:
 
 ~~~
-$ git remote add origin git@github.com:savvy-librarian/hello-world.git 
+$ git remote add origin git@github.com:yourname/hello-world.git 
 ~~~
 {: .language-bash }
 
-Make sure to use the URL for your repository rather than Savvy's: the only
-difference should be your username instead of `savvy-librarian`.
+Make sure to use the URL for your actual repository user name rather than `yourname`: the only
+difference should be your username instead of `yourname`.
 
 Let's breakdown the elements of the command. All commands related to Git in the shell start by invoking the Git language by typing `git` at the start. 
 `remote add` is the command in the Git language we use to configure a remote repository, e.g., another Git repository that contains the same content as our local repository, but that is not on our computer. 
@@ -133,7 +133,7 @@ Your output is going to look a little different depending on whether or not SSH 
 If you have not set up SSH, your output might look like this:
 
 ~~~
-ls: cannot access '/c/Users/Savvy/.ssh': No such file or directory
+ls: cannot access '/c/Users/YourName/.ssh': No such file or directory
 ~~~
 {: .output}
 
@@ -142,20 +142,20 @@ If SSH has been set up on the computer you're using, the public and private key 
 If you do not have SSH set up, let's set it up now. Use this command to create key pairs:
 
 ~~~
-$ ssh-keygen -t ed25519 -C "savvy@library.la"
+$ ssh-keygen -t ed25519 -C "yourname@library.la"
 ~~~
 {: .language-bash}
 
 ~~~
 Generating public/private ed25519 key pair.
-Enter file in which to save the key (/c/Users/Vlad Dracula/.ssh/id_ed25519):
+Enter file in which to save the key (/c/Users/YourName/.ssh/id_ed25519):
 ~~~
 {: .output}
 
 We want to use the default file, so just press <kbd>Enter</kbd>.
 
 ~~~
-Created directory '/c/Users/Savvy/.ssh'.
+Created directory '/c/Users/YourName/.ssh'.
 Enter passphrase (empty for no passphrase):
 ~~~
 {: .output}
@@ -170,10 +170,10 @@ Enter same passphrase again:
 After entering the same passphrase a second time, you will receive the confirmation
 
 ~~~
-Your identification has been saved in /c/Users/Savvy/.ssh/id_ed25519
-Your public key has been saved in /c/Users/Savvy/.ssh/id_ed25519.pub
+Your identification has been saved in /c/Users/YourName/.ssh/id_ed25519
+Your public key has been saved in /c/Users/YourName/.ssh/id_ed25519.pub
 The key fingerprint is:
-SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o savvy@library.la
+SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o yourname@library.la
 The key's randomart image is:
 +--[ED25519 256]--+
 |^B== o.          |
@@ -200,10 +200,10 @@ ls -al ~/.ssh
 {: .language-bash}
 
 ~~~
-drwxr-xr-x 1 Savvy 197121   0 Jul 16 14:48 ./
-drwxr-xr-x 1 Savvy 197121   0 Jul 16 14:48 ../
--rw-r--r-- 1 Savvy 197121 419 Jul 16 14:48 id_ed25519
--rw-r--r-- 1 Savvy 197121 106 Jul 16 14:48 id_ed25519.pub
+drwxr-xr-x 1 YourName 197121   0 Jul 16 14:48 ./
+drwxr-xr-x 1 YourName 197121   0 Jul 16 14:48 ../
+-rw-r--r-- 1 YourName 197121 419 Jul 16 14:48 id_ed25519
+-rw-r--r-- 1 YourName 197121 106 Jul 16 14:48 id_ed25519.pub
 ~~~
 {: .output}
 
@@ -217,7 +217,7 @@ cat ~/.ssh/id_ed25519.pub
 {: .language-bash}
 
 ~~~
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI savvy@library.la
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI yourname@library.la
 ~~~
 {: .output}
 
@@ -225,7 +225,7 @@ Copy that entire line of output, and we will paste the copied text into GitHub i
 
 Now, going to GitHub.com, click on your profile icon in the top right corner to get the drop-down menu.  Click "Settings," then on the
 settings page, click "SSH and GPG keys," on the left side "Account settings" menu.  Click the "New SSH key" button on the right side. Now,
-you can add the title (Savvy might use the title "Savvy's 2021 laptop," just a little description to remind Savvy which computer this public key connect to). 
+you can add the title (A person might use the title "My 2021 work laptop," just a little description to remind themselves which computer this public key connect to). 
 Paste your SSH key into the field, and click the "Add SSH key" to complete the setup.
 
 Now that we’ve set that up, let’s check our authentication from the command line.
@@ -235,7 +235,7 @@ $ ssh -T git@github.com
 {: .language-bash}
 
 ~~~
-Hi Savvy! You've successfully authenticated, but GitHub does not provide shell access.
+Hi YourName! You've successfully authenticated, but GitHub does not provide shell access.
 ~~~
 {: .output}
 
