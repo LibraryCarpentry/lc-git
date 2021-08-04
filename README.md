@@ -2,10 +2,11 @@
 
 # Maintainers for Library Carpentry: Introduction to Git
 
-- [Silvia di Giorgio](https://twitter.com/digiorgiosilvia )
+- [Silvia di Giorgio](https://twitter.com/digiorgiosilvia)
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Elizabeth McAulay](https://github.com/emcaulay)
 - [Drew Heles](https://github.com/dheles)
+- [Christopher Felker] (https://github.com/doingarchives)
 
 Past Maintainers: 
 
@@ -42,7 +43,7 @@ Library Carpentry is authored and maintained through issues, commits, and pull r
 
 ## Citation
 
-Silvia di Giorgio (Ed.), Christopher Erdmann (Ed.), Thea Atwood (Ed.), Eric Lopatin (Ed.), Drew Heles (Ed.), Eva Seidlmayer (Ed.), Katrin Leinweber (Ed.), Belinda Weaver (Ed.), Jez Cope (Ed.), James Baker, Nora McGregor, Dan Michael O. Heggø, … Wolmar Nyberg Åkerström. (2019, July). LibraryCarpentry/lc-git: Library Carpentry: Introduction to Git, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3265772
+Wolmar Nyberg Åkerström, Thea Atwood (Ed.), J James Baker, Jez Cope (Ed.), Christopher Erdmann (Ed.), Christopher Felker (Ed.), Silvia di Giorgio (Ed.), Dan Michael O. Heggø, Drew Heles (Ed.), Katrin Leinweber (Ed.), Eric Lopatin (Ed.), Chuck McAndrew (Ed.), Elizabeth McAulay (Ed.), Nora McGregor, Eva Seidlmayer (Ed.), Belinda Weaver (Ed.). (2021, August). LibraryCarpentry/lc-git: Library Carpentry: Introduction to Git, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3265772
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)
 
