@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)
 
 # Maintainers for Library Carpentry: Introduction to Git
 
@@ -6,9 +6,9 @@
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Elizabeth McAulay](https://github.com/emcaulay)
 - [Drew Heles](https://github.com/dheles)
-- [Christopher Felker] (https://github.com/doingarchives)
+- [Christopher Felker](https://github.com/doingarchives)
 
-Past Maintainers: 
+Past Maintainers:
 
 - [Chuck McAndrew](https://github.com/dcmcand)
 - [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
