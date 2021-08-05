@@ -88,7 +88,7 @@ user.email=yourname@librarian.la
 ~~~
 {: .output}
 
-Let's also set our default text editor. A text editor is necessary with some of your git work and the default from Git is vim, which is a great tool, but not useful if you're not familiar with it. 
+Let's also set our default text editor. A text editor is necessary with some of your Git work and the default from Git is vim, which is a great tool, but not useful if you're not familiar with it. 
 Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
 However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux.
 
