@@ -71,7 +71,7 @@ Type these two commands into your shell, replacing `Your Name` and the email add
 
 ~~~
 $ git config --global user.name "Your Name"
-$ git config --global user.email "yourname@library.la"
+$ git config --global user.email "yourname@domain.name"
 ~~~
 {: .language-bash}
 
