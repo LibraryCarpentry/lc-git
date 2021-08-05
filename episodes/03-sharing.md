@@ -112,7 +112,7 @@ I'm not going to lie, this is a bit tedious and confusing. But you have to do it
 <!-- > A supplemental episode in this lesson discusses SSH and key pairs in more depth and detail.-->
 <!-- {: .callout}-->
 
-The first thing we are going to do is check if this has already been done on the computer you’re on.  Because generally speaking, this setup only needs to happen once and then you can forget about it.
+The first thing we are going to do is check if this has already been done on the computer you’re on.  
 
 > ## Keeping your keys secure
 > You shouldn't really forget about your SSH keys, since they keep your account secure. It’s good
