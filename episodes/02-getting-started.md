@@ -65,7 +65,7 @@ init.defaultbranch=main
 
 Assuming you have not set up Git on your computer before, let's go ahead and add our information to our configuration now. 
 
-Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy].
+Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
 
 Type these two commands into your shell, replacing `Your Name` and the email address with your own:
 
