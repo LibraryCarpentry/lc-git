@@ -49,7 +49,7 @@ Clicking `New Repository` will take you to a creation page with different option
 
 The next page that GitHub displays contains some information to help you connect your repository on GitHub with your local repository (on your own computer). To make this connection, we want to tell our local repository that GitHub is the `remote` repository. In order to do that we need the information that GitHub displays in the "Quick setup" box on this page. 
 
-We will use the SSH protocol for this lesson, so please make sure that button shows that it is selected (gray highlight) and that the address in the text box starts with git@github. It will look something like this:
+We will use the Secure Shell (SSH) protocol for this lesson, so please make sure that button shows that it is selected (gray highlight) and that the address in the text box starts with git@github. It will look something like this:
 
 ![The repository set up page in GitHub showing the SSH address to use.](../fig/github-repo-connect.png)
 
