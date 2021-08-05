@@ -142,7 +142,7 @@ If SSH has been set up on the computer you're using, the public and private key 
 If you do not have SSH set up, let's set it up now. Use this command to create key pairs:
 
 ~~~
-$ ssh-keygen -t ed25519 -C "yourname@library.la"
+$ ssh-keygen -t ed25519 -C "yourname@domain.name"
 ~~~
 {: .language-bash}
 
@@ -173,7 +173,7 @@ After entering the same passphrase a second time, you will receive the confirmat
 Your identification has been saved in /c/Users/YourName/.ssh/id_ed25519
 Your public key has been saved in /c/Users/YourName/.ssh/id_ed25519.pub
 The key fingerprint is:
-SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o yourname@library.la
+SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o yourname@domain.name
 The key's randomart image is:
 +--[ED25519 256]--+
 |^B== o.          |
@@ -217,7 +217,7 @@ cat ~/.ssh/id_ed25519.pub
 {: .language-bash}
 
 ~~~
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI yourname@library.la
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDmRA3d51X0uu9wXek559gfn6UFNF69yZjChyBIU2qKI yourname@domain.name
 ~~~
 {: .output}
 
