@@ -38,6 +38,8 @@ Clicking `New Repository` will take you to a creation page with different option
 
 ![The 'create a new repository' form on GitHub](../fig/github-repo-new-setup.png) 
 
+GitHub will ask if you want to add a README.md, license or a `.gitignore` file. Do not do any of that for now -- We want you to start with a completely empty repository on GitHub. 
+
 * Click `Create Repository` button.
 
 > ## Choosing a license
