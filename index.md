@@ -4,7 +4,7 @@ root: .
 ---
 #### What We Will Try to Do
 
-**Begin** to understand and use Git/GitHub. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, as with any skill, using Git takes practice. We will be using what we learned in The Unix Shell to use Git on the command line for this lesson.
+**Begin** to understand and use Git/GitHub. You will not be an expert by the end of the class. You will probably not even feel very comfortable using Git. This is okay. We want to make a start but, as with any skill, using Git takes practice. In this lesson we use Git from the Unix Shell. Some previous experience with the shell is expected, but is not mandatory.
 
 #### Be Excellent to Each Other
 
