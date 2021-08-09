@@ -101,7 +101,7 @@ origin  https://github.com/<your_github_username>/hello-world (push)
 We still need to do a little more setup before we can actually connect to this remote repository.
 We need to set up a way for our local computer to authenticate with GitHub so that GitHub recognizes our computer as belonging to the same person who owns the GitHub repository. 
 
-We will use SSH as our authentication method. SSH stands for Secure Shell Protocol.  SSH is a cryptographic network protocol that allows secure communication between computers using an otherwise insecure network.
+We will use SSH as our authentication method. SSH stands for Secure SHell protocol.  SSH is a cryptographic network protocol that allows secure communication between computers using an otherwise insecure network.
 
 SSH uses what is called a key pair -- two keys that work together to validate access. One key is used publicly (the public key) and the other key is kept private (the private key).
 
