@@ -1,27 +1,28 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)
 
 # Maintainers for Library Carpentry: Introduction to Git
 
-- [Silvia di Giorgio](https://twitter.com/digiorgiosilvia )
+- [Christopher Felker](https://github.com/doingarchives)
+- [Drew Heles](https://github.com/dheles)
+- [Silvia di Giorgio](https://twitter.com/digiorgiosilvia)
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Elizabeth McAulay](https://github.com/emcaulay)
-- [Drew Heles](https://github.com/dheles)
 
-Past Maintainers: 
+Past Maintainers:
 
-- [Chuck McAndrew](https://github.com/dcmcand)
-- [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
 - [Thea Atwood](https://github.com/tpatwood)
-- [Katrin Leinweber](https://github.com/katrinleinweber)
-- [Belinda Weaver](https://github.com/weaverbel)
 - [Jez Cope](https://github.com/jezcope)
 - [Chris Erdmann](https://github.com/libcce)
+- [Katrin Leinweber](https://github.com/katrinleinweber)
+- [Chuck McAndrew](https://github.com/dcmcand)
+- [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
+- [Belinda Weaver](https://github.com/weaverbel)
 
 Lesson Maintainers communication is via the [team site](https://github.com/orgs/LibraryCarpentry/teams/lc-git-maintainers).
 
 ## Library Carpentry
 
-[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library- and information-related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
+[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library and information related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
 
 ## License
 
@@ -42,7 +43,7 @@ Library Carpentry is authored and maintained through issues, commits, and pull r
 
 ## Citation
 
-Silvia di Giorgio (Ed.), Christopher Erdmann (Ed.), Thea Atwood (Ed.), Eric Lopatin (Ed.), Drew Heles (Ed.), Eva Seidlmayer (Ed.), Katrin Leinweber (Ed.), Belinda Weaver (Ed.), Jez Cope (Ed.), James Baker, Nora McGregor, Dan Michael O. Heggø, … Wolmar Nyberg Åkerström. (2019, July). LibraryCarpentry/lc-git: Library Carpentry: Introduction to Git, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3265772
+Wolmar Nyberg Åkerström, Thea Atwood (Ed.), J James Baker, Jez Cope (Ed.), Christopher Erdmann (Ed.), Christopher Felker (Ed.), Silvia di Giorgio (Ed.), Dan Michael O. Heggø, Drew Heles (Ed.), Katrin Leinweber (Ed.), Eric Lopatin (Ed.), Chuck McAndrew (Ed.), Elizabeth McAulay (Ed.), Nora McGregor, Eva Seidlmayer (Ed.), Belinda Weaver (Ed.). (2021, August). LibraryCarpentry/lc-git: Library Carpentry: Introduction to Git, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3265772
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)
 
