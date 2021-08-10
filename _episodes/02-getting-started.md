@@ -16,49 +16,102 @@ keypoints:
 - "Git uses a two-step process to record changes to your files. Changes to files must first be added to the staging area, then committed to the Git repository."
 ---
 
-### Using Git
-
-One of the main barriers to getting started with Git is the language. Although some of the language used in git is
-fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a
-number of verbs such as `add`, `commit` and `push` (preceded by the word 'git') - is by using it, which is what we will be doing during this
-lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing
-our own website.
-
 ### Setting up Git
 
 When we use Git on a new computer for the first time,
-we need to configure a few things. Below are a few examples
-of configurations we will set as we get started with Git:
+we need to configure a few things. The basic elements of a configuration for Git are:
 
-*   our name and email address,
-*   what our preferred text editor is,
-*   and that we want to use these settings globally (i.e. for every project).
+*   your name and email address,
+*   what your preferred text editor is,
+*   set the name of your default branch (branches are an important component of Git that we will cover later)
+*   and that you want to use these settings globally (i.e. for every project).
 
-On a command line interface, Git commands are written as `git verb options`,
-where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So let's get started with our setup.
+First, we will tell Git our user name and email. For this lesson, we will be interacting with [GitHub](https://github.com/) and so we want to use the same email address we used when we set up our GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
 
-First, we will tell Git your user name and email. It is important to pick a user name and email address that you want associated with your work because the user name and email address you use locally on your computer will be the same one that you use for your Git hosting websites. For this lesson we ill be using GitHub as a hosting service.
+It is possible you may have already set up Git on your computer in the past, so let's start by checking if there are any existing configurations.   
 
+Open your shell terminal window and type:
 
-[BitBucket](https://bitbucket.org/),
-[GitLab](https://gitlab.com/) or
-another Git host server
-after this lesson will include this information.
 ~~~
-$ git config --global user.name "Vlad Dracula"
-$ git config --global user.email "vlad@tran.sylvan.ia"
+$ git config --list
 ~~~
 {: .language-bash}
 
-Please use your own name and email address instead of Dracula's. This user name and email will be associated with your subsequent Git activity,
-which means that any changes pushed to
-[GitHub](https://github.com/),
-[BitBucket](https://bitbucket.org/),
-[GitLab](https://gitlab.com/) or
-another Git host server
-after this lesson will include this information.
+On MacOS, without any configuration your output might look like this:
 
-For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub's instructions for keeping your email address private][git-privacy]. 
+~~~
+credential.helper=osxkeychain
+~~~
+{: .output}
+
+On Windows, without any configuration your output might look like this:
+~~~
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager-core
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=main
+~~~
+{: .output}
+
+Assuming you have not set up Git on your computer before, let's go ahead and add our information to our configuration now. 
+
+Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
+
+Type these two commands into your shell, replacing `Your Name` and the email address with your own:
+
+~~~
+$ git config --global user.name "Your Name"
+$ git config --global user.email "yourname@domain.name"
+~~~
+{: .language-bash}
+
+If you enter the commands correctly, the shell will merely return a command prompt and no messages. To check your work, ask Git what your configuration is using the same command as above:
+
+~~~
+git config --list
+~~~
+{: .language-bash}
+
+~~~
+user.name=Your Name
+user.email=yourname@librarian.la
+~~~
+{: .output}
+
+Let's also set our default text editor. A text editor is necessary with some of your Git work and the default from Git is vim, which is a great tool, but not useful if you're not familiar with it. 
+Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
+However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux.
+
+For example:
+
+~~~
+$ git config --global core.editor "notepad"
+~~~
+{: .language-bash }
+
+~~~
+$ git config --global core.editor "nano -w"
+~~~
+{: .language-bash}
+
+Lastly, we need to set the name of our default branch to `main.`
+
+~~~
+$ git config --global init.defaultBranch main
+~~~
+{: .language-bash }
+
+The `init.defaultBranch` value configures git to set the default branch to `main` instead of `master`.
 
 ### Creating a repository
 
@@ -75,6 +128,17 @@ $ mkdir hello-world
 $ cd hello-world
 ~~~
 {: .language-bash }
+
+### Using Git
+
+One of the main barriers to getting started with Git is the language. Although some of the language used in Git is
+fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a
+number of verbs such as `add`, `commit` and `push` (preceded by the word 'git') - is by using it, which is what we will be doing during this
+lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing
+our own website.
+
+On a command line interface, Git commands are written as `git verb options`,
+where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So let's get started with our setup.
 
 We will now create an empty git repository to track changes to our project. To do this we will use the git **init** command,
 which is simply short for *initialise*.
