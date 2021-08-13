@@ -131,11 +131,7 @@ $ cd hello-world
 
 ### Using Git
 
-One of the main barriers to getting started with Git is the language. Although some of the language used in Git is
-fairly self-explanatory, other terms are not so clear. The best way to get to learn the language - which consists of a
-number of verbs such as `add`, `commit` and `push` (preceded by the word 'git') - is by using it, which is what we will be doing during this
-lesson. These commands will be explained as we proceed from setting up a new version-controlled project to publishing
-our own website.
+One of the main barriers to getting started with Git is understanding the terminology necessary to executing commands. Although some of the language used in Git aligns with common-use words in English, other terms are not so clear. The best way to learn Git terminology - which consists of a number of verbs such as add, commit and push (preceded by the word 'git') - is to use it, which is what we will be doing during this lesson. We will explain these commands as we proceed from setting up a new version-controlled project to publishing our own website.
 
 On a command line interface, Git commands are written as `git verb options`,
 where `verb` is what we actually want to do and `options` is additional optional information which may be needed for the `verb`. So let's get started with our setup.
