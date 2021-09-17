@@ -6,6 +6,10 @@ title: "Instructors' Guide"
 ____
 # Tips and Tricks
 
+Known problems that learners encounter:
+
+*Windows*: When using an outdated version of Windows OpenSSH, learners cannot set up the SSH connection to GitHub. SOLUTION: Update OpenSSH version. 
+
 ____
 ## Making a handout
 
