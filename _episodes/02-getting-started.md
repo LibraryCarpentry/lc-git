@@ -120,8 +120,7 @@ stored within the same directory as these project files, in a hidden directory c
 repository either by using [GitHub's web interface](https://github.com/new), or via the command line. Let's use the command line to create a git
 repository for the experiments that we're going to do today.
 
-First, we will create a new directory for our project and enter that directory.
-<!explain commands as we go along>
+First, we will create a new directory for our project and enter that directory. We will explain commands as we go along.
 
 ~~~
 $ mkdir hello-world
