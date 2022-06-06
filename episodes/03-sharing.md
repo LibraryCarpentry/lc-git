@@ -92,8 +92,8 @@ $ git remote -v
 ~~~
 {: .language-bash }
 ~~~
-origin  https://github.com/<your_github_username>/hello-world (fetch)
-origin  https://github.com/<your_github_username>/hello-world (push)
+origin  git@github.com:<your_github_username>/hello-world.git (fetch)
+origin  git@github.com:<your_github_username>/hello-world.git (push)
 ~~~
 {: .output}
 
