@@ -330,7 +330,7 @@ $ git commit -m 'Add another line'
 ~~~
 {: .language-bash }
 
-If we are very forgetful and have already forgotten what we changes we have made, `git log` allows us to look at what
+If we are very forgetful and have already forgotten the changes we have made, `git log` allows us to look at what
 we have been doing with our git repository (in reverse chronological order, with the very latest changes first).
 
 
