@@ -120,12 +120,12 @@ Usually it's available instantly, but it can take a few seconds and in the worst
 >
 > Try following the steps in [GitHub's quickstart guide for contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 >
-> (If you followed step 1 and 2 in the previous challenge, you already have a fork and you can
-> skip the creation of a new fork, starting instead at the section titled "Cloning a fork", if you like. 
+> (If you followed step 1 and 2 in the previous challenge,
+> you already have a fork and you can skip the creation of a new fork. 
+> Start instead at the section titled "Cloning a fork." 
 > You can submit multiple pull requests using the same fork.)
 >
 {: .challenge}
-
 
 > ## Optional challenge: Adding an HTML page
 >
