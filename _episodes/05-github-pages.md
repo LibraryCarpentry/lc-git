@@ -118,7 +118,7 @@ Usually it's available instantly, but it can take a few seconds and in the worst
 > Instead of making edits on the GitHub website you can 'clone' the fork to your local machine
 > and work there.
 >
-> Try following the rest of the steps in this guide:
+> Try following the steps in this guide:
 > <https://docs.github.com/en/get-started/quickstart/contributing-to-projects>
 >
 > (If you followed step 1 and 2 in the previous challenge, you already have a fork and you can
