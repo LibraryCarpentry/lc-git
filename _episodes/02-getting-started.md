@@ -27,8 +27,6 @@ we need to configure a few things. The basic elements of a configuration for Git
 
 First, we will tell Git our user name and email. For this lesson, we will be interacting with [GitHub](https://github.com/), and therefore we want to use the same email address we used when we set up our GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
 
-It is possible you may have already set up Git on your computer in the past, so let's start by checking if there are any existing configurations.   
-
 Open your shell terminal window and type:
 
 ~~~
@@ -62,7 +60,7 @@ init.defaultbranch=main
 ~~~
 {: .output}
 
-Assuming you have not set up Git on your computer before, let's go ahead and add our information to our configuration now. 
+Assuming you have not set up Git on your computer before, let's go ahead and add our information to our configuration now. First, we will tell Git our user name and email.
 
 Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
 
