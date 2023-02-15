@@ -118,7 +118,8 @@ Usually it's available instantly, but it can take a few seconds and in the worst
 > Instead of making edits on the GitHub website you can 'clone' the fork to your local machine
 > and work there.
 >
-> Try following the steps in [GitHub's quickstart guide for contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
+
+> Try following the rest of the steps in this guide under ["Time to Submit Your First PR"](https://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message#Time-to-Submit-Your-First-PR).
 >
 > (If you followed step 1 and 2 in the previous challenge,
 > you already have a fork and you can skip the creation of a new fork. 
