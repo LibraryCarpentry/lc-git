@@ -85,7 +85,7 @@ user.email=yourname@domain.name
 ~~~
 {: .output}
 
-Let's also set our default text editor. A text editor is necessary with some of your Git work, and the default from Git is vim, which is a text editor that is hard to learn at first. Therefore, we recommend setting a simpler text editor in your Git configuration for this lesson.
+Let's also set our default text editor. A text editor is necessary with some of your Git work, and the default from Git is Vim, which is a text editor that is hard to learn at first. Therefore, we recommend setting a simpler text editor in your Git configuration for this lesson.
 
 > ## Text editors
 >
