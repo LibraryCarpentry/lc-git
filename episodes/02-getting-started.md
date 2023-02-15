@@ -23,12 +23,9 @@ we need to configure a few things. The basic elements of a configuration for Git
 
 *   your name and email address,
 *   what your preferred text editor is,
-*   set the name of your default branch (branches are an important component of Git that we will cover later)
-*   and that you want to use these settings globally (i.e. for every project).
+*   the name of your default branch (branches are an important component of Git that we will cover later).
 
-First, we will tell Git our user name and email. For this lesson, we will be interacting with [GitHub](https://github.com/) and so we want to use the same email address we used when we set up our GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
-
-It is possible you may have already set up Git on your computer in the past, so let's start by checking if there are any existing configurations.   
+First, we will tell Git our user name and email. For this lesson, we will be interacting with [GitHub](https://github.com/), and therefore we want to use the same email address we used when we set up our GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
 
 Open your shell terminal window and type:
 
@@ -63,7 +60,7 @@ init.defaultbranch=main
 ~~~
 {: .output}
 
-Assuming you have not set up Git on your computer before, let's go ahead and add our information to our configuration now. 
+Assuming you have not set up Git on your computer before, let's go ahead and add our information to our configuration now. First, we will tell Git our user name and email.
 
 Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
 
@@ -84,11 +81,20 @@ git config --list
 
 ~~~
 user.name=Your Name
-user.email=yourname@librarian.la
+user.email=yourname@domain.name
 ~~~
 {: .output}
 
-Let's also set our default text editor. A text editor is necessary with some of your Git work and the default from Git is vim, which is a great tool, but not useful if you're not familiar with it. 
+Let's also set our default text editor. A text editor is necessary with some of your Git work, and the default from Git is Vim, which is a text editor that is hard to learn at first. Therefore, we recommend setting a simpler text editor in your Git configuration for this lesson.
+
+> ## Text editors
+>
+> There are a lot of text editors to choose from, and a lot of people are enthusiastic about their preferences. 
+> Vi and Vim are popular editors for users of the BASH shell. If you will be using Git or the Shell with a group of people for a project or for work, asking for recommendations or preferences can help you pick an editor to get started with. If you already have your favorite, then you can set it as your default editor with Git. 
+>
+> {: .source}
+{: .callout} 
+
 Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
 However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux.
 
@@ -120,8 +126,7 @@ stored within the same directory as these project files, in a hidden directory c
 repository either by using [GitHub's web interface](https://github.com/new), or via the command line. Let's use the command line to create a git
 repository for the experiments that we're going to do today.
 
-First, we will create a new directory for our project and enter that directory.
-<!explain commands as we go along>
+First, we will create a new directory for our project and enter that directory. We will explain commands as we go along.
 
 ~~~
 $ mkdir hello-world
