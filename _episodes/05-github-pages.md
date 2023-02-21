@@ -62,6 +62,8 @@ GitHub Pages provides different themes to visually style and organize your site'
 
 See the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser) for further information on using themes.
 
+[create a github pages contact form](https://fabform.io/a/create-a-static-website-with-contact-form-on-github-pages)
+
 ### View your site
 
 If we now visit `https://some-librarian.github.io/hello-world/`,
