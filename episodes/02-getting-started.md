@@ -25,7 +25,7 @@ we need to configure a few things. The basic elements of a configuration for Git
 *   what your preferred text editor is,
 *   the name of your default branch (branches are an important component of Git that we will cover later).
 
-First, we will check in on our current Git configuration. Open your shell terminal window and type:
+To start we will check in on our current Git configuration. Open your shell terminal window and type:
 
 ~~~
 $ git config --list
@@ -61,7 +61,7 @@ init.defaultbranch=main
 If you have different output, then you may have your Git configured already. If you have not configured Git, we will do that together now. 
 First, we will tell Git our user name and email.
 
-Please note: For this lesson, we will be interacting with [GitHub](https://github.com/) and so the email address used should be the same as the one used when setting up your GitHub account. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
+Please note: You need to use the same email address in your Git configuration in the shell as you entered into GitHub when you created your GitHub account. Later in the lesson we will be using GitHub and the email addresses need to match. If you are concerned about privacy, please review [GitHub’s instructions for keeping your email address private](https://help.github.com/articles/keeping-your-email-address-private/).
 
 Type these two commands into your shell, replacing `Your Name` and the email address with your own:
 
