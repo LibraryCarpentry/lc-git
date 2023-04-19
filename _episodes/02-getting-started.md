@@ -92,7 +92,6 @@ Let's also set our default text editor. A text editor is necessary with some of 
 > There are a lot of text editors to choose from, and a lot of people are enthusiastic about their preferences. 
 > Vi and Vim are popular editors for users of the BASH shell. If you will be using Git or the Shell with a group of people for a project or for work, asking for recommendations or preferences can help you pick an editor to get started with. If you already have your favorite, then you can set it as your default editor with Git. 
 >
-> {: .source}
 {: .callout} 
 
 Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
