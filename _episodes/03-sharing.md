@@ -1,6 +1,6 @@
 ---
 title: "Sharing your work"
-teaching: 30
+teaching: 75 
 exercises: 0
 questions:
 - "How can I use Git and GitHub to share my work?"
