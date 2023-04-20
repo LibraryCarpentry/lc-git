@@ -2,11 +2,8 @@
   "contributors": [
     {
       "type": "Editor",
-      "name": "Drew Heles"
-    },
-    {
-      "type": "Editor",
-      "name": "Chuck McAndrew"
+      "name": "Elizabeth McAulay",
+      "orcid": "0000-0002-8679-9727"
     },
     {
       "type": "Editor",
@@ -14,170 +11,69 @@
     },
     {
       "type": "Editor",
-      "name": "Eric Lopatin",
-      "orcid": "0000-0002-5296-1116"
+      "name": "r2c0der"
     }
   ],
   "creators": [
     {
-      "name": "Greg Wilson",
-      "orcid": "0000-0001-8659-8979"
-    },
-    {
-      "name": "Belinda Weaver",
-      "orcid": "0000-0002-6156-7997"
-    },
-    {
-      "name": "James Baker",
-      "orcid": "0000-0002-2682-6922"
-    },
-    {
-      "name": "Christopher Erdmann",
-      "orcid": "0000-0003-2554-180X"
-    },
-    {
-      "name": "Katrin Leinweber",
-      "orcid": "0000-0001-5135-5758"
-    },
-    {
-      "name": "Daniel van Strien"
-    },
-    {
-      "name": "Jez Cope",
-      "orcid": "0000-0003-3629-1383"
-    },
-    {
-      "name": "Francois Michonneau",
-      "orcid": "0000-0002-9092-966X"
+      "name": "Elizabeth McAulay",
+      "orcid": "0000-0002-8679-9727"
     },
     {
       "name": "Chuck McAndrew"
     },
     {
-      "name": "Nora McGregor"
+      "name": "bkmgit"
     },
     {
-      "name": "Dan Michael Heggø",
-      "orcid": "0000-0002-6189-5958"
+      "name": "Christopher Felker",
+      "orcid": "0000-0001-5537-0824"
     },
     {
-      "name": "davanstrien"
+      "name": "Kaitlin Newson",
+      "orcid": "0000-0001-8739-5823"
     },
     {
-      "name": "Jonah Duckles",
-      "orcid": "0000-0002-8985-3119"
-    },
-    {
-      "name": "W. Trevor King"
-    },
-    {
-      "name": "Alex Mendes"
+      "name": "Király Péter"
     },
     {
       "name": "Tim Dennis",
       "orcid": "0000-0001-6632-3812"
     },
     {
-      "name": "Jamene Brooks-Kieffer"
+      "name": "Amber Budden"
     },
     {
-      "name": "Mateusz Kuzak",
-      "orcid": "0000-0003-0087-6021"
+      "name": "Andrew Carlos"
     },
     {
-      "name": "Jeffrey Oliver",
-      "orcid": "0000-0003-2160-1086"
+      "name": "Annajiat Alim Rasel",
+      "orcid": "0000-0003-0198-3734"
     },
     {
-      "name": "Naupaka Zimmerman",
-      "orcid": "0000-0003-2168-6390"
+      "name": "Brian Zelip"
     },
     {
-      "name": "Rémi Emonet",
-      "orcid": "0000-0002-1870-1329"
+      "name": "Christian Knüpfer",
+      "orcid": "0000-0002-1323-5445"
     },
     {
-      "name": "Ryan Wick",
-      "orcid": "0000-0003-2143-7407"
+      "name": "David Palmquist"
     },
     {
-      "name": "Katrin Leinweber"
-    },
-    {
-      "name": "Bill McMillin"
-    },
-    {
-      "name": "Cornelia Cronje",
-      "orcid": "0000-0003-2736-6267"
-    },
-    {
-      "name": "DSTraining"
-    },
-    {
-      "name": "Evan Williamson",
-      "orcid": "0000-0002-7990-9924"
-    },
-    {
-      "name": "Thea Atwood"
-    },
-    {
-      "name": "Tracy Teal"
-    },
-    {
-      "name": "222064h"
-    },
-    {
-      "name": "Adrian Pohl"
-    },
-    {
-      "name": "Alexander Mendes"
-    },
-    {
-      "name": "ajtag"
-    },
-    {
-      "name": "Anna Oates"
-    },
-    {
-      "name": "Christina Koch",
-      "orcid": "0000-0001-8600-8158"
-    },
-    {
-      "name": "Daniel Brett"
+      "name": "Doing archives"
     },
     {
       "name": "Eric Lopatin"
     },
     {
-      "name": "Jonah Duckles"
+      "name": "Jennifer Anne Wood Stubbs"
     },
     {
-      "name": "Kunal Marwaha",
-      "orcid": "0000-0001-9084-6971"
+      "name": "Stephen Appel"
     },
     {
-      "name": "Madhulika B"
-    },
-    {
-      "name": "marswrae"
-    },
-    {
-      "name": "mfgaede"
-    },
-    {
-      "name": "Nitesh Turaga"
-    },
-    {
-      "name": "Shari Laster"
-    },
-    {
-      "name": "skramer-Y2K"
-    },
-    {
-      "name": "VictorE87"
-    },
-    {
-      "name": "Yuri"
+      "name": "Trevor Burrows"
     }
   ],
   "license": {
