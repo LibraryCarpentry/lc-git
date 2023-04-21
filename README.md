@@ -22,7 +22,7 @@ Lesson Maintainers communication is via the [team site](https://github.com/orgs/
 
 ## Library Carpentry
 
-[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library and information related roles. It builds on the work of [Software Carpentry](http://software-carpentry.org/) and [Data Carpentry](http://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
+[Library Carpentry](https://librarycarpentry.org) is a software and data skills training programme for people working in library and information related roles. It builds on the work of [Software Carpentry](https://software-carpentry.org/) and [Data Carpentry](https://www.datacarpentry.org/). Library Carpentry is an official Lesson Program of [The Carpentries](https://carpentries.org/).
 
 ## License
 
@@ -43,10 +43,12 @@ Library Carpentry is authored and maintained through issues, commits, and pull r
 
 ## Citation
 
-Wolmar Nyberg Åkerström, Thea Atwood (Ed.), J James Baker, Jez Cope (Ed.), Christopher Erdmann (Ed.), Christopher Felker (Ed.), Silvia di Giorgio (Ed.), Dan Michael O. Heggø, Drew Heles (Ed.), Katrin Leinweber (Ed.), Eric Lopatin (Ed.), Chuck McAndrew (Ed.), Elizabeth McAulay (Ed.), Nora McGregor, Eva Seidlmayer (Ed.), Belinda Weaver (Ed.). (2021, August). LibraryCarpentry/lc-git: Library Carpentry: Introduction to Git, June 2019 (Version v2019.06.1). Zenodo. http://doi.org/10.5281/zenodo.3265772
+Wolmar Nyberg Åkerström, Thea Atwood (Ed.), J James Baker, Jez Cope (Ed.), Christopher Erdmann (Ed.), Christopher Felker (Ed.), Silvia di Giorgio (Ed.), Dan Michael O. Heggø, Drew Heles (Ed.), Katrin Leinweber (Ed.), Eric Lopatin (Ed.), Chuck McAndrew (Ed.), Elizabeth McAulay (Ed.), Nora McGregor, Eva Seidlmayer (Ed.), Belinda Weaver (Ed.). (2021, August). LibraryCarpentry/lc-git: Library Carpentry: Introduction to Git, June 2019 (Version v2019.06.1). Zenodo. [http://doi.org/10.5281/zenodo.3265772](https://doi.org/10.5281/zenodo.3265772)
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3265772.svg)](https://doi.org/10.5281/zenodo.3265772)
 
 ## Checking and Previewing the Lesson
 
-To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](http://carpentries.github.io/lesson-example/07-checking/index.html).
+To check and preview a lesson locally, see [http://carpentries.github.io/lesson-example/07-checking/index.html](https://carpentries.github.io/lesson-example/07-checking/index.html).
+
+
