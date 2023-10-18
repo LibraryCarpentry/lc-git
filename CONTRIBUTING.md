@@ -27,7 +27,7 @@ introduce yourself and to meet some of our community members.
 2. If you have a [GitHub][github] account, or are willing to [create
    one][github-join], but do not know how to use Git, you can report problems
    or suggest improvements by [creating an issue][repo-issues]. This allows us
-   to assign the item to someone and to respond to it in a threaded discussion..
+   to assign the item to someone and to respond to it in a threaded discussion.
 
 3. If you are comfortable with Git, and would like to add or change material,
    you can submit a pull request (PR). Instructions for doing this are
