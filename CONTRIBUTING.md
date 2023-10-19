@@ -103,7 +103,7 @@ media, slack, newsletters, and email lists. You can also [reach us by
 email][contact].
 
 [repo]: https://github.com/LibraryCarpentry/lc-git
-[repo-issues]: https://example.com/FIXME/issues
+[repo-issues]: https://github.com/LibraryCarpentry/lc-git/issues
 [contact]: mailto:team@carpentries.org
 [cp-site]: https://carpentries.org/
 [dc-issues]: https://github.com/issues?q=user%3Adatacarpentry
