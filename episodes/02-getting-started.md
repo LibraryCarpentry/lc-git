@@ -95,13 +95,9 @@ Vi and Vim are popular editors for users of the BASH shell. If you will be using
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
-However, the simplest `core.editor` values are `"notepad"` on Windows,  `"nano -w"` on Mac, and `"nano -w"` on Linux.
+However, the simplest `core.editor` value is  `"nano -w"` on Mac, Windows, and Linux.
 
 For example:
-
-```bash 
-$ git config --global core.editor "notepad"
-```
 
 ```bash
 $ git config --global core.editor "nano -w"
