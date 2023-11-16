@@ -2,18 +2,19 @@
 
 # Maintainers for Library Carpentry: Introduction to Git
 
-- [Drew Heles](https://github.com/dheles)
-- [Silvia di Giorgio](https://twitter.com/digiorgiosilvia)
-- [Eric Lopatin](https://github.com/elopatin-uc3)
+
 - [Elizabeth McAulay](https://github.com/emcaulay)
 
 Past Maintainers:
 
 - [Thea Atwood](https://github.com/tpatwood)
 - [Jez Cope](https://github.com/jezcope)
+- [Silvia di Giorgio](https://twitter.com/digiorgiosilvia)
 - [Chris Erdmann](https://github.com/libcce)
 - [Christopher Felker](https://github.com/doingarchives)
+- [Drew Heles](https://github.com/dheles)
 - [Katrin Leinweber](https://github.com/katrinleinweber)
+- [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Chuck McAndrew](https://github.com/dcmcand)
 - [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
 - [Belinda Weaver](https://github.com/weaverbel)
