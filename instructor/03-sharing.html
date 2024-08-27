@@ -259,10 +259,10 @@
               </div>
             </div>
 
-            <hr class="half-width"><div class="accordion accordion-flush resources" id="accordionFlush12">
+            <hr class="half-width"><div class="accordion accordion-flush lesson-resources" id="accordionFlush12">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingTwelve">
-                  <button class="accordion-button collapsed" id="resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                  <button class="accordion-button collapsed" id="lesson-resources" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
                     RESOURCES
                   </button>
                 </h2>
@@ -282,7 +282,7 @@
                 </div>
               </div>
             </div>
-            <hr class="half-width resources"><a href="../instructor/aio.html">See all in one page</a>
+            <hr class="half-width lesson-resources"><a href="../instructor/aio.html">See all in one page</a>
 
 
             <hr class="d-none d-sm-block d-md-none"><div class="d-grid gap-1">
@@ -359,14 +359,12 @@ recently committed version</li>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="the-power-of-sharing">The power of sharing<a class="anchor" aria-label="anchor" href="#the-power-of-sharing"></a>
-<a class="anchor" aria-label="anchor" href="#the-power-of-sharing"></a></h2>
+<section><h2 class="section-heading" id="the-power-of-sharing">The power of sharing<a class="anchor" aria-label="anchor" href="#the-power-of-sharing"></a></h2>
 <hr class="half-width"><p>The real power of Git lies in being able to share your work with
 others and in being able to work collaboratively. The best way to do
 this is to use a remote hosting platform. For this lesson, we are using
 GitHub. Let’s log in there now.</p>
-</section><section><h2 class="section-heading" id="create-a-repository-on-github">Create a repository on GitHub<a class="anchor" aria-label="anchor" href="#create-a-repository-on-github"></a>
-<a class="anchor" aria-label="anchor" href="#create-a-repository-on-github"></a></h2>
+</section><section><h2 class="section-heading" id="create-a-repository-on-github">Create a repository on GitHub<a class="anchor" aria-label="anchor" href="#create-a-repository-on-github"></a></h2>
 <hr class="half-width"><p>Once we have logged in to GitHub, we can create a new repository by
 clicking the <strong>+</strong> icon in the upper-right corner of any
 page then selecting <strong>New repository</strong>. Let’s do this
@@ -385,8 +383,7 @@ you to start with a completely empty repository on GitHub.</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="choosing-a-license" class="callout-inner">
-<h3 class="callout-title">Choosing a license<a class="anchor" aria-label="anchor" href="#choosing-a-license"></a>
-</h3>
+<h3 class="callout-title">Choosing a license</h3>
 <div class="callout-content">
 <p>When you are ready to use GitHub to host your own work, you should
 review the different license options. Choosing a license is an important
@@ -396,8 +393,7 @@ in wading through the many types of open source licenses, please visit
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="connecting-your-local-repository-to-the-github-repository">Connecting your local repository to the GitHub repository<a class="anchor" aria-label="anchor" href="#connecting-your-local-repository-to-the-github-repository"></a>
-<a class="anchor" aria-label="anchor" href="#connecting-your-local-repository-to-the-github-repository"></a></h2>
+</section><section><h2 class="section-heading" id="connecting-your-local-repository-to-the-github-repository">Connecting your local repository to the GitHub repository<a class="anchor" aria-label="anchor" href="#connecting-your-local-repository-to-the-github-repository"></a></h2>
 <hr class="half-width"><p>The next page that GitHub displays contains some information to help
 you connect your repository on GitHub with your local repository (on
 your own computer). To make this connection, we want to tell our local
@@ -413,8 +409,7 @@ something like this:</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="https-vs.-ssh" class="callout-inner">
-<h3 class="callout-title">HTTPS vs. SSH<a class="anchor" aria-label="anchor" href="#https-vs.-ssh"></a>
-</h3>
+<h3 class="callout-title">HTTPS vs. SSH</h3>
 <div class="callout-content">
 <p>We use SSH here because, while it requires some additional
 configuration, it is a security protocol widely used by many
@@ -464,8 +459,7 @@ refer to this specific repository in GitHub instead of the URL.</p>
 <pre class="output" tabindex="0"><code>origin  git@github.com:&lt;your_github_username&gt;/hello-world.git (fetch)
 origin  git@github.com:&lt;your_github_username&gt;/hello-world.git (push)</code></pre>
 </div>
-</section><section><h2 class="section-heading" id="ssh-background-and-setup">SSH Background and Setup<a class="anchor" aria-label="anchor" href="#ssh-background-and-setup"></a>
-<a class="anchor" aria-label="anchor" href="#ssh-background-and-setup"></a></h2>
+</section><section><h2 class="section-heading" id="ssh-background-and-setup">SSH Background and Setup<a class="anchor" aria-label="anchor" href="#ssh-background-and-setup"></a></h2>
 <hr class="half-width"><p>We still need to do a little more setup before we can actually
 connect to this remote repository. We need to set up a way for our local
 computer to authenticate with GitHub so that GitHub recognizes our
@@ -499,8 +493,7 @@ done on the computer you’re on.</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="keeping-your-keys-secure" class="callout-inner">
-<h3 class="callout-title">Keeping your keys secure<a class="anchor" aria-label="anchor" href="#keeping-your-keys-secure"></a>
-</h3>
+<h3 class="callout-title">Keeping your keys secure</h3>
 <div class="callout-content">
 <p>You shouldn’t really forget about your SSH keys, since they keep your
 account secure. It’s good practice to audit your secure shell keys every
@@ -637,8 +630,7 @@ command line.</p>
 </h3>
 <pre class="output" tabindex="0"><code>Hi YourName! You've successfully authenticated, but GitHub does not provide shell access.</code></pre>
 </div>
-</section><section><h2 class="section-heading" id="pushing-changes">Pushing changes<a class="anchor" aria-label="anchor" href="#pushing-changes"></a>
-<a class="anchor" aria-label="anchor" href="#pushing-changes"></a></h2>
+</section><section><h2 class="section-heading" id="pushing-changes">Pushing changes<a class="anchor" aria-label="anchor" href="#pushing-changes"></a></h2>
 <hr class="half-width"><p>Now we have established a connection between the two repositories,
 but we still haven’t synchronized their content, so the remote
 repository is still empty. To fix that, we will have to “push” our local
@@ -766,8 +758,7 @@ other people who might not be able to guess as easily what our short
 cryptic messages might mean. Note that it is best practice to always
 write commit messages in the imperative (e.g. ‘Add index.md’, rather
 than ‘Adding index.md’).</p>
-</section><section><h2 class="section-heading" id="pushing-changes-again">Pushing changes (again)<a class="anchor" aria-label="anchor" href="#pushing-changes-again"></a>
-<a class="anchor" aria-label="anchor" href="#pushing-changes-again"></a></h2>
+</section><section><h2 class="section-heading" id="pushing-changes-again">Pushing changes (again)<a class="anchor" aria-label="anchor" href="#pushing-changes-again"></a></h2>
 <hr class="half-width"><p>Now, let’s have a look at the repository at GitHub again (that is,
 <code>https://github.com/some-librarian/hello-world</code> with
 <code>some-librarian</code> replaced with your username). We see that
@@ -800,8 +791,7 @@ To https://github.com/&lt;your_github_username&gt;/hello-world
    e9e8fd3..8e2eb99  main -&gt; main</code></pre>
 </div>
 <p>And let’s check on GitHub that we now have 2 commits there.</p>
-</section><section><h2 class="section-heading" id="pulling-changes">Pulling changes<a class="anchor" aria-label="anchor" href="#pulling-changes"></a>
-<a class="anchor" aria-label="anchor" href="#pulling-changes"></a></h2>
+</section><section><h2 class="section-heading" id="pulling-changes">Pulling changes<a class="anchor" aria-label="anchor" href="#pulling-changes"></a></h2>
 <hr class="half-width"><p>When working with others, or when we’re making our own changes from
 different machines, we need a way of pulling those remote changes back
 into our local copy. For now, we can see how this works by making a
@@ -817,8 +807,7 @@ be ‘Create README.md’, which is fine for our purposes).</p>
 <i class="callout-icon" data-feather="bell"></i>
 </div>
 <div id="the-readme-file" class="callout-inner">
-<h3 class="callout-title">The README file<a class="anchor" aria-label="anchor" href="#the-readme-file"></a>
-</h3>
+<h3 class="callout-title">The README file</h3>
 <div class="callout-content">
 <p>It is good practice to add a README file to each project to give a
 brief overview of what the project is about. If you put your README file
@@ -862,8 +851,7 @@ and using GitHub pages to create a website for our project.</p>
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
-<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
-</h3>
+<h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul><li>remote repositories on GitHub help you collaborate and share your
 work</li>
@@ -915,7 +903,7 @@ an edited file and the file’s most recent commit</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.5" class="external-link">sandpaper (0.16.5)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.3" class="external-link">varnish (1.0.3)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.16.6" class="external-link">sandpaper (0.16.6)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.6" class="external-link">pegboard (0.7.6)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.4" class="external-link">varnish (1.0.4)</a></p>
 			</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
@@ -938,7 +926,7 @@ an edited file and the file’s most recent commit</li>
   "identifier": "https://librarycarpentry.github.io/lc-git/instructor/03-sharing.html",
   "dateCreated": "2018-04-12",
   "dateModified": "2023-04-21",
-  "datePublished": "2024-08-20"
+  "datePublished": "2024-08-27"
 }
 
   </script><script>
