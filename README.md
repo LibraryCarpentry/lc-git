@@ -7,7 +7,6 @@
 
 Past Maintainers:
 
-- [Elizabeth McAulay](https://github.com/emcaulay)
 - [Thea Atwood](https://github.com/tpatwood)
 - [Jez Cope](https://github.com/jezcope)
 - [Silvia di Giorgio](https://twitter.com/digiorgiosilvia)
@@ -17,6 +16,7 @@ Past Maintainers:
 - [Katrin Leinweber](https://github.com/katrinleinweber)
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Chuck McAndrew](https://github.com/dcmcand)
+- [Elizabeth McAulay](https://github.com/emcaulay)
 - [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
 - [Belinda Weaver](https://github.com/weaverbel)
 
