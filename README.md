@@ -2,11 +2,12 @@
 
 # Maintainers for Library Carpentry: Introduction to Git
 
-
-- [Elizabeth McAulay](https://github.com/emcaulay)
+- [Seth Erickson](https://github.com/srerickson)
+- [Alex Ball](https://github.com/alex-ball)
 
 Past Maintainers:
 
+- [Elizabeth McAulay](https://github.com/emcaulay)
 - [Thea Atwood](https://github.com/tpatwood)
 - [Jez Cope](https://github.com/jezcope)
 - [Silvia di Giorgio](https://twitter.com/digiorgiosilvia)
