@@ -2,8 +2,8 @@
 
 # Maintainers for Library Carpentry: Introduction to Git
 
-
-- [Elizabeth McAulay](https://github.com/emcaulay)
+- [Seth Erickson](https://github.com/srerickson)
+- [Alex Ball](https://github.com/alex-ball)
 
 Past Maintainers:
 
@@ -16,6 +16,7 @@ Past Maintainers:
 - [Katrin Leinweber](https://github.com/katrinleinweber)
 - [Eric Lopatin](https://github.com/elopatin-uc3)
 - [Chuck McAndrew](https://github.com/dcmcand)
+- [Elizabeth McAulay](https://github.com/emcaulay)
 - [Eva Seidlmayer](https://github.com/EvaSeidlmayer)
 - [Belinda Weaver](https://github.com/weaverbel)
 
