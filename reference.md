@@ -1,8 +1,6 @@
 ---
-title: 'FIXME'
+title: 'Reference'
 ---
-
-## Glossary
 
 ## Quick reference
 
@@ -102,5 +100,3 @@ Git cheat sheet handouts:
 - GitHub also has interactive tutorials for their [online version (Learning Labs)](https://lab.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app)
 - Atlassian has in depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git
 - The [Programming Historian](https://programminghistorian.org) uses GitHub to manage lessons useful to historians and also people working in libraries. It is a useful resource for lessons but also to see GitHub in action.
-
-
