@@ -95,7 +95,7 @@ Pair up in groups of two (or more if needed) and do the exercises below together
 
 5. Once you are ready to commit, enter a short commit message,
   select "Create a new branch for this commit and start a pull request"
-  and press "Propose file change" to avoid commiting directly to the main branch.
+  and press "Propose changes" to avoid commiting directly to the main branch.
   
   ![](fig/github-commit-pr.png){alt="Commit and create pull request"}
 
