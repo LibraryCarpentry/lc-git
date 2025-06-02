@@ -39,7 +39,7 @@ Clicking `New Repository` will take you to a creation page with different option
 
 - Name your repository "hello-world."
 
-![](fig/github-repo-new-setup_copy.png){alt="The 'create a new repository' form on GitHub" .image-with-shadow }
+![](fig/github-repo-new-setup.png){alt="The 'create a new repository' form on GitHub" .image-with-shadow }
 
 GitHub will ask if you want to add a README.md, license or a `.gitignore` file. Do not do any of that for now -- We want you to start with a completely empty repository on GitHub.
 
