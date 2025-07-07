@@ -74,7 +74,7 @@ If we now visit `https://some-librarian.github.io/hello-world/`,
 we should see the contents of the index.md file that created earlier.
 Usually it's available instantly, but it can take a few seconds and in the worst case a few minutes if GitHub are very busy.
 
-:::::::::::::::::::::::::::::::::::::::  challenge
+:::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Challenge: Contributing to a page owned by someone else (slightly easier way)
 
@@ -85,12 +85,14 @@ Pair up in groups of two (or more if needed) and do the exercises below together
 
 2. Click on "Fork" in the upper right part of the screen to create a copy of the repository on your account. Once you have a fork > of your partner's repository, you can edit the files in your own fork directly.
 
+  ![](fig/github-fork-button.png){alt="GitHub fork button"}
+
 3. Click the "index.md" file, then click the edit pencil icon:
   
   ![](fig/github-edit-pencil.png){alt="GitHub edit pencil"}
 
 4. Now is good chance to try some Markdown syntax.
-  Try some of the examples at [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+  Try some of the examples at [Mastering Markdown][].
   You can preview how it will look before you commit changes.
 
 5. Once you are ready to commit, enter a short commit message,
@@ -109,6 +111,8 @@ Pair up in groups of two (or more if needed) and do the exercises below together
 
 This whole process of making a fork and a pull request might seem a bit cumbersome.
 Try to think of why it was needed? And why it's called "pull request"?
+
+[Mastering Markdown]: https://guides.github.com/features/mastering-markdown/
 
 :::::::::::::::  solution
 
@@ -129,23 +133,119 @@ it's more practical to grant everyone access to commit directly instead.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-> ## Optional challenge: Contributing to a page owned by someone else (slightly more complicated way)
-> 
-> Instead of making edits on the GitHub website you can 'clone' the fork to your local machine
-> and work there.
+:::::::::::::::::::::::::::::::::::::::: challenge
 
-:::::::::::::::::::::::::::::::::::::::  challenge
+## Optional challenge: Contributing to a page owned by someone else (slightly more complicated way)
 
-Try following the rest of the steps in this guide under ["Time to Submit Your First PR"](https://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message#Time-to-Submit-Your-First-PR).
+Instead of making edits on the GitHub website
+you can 'clone' the fork to your local machine and work there.
+There are several reasons why you might want to do this:
 
-(If you followed step 1 and 2 in the previous challenge,
-you already have a fork and you can skip the creation of a new fork.
-Start instead at the section titled "Cloning a fork."
-You can submit multiple pull requests using the same fork.)
+- you need to move content from one file to another;
+- you need to make changes to several files at once;
+- you find it easier to work in your desktop software than in a web form.
+
+Pair up in groups of two (or more if needed) and follow the steps below together.
+If you have already tackled the previous challenge,
+you can use the fork you created there and skip to step 3.
+
+1. Go to [https://github.com/some-librarian/hello-world](https://github.com/some-librarian/hello-world),
+  where "some-librarian" is the username of your exercise partner.
+
+2. Click on "Fork" in the upper right part of the screen
+  to create a copy of that repository on your account.
+  As you already have your own `hello-world` repository,
+  you will need to use a different name for it, such as `hello-world-1`.
+
+3. In your own fork, click on the "Code" button in the upper right part of the screen
+  and copy a link to your repository.
+  Just like when you [connected your local repository to GitHub][ep3-connecting],
+  make sure "SSH" is selected, so the link starts with `git@github.com:`.
+
+  ![](fig/github-fork-clone.png){alt="GitHub code button and clone method selection"}
+
+4. Go back to your shell terminal window.
+  If you're in your own Git repository, use the `cd` command
+  to come out of it:
+
+    ```bash
+    # To check where you are:
+    $ pwd
+    # To go up one directory:
+    $ cd ..
+    ```
+
+    Change the following command to use the link you just copied
+    and run it:
+
+    ```bash
+    $ git clone git@github.com:<your_github_username>/hello-world-1.git
+    ```
+
+    The `clone` command creates a directory on your computer containing
+    the current state of the repository and its full version history.
+
+5. Enter the directory that Git just created:
+
+    ```bash
+    $ cd hello-world-1
+    ```
+
+6. Create a new branch to hold the changes you're about to make:
+
+    ```bash
+    $ git switch -c my-patch-1
+    ```
+
+    Here, `switch` tells Git to change the current branch,
+    the `-c` tells Git you want to create a new branch,
+    and `my-patch-1` is what it will be called.
+
+7. Open up the `index.md` and start editing it.
+  You could try some more examples from [Mastering Markdown][].
+
+8. After saving the file, add it, commit it with a short message describing the change:
+
+    ```bash
+    $ git add index.md
+    $ git commit -m "Add more Markdown examples"
+    ```
+
+9. Push your new branch up to your fork on GitHub:
+
+    ```bash
+    $ git push origin my-patch-1
+    ```
+
+10. Git will show you a message from GitHub containing a link
+  for starting a new pull request:
+
+    ```output
+    remote:
+    remote: Create a pull request for 'my-patch-1' on GitHub by visiting:
+    remote:      https://github.com/<your_github_username>/hello-world-1/pull/new/my-patch-1
+    remote:
+    ```
+
+    You can visit that link in your browser, but if you go back to your fork in GitHib
+    you will also see a button has appeared that says "Compare & pull request".
+    You can click on that button instead if you prefer.
+
+  ![](fig/github-pr-create.png){alt="GitHub compare and pull request button"}
+
+11. The next screen lets you add a description to explain your changes to the repository owner,
+  and change the title to make it clearer
+  (this is especially useful if you make a single pull request for multiple commits).
+  When you're ready, click on the "Create pull request" button.
+
+12. Your partner should now see a pull request under the "Pull requests" tab
+  and can accept ("Merge pull request") the changes there. Try this.
+
+[ep3-connecting]: 03-sharing.html#connecting-your-local-repository-to-the-github-repository
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-:::::::::::::::::::::::::::::::::::::::  challenge
+:::::::::::::::::::::::::::::::::::::::: challenge
 
 ## Optional challenge: Adding an HTML page
 
