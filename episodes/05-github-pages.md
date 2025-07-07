@@ -85,11 +85,11 @@ Pair up in groups of two (or more if needed) and do the exercises below together
 
 2. Click on "Fork" in the upper right part of the screen to create a copy of the repository on your account. Once you have a fork > of your partner's repository, you can edit the files in your own fork directly.
 
-  ![](fig/github-fork-button.png){alt="GitHub fork button"}
+    ![](fig/github-fork-button.png){alt="GitHub fork button"}
 
 3. Click the "index.md" file, then click the edit pencil icon:
   
-  ![](fig/github-edit-pencil.png){alt="GitHub edit pencil"}
+    ![](fig/github-edit-pencil.png){alt="GitHub edit pencil"}
 
 4. Now is good chance to try some Markdown syntax.
   Try some of the examples at [Mastering Markdown][].
@@ -99,7 +99,7 @@ Pair up in groups of two (or more if needed) and do the exercises below together
   select "Create a new branch for this commit and start a pull request"
   and press "Propose changes" to avoid commiting directly to the main branch.
   
-  ![](fig/github-commit-pr.png){alt="Commit and create pull request"}
+    ![](fig/github-commit-pr.png){alt="Commit and create pull request"}
 
 6. You can now go to the repository on your account and click "New Pull Request" button,
   where you can select base branches repositories, review the changes and add an additional
@@ -162,7 +162,7 @@ you can use the fork you created there and skip to step 3.
   Just like when you [connected your local repository to GitHub][ep3-connecting],
   make sure "SSH" is selected, so the link starts with `git@github.com:`.
 
-  ![](fig/github-fork-clone.png){alt="GitHub code button and clone method selection"}
+    ![](fig/github-fork-clone.png){alt="GitHub code button and clone method selection"}
 
 4. Go back to your shell terminal window.
   If you're in your own Git repository, use the `cd` command
@@ -231,7 +231,7 @@ you can use the fork you created there and skip to step 3.
     you will also see a button has appeared that says "Compare & pull request".
     You can click on that button instead if you prefer.
 
-  ![](fig/github-pr-create.png){alt="GitHub compare and pull request button"}
+    ![](fig/github-pr-create.png){alt="GitHub compare and pull request button"}
 
 11. The next screen lets you add a description to explain your changes to the repository owner,
   and change the title to make it clearer
@@ -255,7 +255,7 @@ steps below are for working directly on GitHub:
 
 1. To add a new file directly on GitHub, press the "Create new file" button.
   
-  ![](fig/github-create-new-file.png){alt="Create new file on GitHub"}
+    ![](fig/github-create-new-file.png){alt="Create new file on GitHub"}
 
 2. Name it 'test.html', add some HTML and click "Commit new file".
 
