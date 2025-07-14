@@ -91,7 +91,7 @@ Git cheat sheet handouts:
 - [JiscMonitor/allapc](https://github.com/JiscMonitor/allapc)
 - [Python Programming for Humanities](https://www.karsdorp.io/python-course/)
 - [Code4Lib 2008 lightning talk – Git and distributed cataloging](https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/)
-- [Opening Science](https://www.openingscience.org/get-the-book/)
+- [Opening Science](https://www.openingscience.org/get-the-book/): 'The evolving guide on how the Web is changing research, collaboration and scholarly publishing'
 
 ## Further reading
 
