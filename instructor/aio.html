@@ -1621,7 +1621,7 @@ workflow</li>
 </div>
 </section></section><section id="aio-05-github-pages"><p>Content from <a href="05-github-pages.html">GitHub Pages</a></p>
 <hr>
-<p>Last updated on 2025-06-02 |
+<p>Last updated on 2025-08-04 |
 
         <a href="https://github.com/librarycarpentry/lc-git/edit/main/episodes/05-github-pages.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 35 minutes</p>
@@ -1736,24 +1736,28 @@ the exercises below together.</p>
 <li><p>Go to <a href="https://github.com/some-librarian/hello-world" class="external-link">https://github.com/some-librarian/hello-world</a>,
 where “some-librarian” is the username of your exercise
 partner.</p></li>
-<li><p>Click on “Fork” in the upper right part of the screen to create a
+<li>
+<p>Click on “Fork” in the upper right part of the screen to create a
 copy of the repository on your account. Once you have a fork &gt; of
 your partner’s repository, you can edit the files in your own fork
-directly.</p></li>
-<li><p>Click the “index.md” file, then click the edit pencil
-icon:</p></li>
-</ol>
-<figure><img src="../fig/github-edit-pencil.png" alt="GitHub edit pencil" class="figure mx-auto d-block"></figure><ol start="4" style="list-style-type: decimal">
+directly.</p>
+<figure><img src="../fig/github-fork-button.png" alt="GitHub fork button" class="figure mx-auto d-block"></figure>
+</li>
+<li>
+<p>Click the “index.md” file, then click the edit pencil icon:</p>
+<figure><img src="../fig/github-edit-pencil.png" alt="GitHub edit pencil" class="figure mx-auto d-block"></figure>
+</li>
 <li><p>Now is good chance to try some Markdown syntax. Try some of the
 examples at <a href="https://guides.github.com/features/mastering-markdown/" class="external-link">Mastering
 Markdown</a>. You can preview how it will look before you commit
 changes.</p></li>
-<li><p>Once you are ready to commit, enter a short commit message,
+<li>
+<p>Once you are ready to commit, enter a short commit message,
 select “Create a new branch for this commit and start a pull request”
 and press “Propose changes” to avoid commiting directly to the main
-branch.</p></li>
-</ol>
-<figure><img src="../fig/github-commit-pr.png" alt="Commit and create pull request" class="figure mx-auto d-block"></figure><ol start="6" style="list-style-type: decimal">
+branch.</p>
+<figure><img src="../fig/github-commit-pr.png" alt="Commit and create pull request" class="figure mx-auto d-block"></figure>
+</li>
 <li><p>You can now go to the repository on your account and click “New
 Pull Request” button, where you can select base branches repositories,
 review the changes and add an additional explanation before sending the
@@ -1774,7 +1778,7 @@ bit cumbersome. Try to think of why it was needed? And why it’s called
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>We made a fork and a pull request because we did not have permission
 to edit (or commit) the repository directly. A fork is a copy of the
@@ -1790,26 +1794,129 @@ instead.</p>
 </div>
 </div>
 </div>
-<blockquote>
-<h2 id="optional-challenge-contributing-to-a-page-owned-by-someone-else-slightly-more-complicated-way">Optional
-challenge: Contributing to a page owned by someone else (slightly more
-complicated way)</h2>
-<p>Instead of making edits on the GitHub website you can ‘clone’ the
-fork to your local machine and work there.</p>
-</blockquote>
-<div id="discussion1" class="callout discussion">
+<div id="optional-challenge-contributing-to-a-page-owned-by-someone-else-slightly-more-complicated-way" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Challenge</h3>
+<div id="optional-challenge-contributing-to-a-page-owned-by-someone-else-slightly-more-complicated-way" class="callout-inner">
+<h3 class="callout-title">Optional challenge: Contributing to a page owned by someone else (slightly more complicated way)</h3>
 <div class="callout-content">
-<p>Try following the rest of the steps in this guide under <a href="https://www.thinkful.com/learn/github-pull-request-tutorial/Writing-a-Good-Commit-Message#Time-to-Submit-Your-First-PR" class="external-link">“Time
-to Submit Your First PR”</a>.</p>
-<p>(If you followed step 1 and 2 in the previous challenge, you already
-have a fork and you can skip the creation of a new fork. Start instead
-at the section titled “Cloning a fork.” You can submit multiple pull
-requests using the same fork.)</p>
+<p>Instead of making edits on the GitHub website you can ‘clone’ the
+fork to your local machine and work there. There are several reasons why
+you might want to do this:</p>
+<ul>
+<li>you need to move content from one file to another;</li>
+<li>you need to make changes to several files at once;</li>
+<li>you find it easier to work in your desktop software than in a web
+form.</li>
+</ul>
+<p>Pair up in groups of two (or more if needed) and follow the steps
+below together. If you have already tackled the previous challenge, you
+can use the fork you created there and skip to step 3.</p>
+<ol style="list-style-type: decimal">
+<li><p>Go to <a href="https://github.com/some-librarian/hello-world" class="external-link">https://github.com/some-librarian/hello-world</a>,
+where “some-librarian” is the username of your exercise
+partner.</p></li>
+<li><p>Click on “Fork” in the upper right part of the screen to create a
+copy of that repository on your account. As you already have your own
+<code>hello-world</code> repository, you will need to use a different
+name for it, such as <code>hello-world-1</code>.</p></li>
+<li>
+<p>In your own fork, click on the “Code” button in the upper right
+part of the screen and copy a link to your repository. Just like when
+you <a href="03-sharing.html#connecting-your-local-repository-to-the-github-repository">connected
+your local repository to GitHub</a>, make sure “SSH” is selected, so the
+link starts with <code>git@github.com:</code>.</p>
+<figure><img src="../fig/github-fork-clone.png" alt="GitHub code button and clone method selection" class="figure mx-auto d-block"></figure>
+</li>
+<li>
+<p>Go back to your shell terminal window. If you’re in your own Git
+repository, use the <code>cd</code> command to come out of it:</p>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co"># To check where you are:</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="ex">$</span> pwd</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="co"># To go up one directory:</span></span>
+<span id="cb1-4"><a href="#cb1-4" tabindex="-1"></a><span class="ex">$</span> cd ..</span></code></pre>
+</div>
+<p>Change the following command to use the link you just copied and run
+it:</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">$</span> git clone git@github.com:<span class="op">&lt;</span>your_github_username<span class="op">&gt;</span>/hello-world-1.git</span></code></pre>
+</div>
+<p>The <code>clone</code> command creates a directory on your computer
+containing the current state of the repository and its full version
+history.</p>
+</li>
+<li>
+<p>Enter the directory that Git just created:</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="ex">$</span> cd hello-world-1</span></code></pre>
+</div>
+</li>
+<li>
+<p>Create a new branch to hold the changes you’re about to make:</p>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="ex">$</span> git switch <span class="at">-c</span> my-patch-1</span></code></pre>
+</div>
+<p>Here, <code>switch</code> tells Git to change the current branch, the
+<code>-c</code> tells Git you want to create a new branch, and
+<code>my-patch-1</code> is what it will be called.</p>
+</li>
+<li><p>Open up the <code>index.md</code> and start editing it. You could
+try some more examples from <a href="https://guides.github.com/features/mastering-markdown/" class="external-link">Mastering
+Markdown</a>.</p></li>
+<li>
+<p>After saving the file, add it, commit it with a short message
+describing the change:</p>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="ex">$</span> git add index.md</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">"Add more Markdown examples"</span></span></code></pre>
+</div>
+</li>
+<li>
+<p>Push your new branch up to your fork on GitHub:</p>
+<div class="codewrapper sourceCode" id="cb6">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="ex">$</span> git push origin my-patch-1</span></code></pre>
+</div>
+</li>
+<li>
+<p>Git will show you a message from GitHub containing a link for
+starting a new pull request:</p>
+<div class="codewrapper">
+<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="output" tabindex="0"><code>remote:
+remote: Create a pull request for 'my-patch-1' on GitHub by visiting:
+remote:      https://github.com/&lt;your_github_username&gt;/hello-world-1/pull/new/my-patch-1
+remote:</code></pre>
+</div>
+<p>You can visit that link in your browser, but if you go back to your
+fork in GitHib you will also see a button has appeared that says
+“Compare &amp; pull request”. You can click on that button instead if
+you prefer.</p>
+<figure><img src="../fig/github-pr-create.png" alt="GitHub compare and pull request button" class="figure mx-auto d-block"></figure>
+</li>
+<li><p>The next screen lets you add a description to explain your
+changes to the repository owner, and change the title to make it clearer
+(this is especially useful if you make a single pull request for
+multiple commits). When you’re ready, click on the “Create pull request”
+button.</p></li>
+<li><p>Your partner should now see a pull request under the “Pull
+requests” tab and can accept (“Merge pull request”) the changes there.
+Try this.</p></li>
+</ol>
 </div>
 </div>
 </div>
@@ -1825,10 +1932,11 @@ adding an HTML page to your repository. You could do this on the command
 line or directly on GitHub. The steps below are for working directly on
 GitHub:</p>
 <ol style="list-style-type: decimal">
-<li>To add a new file directly on GitHub, press the “Create new file”
-button.</li>
-</ol>
-<figure><img src="../fig/github-create-new-file.png" alt="Create new file on GitHub" class="figure mx-auto d-block"></figure><ol start="2" style="list-style-type: decimal">
+<li>
+<p>To add a new file directly on GitHub, press the “Create new file”
+button.</p>
+<figure><img src="../fig/github-create-new-file.png" alt="Create new file on GitHub" class="figure mx-auto d-block"></figure>
+</li>
 <li><p>Name it ‘test.html’, add some HTML and click “Commit new
 file”.</p></li>
 <li><p>Try opening
@@ -1904,8 +2012,8 @@ workflow you learned for collaborating via a GitHub repository</li>
   "url": "https://librarycarpentry.github.io/lc-git/instructor/aio.html",
   "identifier": "https://librarycarpentry.github.io/lc-git/instructor/aio.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2025-07-29",
-  "datePublished": "2025-07-29"
+  "dateModified": "2025-08-04",
+  "datePublished": "2025-08-04"
 }
 
   </script><script>
