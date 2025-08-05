@@ -81,7 +81,7 @@ Git cheat sheet handouts:
 ## Useful library GitHub repositories
 
 - [DavidChouinard/mrc\_to\_csv](https://github.com/DavidChouinard/mrc_to_csv): 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
-- [Process MARC records from Python](https://gitlab.com/pymarc/pymarcc)
+- [Process MARC records from Python](https://gitcom/pymarc/pymarcc)
   - [https://pypi.org/project/pymarc/](https://pypi.org/project/pymarc/)
 - [umd-mith/git-intro](https://umd-mith.github.io/git-intro/): high level intro to git
 - [edsu/mirador](https://github.com/edsu/mirador)
@@ -97,6 +97,6 @@ Git cheat sheet handouts:
 
 - The [help pages](https://help.github.com/) of GitHub are a good place to start
 - GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works
-- GitHub also has interactive tutorials for their [online version (Learning Labs)](https://lab.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app)
+- GitHub also has interactive tutorials for their [online version (GitHub Skills)](https://skills.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app)
 - Atlassian has in depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git
 - The [Programming Historian](https://programminghistorian.org) uses GitHub to manage lessons useful to historians and also people working in libraries. It is a useful resource for lessons but also to see GitHub in action.
