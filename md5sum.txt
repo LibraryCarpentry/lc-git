@@ -11,6 +11,6 @@
 "episodes/05-github-pages.md" "b9592869f2774bab3b05bdc47df2ef2e" "site/built/05-github-pages.md" "2025-08-04"
 "instructors/instructor-notes.md" "a45553efc112e3823f231cc16c2da968" "site/built/instructor-notes.md" "2023-04-21"
 "learners/discuss.md" "95bb205074ca2133f2001f99bb405179" "site/built/discuss.md" "2023-10-17"
-"learners/reference.md" "5d86fbf2268ef5eb2b283e23062e2494" "site/built/reference.md" "2025-05-13"
+"learners/reference.md" "11a8e448bbc4d6eee4742866892383ce" "site/built/reference.md" "2025-08-06"
 "learners/setup.md" "16ed3b0e00be01484dbe516c26074eed" "site/built/setup.md" "2024-07-03"
 "profiles/learner-profiles.md" "60b93493cf1da06dfd63255d73854461" "site/built/learner-profiles.md" "2023-04-21"
