@@ -394,6 +394,36 @@ To https://github.com/<your_github_username>/hello-world
 
 And let's check on GitHub that we now have 2 commits there.
 
+::::::::::::::::::::::::::::::::: challenge
+
+## Challenge: Two different push commands
+
+The first time we pushed our changes, we used a longer command:
+
+```bash
+$ git push -u origin main
+```
+
+The second time, we used a shorter command:
+
+```bash
+$ git push
+```
+
+Why didn't we use the same command both times?
+
+::::::::::::::::: solution
+
+The first time, Git didn't know where to push the changes, so we had to tell it the destination to use.
+We also used the `-u` flag to tell Git to remember that decision.
+
+The second time, Git knew a destination it could use, so we didn't specify one;
+not only did we save on typing, we also avoided worries about typing the wrong destination.
+
+::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::
+
 ## Pulling changes
 
 When working with others, or when we're making our own changes from different machines, we need a way of pulling those
