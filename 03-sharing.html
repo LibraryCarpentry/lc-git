@@ -313,7 +313,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Sharing your work</h1>
-        <p>Last updated on 2025-06-02 |
+        <p>Last updated on 2025-08-14 |
 
         <a href="https://github.com/librarycarpentry/lc-git/edit/main/episodes/03-sharing.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -792,6 +792,52 @@ To https://github.com/&lt;your_github_username&gt;/hello-world
    e9e8fd3..8e2eb99  main -&gt; main</code></pre>
 </div>
 <p>And let’s check on GitHub that we now have 2 commits there.</p>
+<div id="challenge-two-different-push-commands" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<span class="callout-header">Challenge</span>
+<div id="challenge-two-different-push-commands" class="callout-inner">
+<h3 class="callout-title">Challenge: Two different push commands</h3>
+<div class="callout-content">
+<p>The first time we pushed our changes, we used a longer command:</p>
+<div class="codewrapper sourceCode" id="cb28">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="ex">$</span> git push <span class="at">-u</span> origin main</span></code></pre>
+</div>
+<p>The second time, we used a shorter command:</p>
+<div class="codewrapper sourceCode" id="cb29">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb29-1"><a href="#cb29-1" tabindex="-1"></a><span class="ex">$</span> git push</span></code></pre>
+</div>
+<p>Why didn’t we use the same command both times?</p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p>Branches can be configured with an “upstream” branch (a branch on a
+remote repository), which is used automatically for <code>push</code>
+and <code>pull</code> operations.</p>
+<p>The <code>main</code> branch’s upstream wasn’t set when we created
+it. The <code>-u</code> (or <code>--set-upstream</code>) flag tells
+<code>git push</code> which remote branch to use; it also sets the
+remote branch as the local branch’s upstream. Once we’ve set it, we
+don’t need to specify the remote branch in future <code>push</code> and
+<code>pull</code> operations. This saves on typing and means we won’t
+<code>push</code> to or <code>pull</code> from the wrong remote
+branch.</p>
+</div>
+</div>
+</div>
+</div>
 </section><section><h2 class="section-heading" id="pulling-changes">Pulling changes<a class="anchor" aria-label="anchor" href="#pulling-changes"></a></h2>
 <hr class="half-width"><p>When working with others, or when we’re making our own changes from
 different machines, we need a way of pulling those remote changes back
@@ -821,10 +867,10 @@ automatically surface your README to repository visitors</p>
 <p>Our local repository is now out of sync with our remote repository,
 so let’s fix that by pulling the remote changes into our local
 repository using the <code>git pull</code> command.</p>
-<div class="codewrapper sourceCode" id="cb28">
+<div class="codewrapper sourceCode" id="cb30">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb28-1"><a href="#cb28-1" tabindex="-1"></a><span class="ex">$</span> git pull</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb30-1"><a href="#cb30-1" tabindex="-1"></a><span class="ex">$</span> git pull</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -927,8 +973,8 @@ an edited file and the file’s most recent commit</li>
   "url": "https://librarycarpentry.github.io/lc-git/03-sharing.html",
   "identifier": "https://librarycarpentry.github.io/lc-git/03-sharing.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2025-06-02",
-  "datePublished": "2025-08-12"
+  "dateModified": "2025-08-14",
+  "datePublished": "2025-08-14"
 }
 
   </script><script>
