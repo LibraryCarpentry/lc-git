@@ -394,6 +394,39 @@ To https://github.com/<your_github_username>/hello-world
 
 And let's check on GitHub that we now have 2 commits there.
 
+::::::::::::::::::::::::::::::::: challenge
+
+## Challenge: Two different push commands
+
+The first time we pushed our changes, we used a longer command:
+
+```bash
+$ git push -u origin main
+```
+
+The second time, we used a shorter command:
+
+```bash
+$ git push
+```
+
+Why didn't we use the same command both times?
+
+::::::::::::::::: solution
+
+Branches can be configured with an "upstream" branch (a branch on a remote repository),
+which is used automatically for `push` and `pull` operations.
+
+The `main` branch's upstream wasn't set when we created it.
+The `-u` (or `--set-upstream`) flag tells `git push` which remote branch to use;
+it also sets the remote branch as the local branch's upstream.
+Once we've set it, we don't need to specify the remote branch in future `push` and `pull` operations.
+This saves on typing and means we won't `push` to or `pull` from the wrong remote branch.
+
+::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::::::
+
 ## Pulling changes
 
 When working with others, or when we're making our own changes from different machines, we need a way of pulling those
