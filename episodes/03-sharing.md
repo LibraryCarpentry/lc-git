@@ -414,11 +414,14 @@ Why didn't we use the same command both times?
 
 ::::::::::::::::: solution
 
-The first time, Git didn't know where to push the changes, so we had to tell it the destination to use.
-We also used the `-u` flag to tell Git to remember that decision.
+Branches can be configured with an "upstream" branch (a branch on a remote repository),
+which is used automatically for `push` and `pull` operations.
 
-The second time, Git knew a destination it could use, so we didn't specify one;
-not only did we save on typing, we also avoided worries about typing the wrong destination.
+The `main` branch's upstream wasn't set when we created it.
+The `-u` (or `--set-upstream`) flag tells `git push` which remote branch to use;
+it also sets the remote branch as the local branch's upstream.
+Once we've set it, we don't need to specify the remote branch in future `push` and `pull` operations.
+This saves on typing and means we won't `push` to or `pull` from the wrong remote branch.
 
 ::::::::::::::::::::::::::
 
