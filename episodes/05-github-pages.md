@@ -143,7 +143,7 @@ allowing different sets of changes to be made in parallel.
 Later on, Git can take the changes from "patch" and merge (copy) them into the "main" branch.
 In the last challenge, GitHub did all this for us in the background.
 
-![](fig/git-branches.svg){alt='The label ‘main’ points to commit c5; c5 points to its parent c3, which points to c1, which points to c0. The label ‘patch’ points to commit c4, which points to c2, which points to c1. Commit c5 also points to c4 as a secondary parent, indicating ‘patch’ was merged into ‘main’.'}
+![](fig/git-branches.svg){alt='The label ‘main’ points to commit c5; arrows point from c5 to c3 to c1 to c0. The label ‘patch’ points to commit c4; arrows point from c4 to c2 to c1. A dotted arrow points from c5 to c4.'}
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
