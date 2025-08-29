@@ -167,8 +167,21 @@ No commits yet
 nothing to commit (create/copy files and use "git add" to track)
 ```
 
-The output tells us that we are on the main branch (more on this later) and that we have nothing to commit (no
+The output tells us that we are on the main branch and that we have nothing to commit (no
 unsaved changes).
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Branches and commits
+
+Commits in Git are like snapshots of our project.
+They are ordered into sequences, or "branches", with each commit pointing back to the one before it in the branch.
+Git keeps track of the last commit in each branch with a special label;
+in this lesson we mostly use one branch with the label "main".
+
+![](fig/git-branch.svg){alt='The label ‘main’ points to commit c2; c2 points to its parent c1, which points to c0.'}
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Two steps: Adding and committing
 
