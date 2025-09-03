@@ -775,8 +775,25 @@ state of a project. Let’s do that now.</p>
 No commits yet
 nothing to commit (create/copy files and use "git add" to track)</code></pre>
 </div>
-<p>The output tells us that we are on the main branch (more on this
-later) and that we have nothing to commit (no unsaved changes).</p>
+<p>The output tells us that we are on the main branch and that we have
+nothing to commit (no unsaved changes).</p>
+<div id="branches-and-commits" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="branches-and-commits" class="callout-inner">
+<h3 class="callout-title">Branches and commits</h3>
+<div class="callout-content">
+<p>Commits in Git are like snapshots of our project. They are ordered
+into sequences, or “branches”, with each commit pointing back to the one
+before it in the branch. Git keeps track of the last commit in each
+branch with a special label; in this lesson we mostly use one branch
+with the label “main”.</p>
+<figure><img src="fig/git-branch.svg" alt="The label ‘main’ points to commit c2; c2 points to its parent c1, which points to c0." class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
 </div>
 <div class="section level3">
 <h3 id="two-steps-adding-and-committing">Two steps: Adding and committing<a class="anchor" aria-label="anchor" href="#two-steps-adding-and-committing"></a>
@@ -1667,7 +1684,7 @@ workflow</li>
 </div>
 </section></section><section id="aio-05-github-pages"><p>Content from <a href="05-github-pages.html">GitHub Pages</a></p>
 <hr>
-<p>Last updated on 2025-08-12 |
+<p>Last updated on 2025-09-03 |
 
         <a href="https://github.com/librarycarpentry/lc-git/edit/main/episodes/05-github-pages.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1824,7 +1841,7 @@ bit cumbersome. Try to think of why it was needed? And why it’s called
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>We made a fork and a pull request because we did not have permission
 to edit (or commit) the repository directly. A fork is a copy of the
@@ -1837,6 +1854,23 @@ you are a group of people who plan to collaborate closely, on the other
 hand, it’s more practical to grant everyone access to commit directly
 instead.</p>
 </div>
+</div>
+</div>
+</div>
+<div id="branching-and-merging" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div id="branching-and-merging" class="callout-inner">
+<h3 class="callout-title">Branching and merging</h3>
+<div class="callout-content">
+<p>Branches get their name because you can create a new one (say,
+“patch”) that splits off from an existing one like “main”, allowing
+different sets of changes to be made in parallel. Later on, Git can take
+the changes from “patch” and merge (copy) them into the “main” branch.
+In the last challenge, GitHub did all this for us in the background.</p>
+<figure><img src="fig/git-branches.svg" alt="The label ‘main’ points to commit c5; arrows point from c5 to c3 to c1 to c0. The label ‘patch’ points to commit c4; arrows point from c4 to c2 to c1. A dotted arrow points from c5 to c4." class="figure mx-auto d-block"></figure>
 </div>
 </div>
 </div>
