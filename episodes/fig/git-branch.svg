@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   viewBox="0 0 325.20001 73.373337"
+   sodipodi:docname="git-branches.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.2349322"
+     inkscape:cx="505.7293"
+     inkscape:cy="36.785933"
+     inkscape:window-width="1876"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9">
+    <inkscape:page
+       x="0"
+       y="0"
+       inkscape:label="1"
+       id="page1"
+       width="325.20001"
+       height="73.373337"
+       margin="0"
+       bleed="0"
+       inkscape:export-filename="git-branches-2.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </sodipodi:namedview>
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1">
+    <path
+       id="path1"
+       d="m 17.43513,0 h 69.73909 m 29.8886,0 h 69.73909"
+       style="fill:none;stroke:#491997;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <path
+       id="path2"
+       d="M 12.61594,0 C 12.61594,6.96767 6.96767,12.61594 0,12.61594 -6.96767,12.61594 -12.61594,6.96767 -12.61594,0 c 0,-6.96767 5.64827,-12.61594 12.61594,-12.61594 6.96767,0 12.61594,5.64827 12.61594,12.61594 z"
+       style="fill:#fce762;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <text
+       id="text2"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,19.622667,60.789333)"><tspan
+         id="tspan2"
+         style="font-variant:normal;font-weight:normal;font-size:9.96264px;font-family:'Source Code Pro',monospace;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">c0</tspan></text>
+    <path
+       id="path3"
+       d="m 13.21368,0 5.66936,2.12599 v -4.25198 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <path
+       id="path4"
+       d="m 112.24362,0 c 0,6.96767 -5.64827,12.61594 -12.61593,12.61594 C 92.66,12.61594 87.01173,6.96767 87.01173,0 c 0,-6.96767 5.64827,-12.61594 12.61596,-12.61594 6.96766,0 12.61593,5.64827 12.61593,12.61594 z"
+       style="fill:#fce762;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <text
+       id="text4"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,152.45733,60.710667)"><tspan
+         id="tspan4"
+         style="font-variant:normal;font-weight:normal;font-size:9.96264px;font-family:'Source Code Pro',monospace;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">c1</tspan></text>
+    <path
+       id="path5"
+       d="m 112.84137,0 5.66936,2.12599 v -4.25198 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <path
+       id="path6"
+       d="m 211.8713,0 c 0,6.96767 -5.64826,12.61594 -12.61593,12.61594 -6.96768,0 -12.61595,-5.64827 -12.61595,-12.61594 0,-6.96767 5.64827,-12.61594 12.61595,-12.61594 6.96767,0 12.61593,5.64827 12.61593,12.61594 z"
+       style="fill:#fce762;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <text
+       id="text6"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,285.29333,60.789333)"><tspan
+         id="tspan6"
+         style="font-variant:normal;font-weight:normal;font-size:9.96264px;font-family:'Source Code Pro',monospace;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">c2</tspan></text>
+    <path
+       id="path7"
+       d="m 183.97948,27.92252 h 30.55177 v 13.89403 h -30.55177 z"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#491997;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <text
+       id="text7"
+       xml:space="preserve"
+       transform="matrix(1.3333333,0,0,1.3333333,277.32267,14.736)"><tspan
+         id="tspan7"
+         style="font-variant:normal;font-weight:normal;font-size:9.96264px;font-family:'Source Code Pro',monospace;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         x="0"
+         y="0">main</tspan></text>
+    <path
+       id="path8"
+       d="M 199.25537,27.32475 V 14.1701"
+       style="fill:none;stroke:#000000;stroke-width:1.19553;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,27.593333,56.552)" />
+    <path
+       id="path9"
+       d="M -1.91284,2.55046 C -1.75343,1.59402 0,0.15938 0.4782,0 0,-0.15938 -1.75343,-1.59402 -1.91284,-2.55046"
+       style="fill:none;stroke:#000000;stroke-width:0.9564;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(0,1.3333333,1.3333333,0,293.26716,37.658533)" />
+  </g>
+</svg>
