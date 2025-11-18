@@ -78,6 +78,14 @@ Git cheat sheet handouts:
 `git remote add origin`
 : add a remote repository named 'origin', to upload changes to or download changes from
 
+## Further reading
+
+- The [help pages](https://help.github.com/) of GitHub are a good place to start.
+- GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works.
+- GitHub also has interactive tutorials for their [online version (GitHub Skills)](https://skills.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app).
+- Atlassian has in-depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git.
+- [Code4Lib 2008 lightning talk – Git and distributed cataloging](https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/): Slides by Galen Charlton drawing parallels between how git works and how cataloging should work.
+
 ## Useful library-related Git repositories
 
 - [DavidChouinard/mrc\_to\_csv](https://github.com/DavidChouinard/mrc_to_csv): Python script for converting MARC21 files to CSV, originally designed for the Harvard Libraries MARC21 records.
@@ -99,11 +107,3 @@ Git cheat sheet handouts:
   - Rendered book: [Opening Science](https://www.openingscience.org/get-the-book/)
 - [programminghistorian/jekyll](https://github.com/programminghistorian/jekyll): A collection of lessons useful to historians and people working in libraries, maintained as Markdown files and hosted by GitHub Pages.
   - Rendered site: [Programming Historian](https://programminghistorian.org)
-
-## Further reading
-
-- The [help pages](https://help.github.com/) of GitHub are a good place to start.
-- GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works.
-- GitHub also has interactive tutorials for their [online version (GitHub Skills)](https://skills.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app).
-- Atlassian has in-depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git.
-- [Code4Lib 2008 lightning talk – Git and distributed cataloging](https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/): Slides by Galen Charlton drawing parallels between how git works and how cataloging should work.
