@@ -252,6 +252,19 @@ If you don't want to try Nano, use whatever text editor you feel comfortable wit
 
 When you have the file open, enter `# Hello, world!`. The hash character is one way of writing a header with Markdown. Then save the file and close the text editor.
 
+::::::::::::::::::: instructor
+
+#### Demonstrating how to edit a text file
+
+When showing how to edit `index.md` for the first time, Nano is the most convenient editor to use – you don't have to leave the shell and it should work for everyone – but few learners will be fully confident with it. Take them step-by-step through one of the two ways of saving and closing the file:
+
+- **Ctrl + X** to close the file; **Y** to save the file; **Enter** to keep the same filename.
+- **Ctrl + O** to save the file; **Enter** to keep the same filename; **Ctrl + X** to close the file.
+
+You could also keep a file manager window open (e.g. File Explorer, Finder, Files/Nautilus, Dolphin) to demonstrate locating the file and opening it in a suitable GUI text editor. Look out for learners who need help with this.
+
+::::::::::::::::::::::::::::::
+
 Now, let's check if Git has spotted the changes:
 
 ```bash 
