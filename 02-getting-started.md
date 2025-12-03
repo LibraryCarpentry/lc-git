@@ -95,7 +95,7 @@ Vi and Vim are popular editors for users of the BASH shell. If you will be using
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
-However, the simplest `core.editor` value is  `"nano -w"` on Mac, Windows, and Linux.
+However, the simplest `core.editor` value is  `"nano -w"` on Mac, Windows, and Linux, which will run the Nano text editor directly in your shell.
 
 For example:
 
@@ -242,9 +242,30 @@ Changes to be committed:
 If we are using colourised output, we will see that the filename has changed colour (from red to green). Git also tells us that there
 is a new file to be committed but, before we do that, let's add some text to the file.
 
-We will open the file `index.md` with any text editor we have at hand (e.g. Notepad on Windows or TextEdit on Mac OSX) and enter `# Hello, world!`. The
-hash character is one way of writing a header with Markdown. Now, let's save the file within the text editor and check if Git
-has spotted the changes.
+We will open the file `index.md` with a text editor. If you set Nano as your `core.editor` value, this would be a good time to try it out:
+
+```bash
+nano -w index.md
+```
+
+If you don't want to try Nano, use whatever text editor you feel comfortable with (e.g. Notepad on Windows or TextEdit on macOS) to open the file.
+
+When you have the file open, enter `# Hello, world!`. The hash character is one way of writing a header with Markdown. Then save the file and close the text editor.
+
+::::::::::::::::::: instructor
+
+#### Demonstrating how to edit a text file
+
+When showing how to edit `index.md` for the first time, Nano is the most convenient editor to use – you don't have to leave the shell and it should work for everyone – but few learners will be fully confident with it. Take them step-by-step through one of the two ways of saving and closing the file:
+
+- **Ctrl + X** to close the file; **Y** to save the file; **Enter** to keep the same filename.
+- **Ctrl + O** to save the file; **Enter** to keep the same filename; **Ctrl + X** to close the file.
+
+You could also keep a file manager window open (e.g. File Explorer, Finder, Files/Nautilus, Dolphin) to demonstrate locating the file and opening it in a suitable GUI text editor. Look out for learners who need help with this.
+
+::::::::::::::::::::::::::::::
+
+Now, let's check if Git has spotted the changes:
 
 ```bash 
 $ git status
@@ -289,11 +310,11 @@ $ git commit -m 'Add index.md'
  create mode 100644 index.md
 ```
 
-We can see that one file has changed and that we made one insertion, which was a line with the text '#Hello, world!'.
+We can see that one file has changed and that we made one insertion, which was a line with the text '# Hello, world!'.
 We can
 also see the commit message 'Add index.md', which we added by using the `-m` flag after `git commit`.
 The commit message is used to record a short, descriptive, and specific summary of what we did to help us remember later on without having to look at the actual changes.
-If we just run `git commit` without the `-m` option, Git will launch nano (or whatever other editor we configured as `core.editor`)
+If we just run `git commit` without the `-m` option, Git will launch Nano (or whatever other editor we configured as `core.editor`)
 so that we can write a longer message.
 
 Having made a commit, we now have a permanent record of what was changed,
