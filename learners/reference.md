@@ -78,25 +78,32 @@ Git cheat sheet handouts:
 `git remote add origin`
 : add a remote repository named 'origin', to upload changes to or download changes from
 
-## Useful library GitHub repositories
-
-- [DavidChouinard/mrc\_to\_csv](https://github.com/DavidChouinard/mrc_to_csv): 'Python script for converting MARC21 files to a saner format (CSV), originally designed for the Harvard Libraries MARC21 records'
-- [Process MARC records from Python](https://gitlab.com/pymarc/pymarc)
-  - [https://pypi.org/project/pymarc/](https://pypi.org/project/pymarc/)
-- [umd-mith/git-intro](https://umd-mith.github.io/git-intro/): high level intro to git
-- [edsu/mirador](https://github.com/edsu/mirador)
-- [edsu/microdata](https://github.com/edsu/microdata)
-- [dhtaxonomy/TaDiRAH](https://github.com/dhtaxonomy/TaDiRAH)
-- [OpenAPC/openapc-de](https://github.com/OpenAPC/openapc-de)
-- [JiscMonitor/allapc](https://github.com/JiscMonitor/allapc)
-- [Python Programming for Humanities](https://www.karsdorp.io/python-course/)
-- [Code4Lib 2008 lightning talk – Git and distributed cataloging](https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/)
-- [Opening Science](https://www.openingscience.org/get-the-book/)
-
 ## Further reading
 
-- The [help pages](https://help.github.com/) of GitHub are a good place to start
-- GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works
-- GitHub also has interactive tutorials for their [online version (GitHub Skills)](https://skills.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app)
-- Atlassian has in depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git
-- The [Programming Historian](https://programminghistorian.org) uses GitHub to manage lessons useful to historians and also people working in libraries. It is a useful resource for lessons but also to see GitHub in action.
+- The [help pages](https://help.github.com/) of GitHub are a good place to start.
+- GitHub has '[activities](https://guides.github.com/activities/hello-world/)' which aim to explain how git works.
+- GitHub also has interactive tutorials for their [online version (GitHub Skills)](https://skills.github.com/) and for [using Git offline (Git-It)](https://github.com/jlord/git-it-electron#git-it-desktop-app).
+- Atlassian has in-depth but clear [tutorials](https://www.atlassian.com/git/tutorials) on using git.
+- [Code4Lib 2008 lightning talk – Git and distributed cataloging](https://galencharlton.com/blog/2008/03/code4lib-2008-lightning-talk-git-and-distributed-cataloging/): Slides by Galen Charlton drawing parallels between how git works and how cataloging should work.
+
+## Useful library-related Git repositories
+
+- [DavidChouinard/mrc\_to\_csv](https://github.com/DavidChouinard/mrc_to_csv): Python script for converting MARC21 files to CSV, originally designed for the Harvard Libraries MARC21 records.
+- [pymarc/pymarc](https://gitlab.com/pymarc/pymarc): Python package for reading, modifying, and writing records in MARC21 format.
+  - Package description: [Pymarc](https://pypi.org/project/pymarc/)
+- [umd-mith/git-intro](https://umd-mith.github.io/git-intro/): Slides introducing Git, aimed at Digital Humanities students, hosted on GitHub pages.
+  - Rendered slides: [High level intro to Git](https://umd-mith.github.io/git-intro/)
+- [ProjectMirador/mirador](https://github.com/ProjectMirador/mirador): NodeJS package providing an interactive image viewer for cultural heritage websites.
+  - Package website: [Mirador](https://projectmirador.org/)
+- [edsu/microdata](https://github.com/edsu/microdata): Python package for extracting microdata (text given a machine-readable label) from HTML5.
+- [dhtaxonomy/TaDiRAH](https://github.com/dhtaxonomy/TaDiRAH): Taxonomy of Digital Research Activities in the Humanities.
+  - As rendered by the Dariah Vocabs Service: [TaDiRAH](https://vocabs.dariah.eu/tadirah/en/)
+- [OpenAPC/openapc-de](https://github.com/OpenAPC/openapc-de): Dataset of information on fee-based open access publishing.
+  - Viewer for the dataset: [OpenAPC](https://treemaps.openapc.net)
+- [JiscMonitor/allapc](https://github.com/JiscMonitor/allapc): Python package providing an API and reporting system for aggregated APC (article publication charge) data.
+- [fbkarsdorp/python-course](https://github.com/fbkarsdorp/python-course): Tutorial and introduction to programming with Python, aimed at students/researchers in the humanities and social sciences, maintained as a set of Jupyter Notebooks.
+  - Rendered version: [Python Programming for the Humanities](https://www.karsdorp.io/python-course/)
+- [openingscience/book](https://github.com/openingscience/book): The evolving guide on how the Web is changing research, collaboration and scholarly publishing, maintained as Markdown files and rendered using Jekyll (also used by GitHub Pages).
+  - Rendered book: [Opening Science](https://www.openingscience.org/get-the-book/)
+- [programminghistorian/jekyll](https://github.com/programminghistorian/jekyll): A collection of lessons useful to historians and people working in libraries, maintained as Markdown files and hosted by GitHub Pages.
+  - Rendered site: [Programming Historian](https://programminghistorian.org)
