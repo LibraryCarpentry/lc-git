@@ -47,6 +47,7 @@
           </ul></li>
       </div>
 
+
       <div class="dropdown" id="instructor-dropdown">
         <button class="btn btn-secondary dropdown-toggle bordered-button" type="button" id="dropdownMenu1" data-bs-toggle="dropdown" aria-expanded="false">
           <i aria-hidden="true" class="icon" data-feather="eye"></i> Learner View <i data-feather="chevron-down"></i>
@@ -300,7 +301,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Getting started with Git</h1>
-        <p>Last updated on 2025-09-03 |
+        <p>Last updated on 2025-12-03 |
 
         <a href="https://github.com/librarycarpentry/lc-git/edit/main/episodes/02-getting-started.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -437,7 +438,8 @@ with Git.</p>
 <p>Any text editor can be made default by adding the correct file path
 and command line options (see <a href="https://help.github.com/articles/associating-text-editors-with-git/" class="external-link">GitHub
 help</a>). However, the simplest <code>core.editor</code> value is
-<code>"nano -w"</code> on Mac, Windows, and Linux.</p>
+<code>"nano -w"</code> on Mac, Windows, and Linux, which will run the
+Nano text editor directly in your shell.</p>
 <p>For example:</p>
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -617,15 +619,26 @@ Changes to be committed:
 changed colour (from red to green). Git also tells us that there is a
 new file to be committed but, before we do that, let’s add some text to
 the file.</p>
-<p>We will open the file <code>index.md</code> with any text editor we
-have at hand (e.g. Notepad on Windows or TextEdit on Mac OSX) and enter
-<code># Hello, world!</code>. The hash character is one way of writing a
-header with Markdown. Now, let’s save the file within the text editor
-and check if Git has spotted the changes.</p>
+<p>We will open the file <code>index.md</code> with a text editor. If
+you set Nano as your <code>core.editor</code> value, this would be a
+good time to try it out:</p>
 <div class="codewrapper sourceCode" id="cb20">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" tabindex="-1"></a><span class="fu">nano</span> <span class="at">-w</span> index.md</span></code></pre>
+</div>
+<p>If you don’t want to try Nano, use whatever text editor you feel
+comfortable with (e.g. Notepad on Windows or TextEdit on macOS) to open
+the file.</p>
+<p>When you have the file open, enter <code># Hello, world!</code>. The
+hash character is one way of writing a header with Markdown. Then save
+the file and close the text editor.</p>
+
+<p>Now, let’s check if Git has spotted the changes:</p>
+<div class="codewrapper sourceCode" id="cb21">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb21-1"><a href="#cb21-1" tabindex="-1"></a><span class="ex">$</span> git status</span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -648,19 +661,19 @@ Changes not staged for commit:
 <p>This lets us know that git has indeed spotted the changes to our
 file, but that it hasn’t yet staged them, so let’s add the new version
 of the file to the staging area.</p>
-<div class="codewrapper sourceCode" id="cb22">
+<div class="codewrapper sourceCode" id="cb23">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb22-1"><a href="#cb22-1" tabindex="-1"></a><span class="ex">$</span> git add index.md</span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="ex">$</span> git add index.md</span></code></pre>
 </div>
 <p>Now we are ready to <strong>commit</strong> our first changes. Commit
 is similar to ‘saving’ a file to Git. However, compared to saving, a
 commit provides a lot more information about the changes we have made,
 and this information will remain visible to us later.</p>
-<div class="codewrapper sourceCode" id="cb23">
+<div class="codewrapper sourceCode" id="cb24">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb23-1"><a href="#cb23-1" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">'Add index.md'</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb24-1"><a href="#cb24-1" tabindex="-1"></a><span class="ex">$</span> git commit <span class="at">-m</span> <span class="st">'Add index.md'</span></span></code></pre>
 </div>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -670,13 +683,13 @@ and this information will remain visible to us later.</p>
  create mode 100644 index.md</code></pre>
 </div>
 <p>We can see that one file has changed and that we made one insertion,
-which was a line with the text ‘#Hello, world!’. We can also see the
+which was a line with the text ‘# Hello, world!’. We can also see the
 commit message ‘Add index.md’, which we added by using the
 <code>-m</code> flag after <code>git commit</code>. The commit message
 is used to record a short, descriptive, and specific summary of what we
 did to help us remember later on without having to look at the actual
 changes. If we just run <code>git commit</code> without the
-<code>-m</code> option, Git will launch nano (or whatever other editor
+<code>-m</code> option, Git will launch Nano (or whatever other editor
 we configured as <code>core.editor</code>) so that we can write a longer
 message.</p>
 <p>Having made a commit, we now have a permanent record of what was
@@ -763,15 +776,17 @@ Git repository.</li>
 	
         | <a href="https://github.com/librarycarpentry/lc-git/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
         | <a href="https://github.com/librarycarpentry/lc-git/" class="external-link">Source</a></p>
-				<p><a href="https://github.com/librarycarpentry/lc-git/blob/main/CITATION" class="external-link">Cite</a> | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
-			</div>
-			<div class="col-md-6">
+        <p>
+        <a href="https://github.com/librarycarpentry/lc-git/blob/main/" class="external-link">Cite</a>
+        | <a href="mailto:team@carpentries.org">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
+		</div>
+		<div class="col-md-6">
 
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.17.1" class="external-link">sandpaper (0.17.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.7" class="external-link">varnish (1.0.7)</a></p>
-			</div>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.17.2" class="external-link">sandpaper (0.17.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.8" class="external-link">varnish (1.0.8)</a></p>
+		</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">
 		<a href="#top">
@@ -792,8 +807,8 @@ Git repository.</li>
   "url": "https://librarycarpentry.github.io/lc-git/02-getting-started.html",
   "identifier": "https://librarycarpentry.github.io/lc-git/02-getting-started.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2025-09-03",
-  "datePublished": "2025-12-02"
+  "dateModified": "2025-12-03",
+  "datePublished": "2025-12-03"
 }
 
   </script><script>
