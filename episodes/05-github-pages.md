@@ -241,7 +241,7 @@ you can use the fork you created there and skip to step 3.
     remote:
     ```
 
-    You can visit that link in your browser, but if you go back to your fork in GitHib
+    You can visit that link in your browser, but if you go back to your fork in GitHub
     you will also see a button has appeared that says "Compare & pull request".
     You can click on that button instead if you prefer.
 
