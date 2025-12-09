@@ -50,23 +50,23 @@ Go to the Pages section of your repository's Settings:
 
 ![](fig/github-repo-settings-pages.png){alt="GitHub repository's Pages settings"}
 
-#### Source branch (required)
+#### Source and branch
 
-Pages needs to know the branch in your repository from which you want to serve your site. This can be any branch, including `main`.
+Pages gives you a choice between using the built-in Jekyll tool for building your website or providing your own tool.
+We're going to use Jekyll, so leave the "Source" setting on its default value, "Deploy from a branch".
 
-Select then save the source branch:
+Jekyll needs to know the branch and folder in your repository from which you want to serve your site.
+There are no particular restrictions here. This means we could develop a resource in one branch or folder, and maintain a website to describe it in another.
+But on this occasion, we'll only use the repository for the site.
+
+Select `main` as the branch, "/ (root)" as the folder, and then save these values:
 
 ![](fig/github-repo-settings-pages-branch.png){alt="GitHub Pages source branch menu"}
 
 ![](fig/github-repo-settings-pages-save.png){alt="GitHub Pages source branch save"}
 
-#### Theme (optional)
-
-GitHub Pages provides different themes to visually style and organize your site's content. Choosing a theme is optional, and themes can be interchanged quickly.
-
-![](fig/github-repo-settings-pages-theme.png){alt="GitHub Pages choose theme"}
-
-See the [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser) for further information on using themes.
+That's all the configuration we need to get started with GitHub Pages, but there are other things you can change, such as the theme used to visually style and organize your site’s content.
+If you want to explore further after the lesson, see the [GitHub Pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll).
 
 ### View your site
 
