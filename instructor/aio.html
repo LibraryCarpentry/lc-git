@@ -1733,7 +1733,7 @@ workflow</li>
 </div>
 </section></section><section id="aio-05-github-pages"><p>Content from <a href="05-github-pages.html">GitHub Pages</a></p>
 <hr>
-<p>Last updated on 2025-09-03 |
+<p>Last updated on 2026-01-05 |
 
         <a href="https://github.com/librarycarpentry/lc-git/edit/main/episodes/05-github-pages.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 35 minutes</p>
@@ -1807,22 +1807,24 @@ can be turned on in the settings menu for any repository.</p>
 <p>Let’s set up a new site by enabling GitHub Pages for our project.</p>
 <p>Go to the Pages section of your repository’s Settings:</p>
 <figure><img src="../fig/github-repo-settings-pages.png" alt="GitHub repository's Pages settings" class="figure mx-auto d-block"></figure><div class="section level4">
-<h4 id="source-branch-required">Source branch (required)<a class="anchor" aria-label="anchor" href="#source-branch-required"></a>
+<h4 id="source-and-branch">Source and branch<a class="anchor" aria-label="anchor" href="#source-and-branch"></a>
 </h4>
-<p>Pages needs to know the branch in your repository from which you want
-to serve your site. This can be any branch, including
-<code>main</code>.</p>
-<p>Select then save the source branch:</p>
-<figure><img src="../fig/github-repo-settings-pages-branch.png" alt="GitHub Pages source branch menu" class="figure mx-auto d-block"></figure><figure><img src="../fig/github-repo-settings-pages-save.png" alt="GitHub Pages source branch save" class="figure mx-auto d-block"></figure>
-</div>
-<div class="section level4">
-<h4 id="theme-optional">Theme (optional)<a class="anchor" aria-label="anchor" href="#theme-optional"></a>
-</h4>
-<p>GitHub Pages provides different themes to visually style and organize
-your site’s content. Choosing a theme is optional, and themes can be
-interchanged quickly.</p>
-<figure><img src="../fig/github-repo-settings-pages-theme.png" alt="GitHub Pages choose theme" class="figure mx-auto d-block"></figure><p>See the <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/adding-a-theme-to-your-github-pages-site-with-the-theme-chooser" class="external-link">GitHub
-Pages documentation</a> for further information on using themes.</p>
+<p>Pages gives you a choice between using the built-in Jekyll tool for
+building your website or providing your own tool. We’re going to use
+Jekyll, so leave the “Source” setting on its default value, “Deploy from
+a branch”.</p>
+<p>Jekyll needs to know the branch and folder in your repository from
+which you want to serve your site. There are no particular restrictions
+here. This means we could develop a resource in one branch or folder,
+and maintain a website to describe it in another. But on this occasion,
+we’ll only use the repository for the site.</p>
+<p>Select <code>main</code> as the branch, “/ (root)” as the folder, and
+then save these values:</p>
+<figure><img src="../fig/github-repo-settings-pages-branch.png" alt="GitHub Pages source branch menu" class="figure mx-auto d-block"></figure><figure><img src="../fig/github-repo-settings-pages-save.png" alt="GitHub Pages source branch save" class="figure mx-auto d-block"></figure><p>That’s all the configuration we need to get started with GitHub
+Pages, but there are other things you can change, such as the theme used
+to visually style and organize your site’s content. If you want to
+explore further after the lesson, see the <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll" class="external-link">GitHub
+Pages documentation</a>.</p>
 </div>
 </div>
 <div class="section level3">
@@ -1891,7 +1893,7 @@ bit cumbersome. Try to think of why it was needed? And why it’s called
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>We made a fork and a pull request because we did not have permission
 to edit (or commit) the repository directly. A fork is a copy of the
@@ -2035,7 +2037,7 @@ remote:      https://github.com/&lt;your_github_username&gt;/hello-world-1/pull/
 remote:</code></pre>
 </div>
 <p>You can visit that link in your browser, but if you go back to your
-fork in GitHib you will also see a button has appeared that says
+fork in GitHub you will also see a button has appeared that says
 “Compare &amp; pull request”. You can click on that button instead if
 you prefer.</p>
 <figure><img src="../fig/github-pr-create.png" alt="GitHub compare and pull request button" class="figure mx-auto d-block"></figure>
@@ -2147,8 +2149,8 @@ workflow you learned for collaborating via a GitHub repository</li>
   "url": "https://librarycarpentry.github.io/lc-git/instructor/aio.html",
   "identifier": "https://librarycarpentry.github.io/lc-git/instructor/aio.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2025-12-30",
-  "datePublished": "2025-12-30"
+  "dateModified": "2026-01-05",
+  "datePublished": "2026-01-05"
 }
 
   </script><script>
