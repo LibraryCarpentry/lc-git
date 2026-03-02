@@ -93,14 +93,19 @@ Let's also set our default text editor. A text editor is necessary with some of 
 ## Text editors
 
 There are a lot of text editors to choose from, and a lot of people are enthusiastic about their preferences.
-Vi and Vim are popular editors for users of the BASH shell. If you will be using Git or the Shell with a group of people for a project or for work, asking for recommendations or preferences can help you pick an editor to get started with. If you already have your favorite, then you can set it as your default editor with Git.
+
+Nano is a good choice because it works on Mac, Windows, and Linux; it runs directly in your shell; and has on-screen reminders of how to use it.
+If you followed our instructions for installing Git for Windows, it should already be your default editor.
+
+Vi and Vim also run directly in the shell and have many powerful features, but are less beginner-friendly.
+
+If you will be using Git or the Shell with a group of people for a project or for work, asking for recommendations or preferences can help you pick an editor to get started with. If you already have your favorite, then you can set it as your default editor with Git.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
-However, the simplest `core.editor` value is  `"nano -w"` on Mac, Windows, and Linux, which will run the Nano text editor directly in your shell.
-
-For example:
+However, the simplest `core.editor` value is  `"nano -w"`, which will run the Nano text editor directly in your shell.
+To select it, type the following into your shell:
 
 ```bash
 $ git config --global core.editor "nano -w"
