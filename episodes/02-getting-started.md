@@ -111,13 +111,17 @@ To select it, type the following into your shell:
 $ git config --global core.editor "nano -w"
 ```
 
-Lastly, we need to set the name of our default branch to `main.`
+Lastly, we need to make sure the name of our default branch is set to `main`, as that is what GitHub uses. To do this, type the following into your shell:
 
-```bash 
+```bash
 $ git config --global init.defaultBranch main
 ```
 
-The `init.defaultBranch` value configures git to set the default branch to `main` instead of `master`.
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+You may already have seen a setting for `init.defaultbranch` when you looked at your configuration earlier, overriding Git's internal default. If your system configuration sets the default branch to `main`, you don't necessarily have to set it again yourself, but doing so protects you from any system-level changes.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Creating a repository
 
