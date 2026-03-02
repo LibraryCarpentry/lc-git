@@ -61,6 +61,8 @@ credential.https://dev.azure.com.usehttppath=true
 init.defaultbranch=master
 ```
 
+If you are using Linux or WSL 2 on Windows, you might not see any output at all.
+
 If you have different output, then you may have your Git configured already. If you have not configured Git, we will do that together now.
 First, we will tell Git our user name and email.
 
