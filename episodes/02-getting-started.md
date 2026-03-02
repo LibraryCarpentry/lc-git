@@ -39,6 +39,7 @@ On MacOS, without any configuration your output might look like this:
 
 ```output
 credential.helper=osxkeychain
+init.defaultbranch=main
 ```
 
 On Windows, without any configuration your output might look like this:
