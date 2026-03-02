@@ -42,7 +42,7 @@ credential.helper=osxkeychain
 init.defaultbranch=main
 ```
 
-On Windows, without any configuration your output might look like this:
+If you followed our instructions for installing Git for Windows, your output might look like this:
 
 ```output
 diff.astextplain.textconv=astextplain
@@ -50,15 +50,15 @@ filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
 filter.lfs.process=git-lfs filter-process
 filter.lfs.required=true
-http.sslbackend=openssl
-http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=schannel
 core.autocrlf=true
 core.fscache=true
-core.symlinks=false
+core.symlinks=true
+core.editor=nano.exe
 pull.rebase=false
-credential.helper=manager-core
+credential.helper=manager
 credential.https://dev.azure.com.usehttppath=true
-init.defaultbranch=main
+init.defaultbranch=master
 ```
 
 If you have different output, then you may have your Git configured already. If you have not configured Git, we will do that together now.
