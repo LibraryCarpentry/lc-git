@@ -39,9 +39,10 @@ On MacOS, without any configuration your output might look like this:
 
 ```output
 credential.helper=osxkeychain
+init.defaultbranch=main
 ```
 
-On Windows, without any configuration your output might look like this:
+If you followed our instructions for installing Git for Windows, your output might look like this:
 
 ```output
 diff.astextplain.textconv=astextplain
@@ -49,16 +50,18 @@ filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
 filter.lfs.process=git-lfs filter-process
 filter.lfs.required=true
-http.sslbackend=openssl
-http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=schannel
 core.autocrlf=true
 core.fscache=true
-core.symlinks=false
+core.symlinks=true
+core.editor=nano.exe
 pull.rebase=false
-credential.helper=manager-core
+credential.helper=manager
 credential.https://dev.azure.com.usehttppath=true
-init.defaultbranch=main
+init.defaultbranch=master
 ```
+
+If you are using Linux or WSL 2 on Windows, you might not see any output at all.
 
 If you have different output, then you may have your Git configured already. If you have not configured Git, we will do that together now.
 First, we will tell Git our user name and email.
@@ -90,26 +93,35 @@ Let's also set our default text editor. A text editor is necessary with some of 
 ## Text editors
 
 There are a lot of text editors to choose from, and a lot of people are enthusiastic about their preferences.
-Vi and Vim are popular editors for users of the BASH shell. If you will be using Git or the Shell with a group of people for a project or for work, asking for recommendations or preferences can help you pick an editor to get started with. If you already have your favorite, then you can set it as your default editor with Git.
+
+Nano is a good choice because it works on Mac, Windows, and Linux; it runs directly in your shell; and has on-screen reminders of how to use it.
+If you followed our instructions for installing Git for Windows, it should already be your default editor.
+
+Vi and Vim also run directly in the shell and have many powerful features, but are less beginner-friendly.
+
+If you will be using Git or the Shell with a group of people for a project or for work, asking for recommendations or preferences can help you pick an editor to get started with. If you already have your favorite, then you can set it as your default editor with Git.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 Any text editor can be made default by adding the correct file path and command line options (see [GitHub help](https://help.github.com/articles/associating-text-editors-with-git/)).
-However, the simplest `core.editor` value is  `"nano -w"` on Mac, Windows, and Linux, which will run the Nano text editor directly in your shell.
-
-For example:
+However, the simplest `core.editor` value is  `"nano -w"`, which will run the Nano text editor directly in your shell.
+To select it, type the following into your shell:
 
 ```bash
 $ git config --global core.editor "nano -w"
 ```
 
-Lastly, we need to set the name of our default branch to `main.`
+Lastly, we need to make sure the name of our default branch is set to `main`, as that is what GitHub uses. To do this, type the following into your shell:
 
-```bash 
+```bash
 $ git config --global init.defaultBranch main
 ```
 
-The `init.defaultBranch` value configures git to set the default branch to `main` instead of `master`.
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+You may already have seen a setting for `init.defaultbranch` when you looked at your configuration earlier, overriding Git's internal default. If your system configuration sets the default branch to `main`, you don't necessarily have to set it again yourself, but doing so protects you from any system-level changes.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Creating a repository
 
