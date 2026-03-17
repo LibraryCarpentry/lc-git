@@ -546,7 +546,7 @@ why.</p>
 </div>
 </section></section><section id="aio-02-getting-started"><p>Content from <a href="02-getting-started.html">Getting started with Git</a></p>
 <hr>
-<p>Last updated on 2025-12-03 |
+<p>Last updated on 2026-03-17 |
 
         <a href="https://github.com/librarycarpentry/lc-git/edit/main/episodes/02-getting-started.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 25 minutes</p>
@@ -606,10 +606,11 @@ this:</p>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code><span><span class="va">credential.helper</span><span class="op">=</span><span class="va">osxkeychain</span></span></code></pre>
+<pre class="output" tabindex="0"><code><span><span class="va">credential.helper</span><span class="op">=</span><span class="va">osxkeychain</span></span>
+<span><span class="va">init.defaultbranch</span><span class="op">=</span><span class="va">main</span></span></code></pre>
 </div>
-<p>On Windows, without any configuration your output might look like
-this:</p>
+<p>If you followed our instructions for installing Git for Windows, your
+output might look like this:</p>
 <div class="codewrapper">
 <h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
@@ -618,16 +619,18 @@ filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
 filter.lfs.process=git-lfs filter-process
 filter.lfs.required=true
-http.sslbackend=openssl
-http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=schannel
 core.autocrlf=true
 core.fscache=true
-core.symlinks=false
+core.symlinks=true
+core.editor=nano.exe
 pull.rebase=false
-credential.helper=manager-core
+credential.helper=manager
 credential.https://dev.azure.com.usehttppath=true
-init.defaultbranch=main</code></pre>
+init.defaultbranch=master</code></pre>
 </div>
+<p>If you are using Linux or WSL 2 on Windows, you might not see any
+output at all.</p>
 <p>If you have different output, then you may have your Git configured
 already. If you have not configured Git, we will do that together now.
 First, we will tell Git our user name and email.</p>
@@ -673,35 +676,54 @@ lesson.</p>
 <h3 class="callout-title">Text editors</h3>
 <div class="callout-content">
 <p>There are a lot of text editors to choose from, and a lot of people
-are enthusiastic about their preferences. Vi and Vim are popular editors
-for users of the BASH shell. If you will be using Git or the Shell with
-a group of people for a project or for work, asking for recommendations
-or preferences can help you pick an editor to get started with. If you
-already have your favorite, then you can set it as your default editor
-with Git.</p>
+are enthusiastic about their preferences.</p>
+<p>Nano is a good choice because it works on Mac, Windows, and Linux; it
+runs directly in your shell; and has on-screen reminders of how to use
+it. If you followed our instructions for installing Git for Windows, it
+should already be your default editor.</p>
+<p>Vi and Vim also run directly in the shell and have many powerful
+features, but are less beginner-friendly.</p>
+<p>If you will be using Git or the Shell with a group of people for a
+project or for work, asking for recommendations or preferences can help
+you pick an editor to get started with. If you already have your
+favorite, then you can set it as your default editor with Git.</p>
 </div>
 </div>
 </div>
 <p>Any text editor can be made default by adding the correct file path
 and command line options (see <a href="https://help.github.com/articles/associating-text-editors-with-git/" class="external-link">GitHub
 help</a>). However, the simplest <code>core.editor</code> value is
-<code>"nano -w"</code> on Mac, Windows, and Linux, which will run the
-Nano text editor directly in your shell.</p>
-<p>For example:</p>
+<code>"nano -w"</code>, which will run the Nano text editor directly in
+your shell. To select it, type the following into your shell:</p>
 <div class="codewrapper sourceCode" id="cb7">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--global</span> core.editor <span class="st">"nano -w"</span></span></code></pre>
 </div>
-<p>Lastly, we need to set the name of our default branch to
-<code>main.</code></p>
+<p>Lastly, we need to make sure the name of our default branch is set to
+<code>main</code>, as that is what GitHub uses. To do this, type the
+following into your shell:</p>
 <div class="codewrapper sourceCode" id="cb8">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="ex">$</span> git config <span class="at">--global</span> init.defaultBranch main</span></code></pre>
 </div>
-<p>The <code>init.defaultBranch</code> value configures git to set the
-default branch to <code>main</code> instead of <code>master</code>.</p>
+<div id="callout2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<span class="callout-header">Callout</span>
+<div class="callout-inner">
+<div class="callout-content">
+<p>You may already have seen a setting for
+<code>init.defaultbranch</code> when you looked at your configuration
+earlier, overriding Git’s internal default. If your system configuration
+sets the default branch to <code>main</code>, you don’t necessarily have
+to set it again yourself, but doing so protects you from any
+system-level changes.</p>
+</div>
+</div>
+</div>
 </div>
 <div class="section level3">
 <h3 id="creating-a-repository">Creating a repository<a class="anchor" aria-label="anchor" href="#creating-a-repository"></a>
@@ -893,7 +915,7 @@ the file and close the text editor.</p>
   Demonstrating how to edit a text file
   </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
 <div class="accordion-body">
 <p>When showing how to edit <code>index.md</code> for the first time,
 Nano is the most convenient editor to use – you don’t have to leave the
