@@ -67,7 +67,8 @@ To make a handout for this lesson, adapt/print from the [Reference page](https:/
   For example, a text editor might automatically add a newline to the last line of a file, causing an unexpected difference.
   Conflicts can also arise due to Windows using different line endings from other operating systems.
   Take a moment to explain these issues, since learners will almost certainly trip over them again.
-  GitHub provides guidance on [how to configure Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings).
+  GitHub provides guidance on [how to configure Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings);
+  the [section on refreshing a repository](https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings#refreshing-a-repository-after-changing-line-endings) may be helpful if learners need to change the `core.autocrlf` setting after already having made one or more commits.
 
 - We don't use a Git GUI in this lesson because we haven't found one that
   installs easily and runs reliably on the three major operating systems, and
