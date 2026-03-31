@@ -2,24 +2,6 @@
 title: Instructors' Guide
 ---
 
-***
-
-# Tips and Tricks
-
-Known problems that learners encounter:
-
-*Windows*: When using an outdated version of Windows OpenSSH, learners cannot set up the SSH connection to GitHub. SOLUTION: Update OpenSSH version.
-
-***
-
-## Making a handout
-
-To make a handout for this lesson, adapt/print from the [Reference page](https://librarycarpentry.org/lc-git/reference.html).
-
-***
-
-# General notes on Git
-
 Using a software tool to handle the versions of your project files
 lets you focus on the more interesting/innovative aspects of your project.
 
@@ -51,6 +33,16 @@ working in teams or not, because it is
 - a better way to "undo" changes,
 - a better way to collaborate than mailing files back and forth, and
 - a better way to share your code and other scientific work with the world.
+
+## Troubleshooting Common Problems
+
+- When using an outdated version of Windows OpenSSH, learners cannot set up the SSH connection to GitHub.
+
+  - Try updating their version of OpenSSH version.
+
+## Making a handout
+
+To make a handout for this lesson, adapt/print from the [Reference page](https://librarycarpentry.org/lc-git/reference.html).
 
 ## Teaching Notes
 
