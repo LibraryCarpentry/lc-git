@@ -349,25 +349,6 @@
         <h1>Instructor Notes</h1>
         
 
-<hr>
-<div class="section level1">
-<h1 id="tips-and-tricks">Tips and Tricks<a class="anchor" aria-label="anchor" href="#tips-and-tricks"></a>
-</h1>
-<p>Known problems that learners encounter:</p>
-<p><em>Windows</em>: When using an outdated version of Windows OpenSSH,
-learners cannot set up the SSH connection to GitHub. SOLUTION: Update
-OpenSSH version.</p>
-<hr>
-<div class="section level2">
-<h2 id="making-a-handout">Making a handout<a class="anchor" aria-label="anchor" href="#making-a-handout"></a>
-</h2>
-<p>To make a handout for this lesson, adapt/print from <a href="https://librarycarpentry.org/lc-git/reference.html" class="external-link">https://librarycarpentry.org/lc-git/reference.html</a>.</p>
-<hr>
-</div>
-</div>
-<div class="section level1">
-<h1 id="general-notes-on-git">General notes on Git<a class="anchor" aria-label="anchor" href="#general-notes-on-git"></a>
-</h1>
 <p>Using a software tool to handle the versions of your project files
 lets you focus on the more interesting/innovative aspects of your
 project.</p>
@@ -400,9 +381,9 @@ there</li>
 </ul>
 </li>
 </ul>
-<div class="section level2">
-<h2 id="overall">Overall<a class="anchor" aria-label="anchor" href="#overall"></a>
+<section><h2 class="section-heading" id="overall">Overall<a class="anchor" aria-label="anchor" href="#overall"></a>
 </h2>
+<hr class="half-width">
 <p>Version control might be the most important topic we teach, but Git
 is definitely the most complicated tool. However, GitHub presently
 dominates the open software repository landscape, so the time and effort
@@ -417,38 +398,60 @@ researchers working in teams or not, because it is</p>
 and</li>
 <li>a better way to share your code and other scientific work with the
 world.</li>
-</ul>
-</div>
-<div class="section level2">
-<h2 id="teaching-notes">Teaching Notes<a class="anchor" aria-label="anchor" href="#teaching-notes"></a>
+</ul></section><section><h2 class="section-heading" id="troubleshooting-common-problems">Troubleshooting Common Problems<a class="anchor" aria-label="anchor" href="#troubleshooting-common-problems"></a>
 </h2>
+<hr class="half-width">
 <ul>
-<li><p>Resources for “splitting” your shell so that recent commands
-remain in view: <a href="https://github.com/rgaiacs/swc-shell-split-window" class="external-link">https://github.com/rgaiacs/swc-shell-split-window</a>.</p></li>
+<li>
+<p>When using an outdated version of Windows OpenSSH, learners
+cannot set up the SSH connection to GitHub.</p>
+<ul>
+<li>Try updating their version of OpenSSH version.</li>
+</ul>
+</li>
+</ul></section><section><h2 class="section-heading" id="making-a-handout">Making a handout<a class="anchor" aria-label="anchor" href="#making-a-handout"></a>
+</h2>
+<hr class="half-width">
+<p>To make a handout for this lesson, adapt/print from the <a href="https://librarycarpentry.org/lc-git/reference.html" class="external-link">Reference
+page</a>.</p>
+</section><section><h2 class="section-heading" id="teaching-notes">Teaching Notes<a class="anchor" aria-label="anchor" href="#teaching-notes"></a>
+</h2>
+<hr class="half-width">
+<ul>
+<li><p>Utility for “splitting” your shell so that recent commands remain
+in view: <a href="https://github.com/UCL-ARC/swc-shell-split-window" class="external-link">Software
+Carpentry Shell Split Window</a>.</p></li>
 <li><p>Make sure the network is working <em>before</em> starting this
 lesson.</p></li>
 <li><p>Drawings are particularly useful in this lesson: if you have a
-whiteboard, use it to visualise and describe the <a href="https://guides.github.com/introduction/flow/" class="external-link">GitHub
-flow</a>.</p></li>
+whiteboard, use it to visualise and describe GitHub flow. The <a href="https://docs.github.com/en/get-started/using-github/github-flow" class="external-link">current
+documentation of GitHub flow</a> is text-heavy, so it might be easier to
+draw inspiration from the interactive guide “<a href="https://web.archive.org/web/20200728161719/https://guides.github.com/introduction/flow/" class="external-link">Understanding
+the GitHub flow</a>” from 2020.</p></li>
 <li><p>Version control is usually not the first subject in a workshop,
 so get learners to create a GitHub account after the session before.
 Remind learners that the username and email they use for GitHub (and
 setup during Git configuration) will be viewable to the public by
 default. However, there are many reasons why a learner may not want
-their personal information viewable, and GitHub has <a href="https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address" class="external-link">resources
+their personal information viewable, and GitHub has <a href="https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address" class="external-link">resources
 for keeping an email address private</a>.</p></li>
-<li><p>If some learners are using Windows, there will inevitably be
-issues merging files with different line endings. (Even if everyone’s on
-some flavor of Unix, different editors may or may not add a newline to
-the last line of a file.) Take a moment to explain these issues, since
-learners will almost certainly trip over them again. If learners are
-running into line ending problems, GitHub has a <a href="https://help.github.com/en/articles/dealing-with-line-endings" class="external-link">page</a>
-that helps with troubleshooting.</p></li>
-<li><p>We don’t use a Git GUI in these notes because we haven’t found
+<li><p>It is likely that learners will run into issues when merging
+files due to whitespace differences. For example, a text editor might
+automatically add a newline to the last line of a file, causing an
+unexpected difference. Conflicts can also arise due to Windows using
+different line endings from other operating systems. Take a moment to
+explain these issues, since learners will almost certainly trip over
+them again. GitHub provides guidance on <a href="https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings" class="external-link">how
+to configure Git to handle line endings</a>; the <a href="https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings#refreshing-a-repository-after-changing-line-endings" class="external-link">section
+on refreshing a repository</a> may be helpful if learners need to change
+the <code>core.autocrlf</code> setting after already having made one or
+more commits.</p></li>
+<li><p>We don’t use a Git GUI in this lesson because we haven’t found
 one that installs easily and runs reliably on the three major operating
 systems, and because we want learners to understand what commands are
 being run. That said, instructors should demo a GUI on their desktop at
-some point during this lesson and point learners at <a href="https://git-scm.com/downloads/guis" class="external-link">this page</a>.</p></li>
+some point during this lesson and point learners at the Git website’s <a href="https://git-scm.com/tools/guis" class="external-link">list of available
+GUIs</a>.</p></li>
 <li><p>Instructors should show learners graphical diff/merge tools like
 <a href="https://sourcegear.com/diffmerge/" class="external-link">DiffMerge</a>.</p></li>
 <li><p>When appropriate, explain that we teach Git rather than CVS,
@@ -460,21 +463,16 @@ now.</p></li>
 <p>Further resources:</p>
 <ul>
 <li>
-<a href="https://github.com/jlord/git-it-electron#git-it-desktop-app" class="external-link">git-it</a>
-is a self-paced command-line Git demo, with <a href="https://github.com/jlord/git-it-electron" class="external-link">git-it-electron</a> its
-GitHub Desktop successor.</li>
-<li>Try GitHub’s <a href="https://try.github.io/" class="external-link">resources to learn
-Git</a> or Codeacademy’s <a href="https://www.codecademy.com/learn/learn-git" class="external-link">Learn Git</a>.</li>
+<a href="https://github.com/jlord/git-it-electron#git-it-desktop-app" class="external-link">Git-it</a>
+is a self-paced Git demo that runs as an app on your computer.</li>
+<li>Try GitHub’s <a href="https://learn.github.com/" class="external-link">resources to learn
+Git</a> or Codecademy’s <a href="https://www.codecademy.com/learn/learn-git" class="external-link">Learn Git &amp;
+GitHub</a>.</li>
 <li>For instructors, <a href="https://tom.preston-werner.com/2009/05/19/the-git-parable.html" class="external-link">the
 Git parable</a> is useful background reading.</li>
 </ul>
 </li>
-</ul>
-</div>
-</div>
-
-
-      <section id="aggregate-instructor-notes"></section>
+</ul></section><section id="aggregate-instructor-notes"></section>
 </div>
     </main>
 </div>
@@ -524,8 +522,8 @@ Git parable</a> is useful background reading.</li>
   "url": "https://librarycarpentry.github.io/lc-git/instructor-notes.html",
   "identifier": "https://librarycarpentry.github.io/lc-git/instructor-notes.html",
   "dateCreated": "2018-04-12",
-  "dateModified": "2026-04-07",
-  "datePublished": "2026-04-07"
+  "dateModified": "2026-04-10",
+  "datePublished": "2026-04-10"
 }
 
   </script><script>
