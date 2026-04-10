@@ -2,24 +2,6 @@
 title: Instructors' Guide
 ---
 
-***
-
-# Tips and Tricks
-
-Known problems that learners encounter:
-
-*Windows*: When using an outdated version of Windows OpenSSH, learners cannot set up the SSH connection to GitHub. SOLUTION: Update OpenSSH version.
-
-***
-
-## Making a handout
-
-To make a handout for this lesson, adapt/print from [https://librarycarpentry.org/lc-git/reference.html](https://librarycarpentry.org/lc-git/reference.html).
-
-***
-
-# General notes on Git
-
 Using a software tool to handle the versions of your project files
 lets you focus on the more interesting/innovative aspects of your project.
 
@@ -52,14 +34,26 @@ working in teams or not, because it is
 - a better way to collaborate than mailing files back and forth, and
 - a better way to share your code and other scientific work with the world.
 
+## Troubleshooting Common Problems
+
+- When using an outdated version of Windows OpenSSH, learners cannot set up the SSH connection to GitHub.
+
+  - Try updating their version of OpenSSH version.
+
+## Making a handout
+
+To make a handout for this lesson, adapt/print from the [Reference page](https://librarycarpentry.org/lc-git/reference.html).
+
 ## Teaching Notes
 
-- Resources for "splitting" your shell so that recent commands remain in view: [https://github.com/rgaiacs/swc-shell-split-window](https://github.com/rgaiacs/swc-shell-split-window).
+- Utility for "splitting" your shell so that recent commands remain in view: [Software Carpentry Shell Split Window](https://github.com/UCL-ARC/swc-shell-split-window).
 
 - Make sure the network is working *before* starting this lesson.
 
 - Drawings are particularly useful in this lesson: if you have a whiteboard,
-  use it to visualise and describe the [GitHub flow](https://guides.github.com/introduction/flow/).
+  use it to visualise and describe GitHub flow.
+  The [current documentation of GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) is text-heavy,
+  so it might be easier to draw inspiration from the interactive guide "[Understanding the GitHub flow](https://web.archive.org/web/20200728161719/https://guides.github.com/introduction/flow/)" from 2020.
 
 - Version control is usually not the first subject in a workshop,
   so get learners to create a GitHub account after the session before.
@@ -67,21 +61,20 @@ working in teams or not, because it is
   during Git configuration) will be viewable to the public by default.
   However, there are many reasons why a learner may not want their personal
   information viewable, and GitHub has [resources for keeping an email address
-  private](https://help.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address).
+  private](https://docs.github.com/en/account-and-profile/how-tos/email-preferences/setting-your-commit-email-address).
 
-- If some learners are using Windows, there will inevitably be issues
-  merging files with different line endings.  (Even if everyone's on
-  some flavor of Unix, different editors may or may not add a
-  newline to the last line of a file.) Take a moment to explain
-  these issues, since learners will almost certainly trip over them
-  again.  If learners are running into line ending problems, GitHub
-  has a [page](https://help.github.com/en/articles/dealing-with-line-endings) that helps with troubleshooting.
+- It is likely that learners will run into issues when merging files due to whitespace differences.
+  For example, a text editor might automatically add a newline to the last line of a file, causing an unexpected difference.
+  Conflicts can also arise due to Windows using different line endings from other operating systems.
+  Take a moment to explain these issues, since learners will almost certainly trip over them again.
+  GitHub provides guidance on [how to configure Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings);
+  the [section on refreshing a repository](https://docs.github.com/en/github/using-git/configuring-git-to-handle-line-endings#refreshing-a-repository-after-changing-line-endings) may be helpful if learners need to change the `core.autocrlf` setting after already having made one or more commits.
 
-- We don't use a Git GUI in these notes because we haven't found one that
+- We don't use a Git GUI in this lesson because we haven't found one that
   installs easily and runs reliably on the three major operating systems, and
   because we want learners to understand what commands are being run.  That
   said, instructors should demo a GUI on their desktop at some point during
-  this lesson and point learners at [this page](https://git-scm.com/downloads/guis).
+  this lesson and point learners at the Git website's [list of available GUIs](https://git-scm.com/tools/guis).
 
 - Instructors should show learners graphical diff/merge tools like
   [DiffMerge](https://sourcegear.com/diffmerge/).
@@ -93,9 +86,6 @@ working in teams or not, because it is
 
 - Further resources:
   
-  - [git-it](https://github.com/jlord/git-it-electron#git-it-desktop-app) is a self-paced command-line Git demo,
-    with [git-it-electron](https://github.com/jlord/git-it-electron) its GitHub Desktop successor.
-  - Try GitHub's [resources to learn Git](https://try.github.io/) or Codeacademy's [Learn Git](https://www.codecademy.com/learn/learn-git).
+  - [Git-it](https://github.com/jlord/git-it-electron#git-it-desktop-app) is a self-paced Git demo that runs as an app on your computer.
+  - Try GitHub's [resources to learn Git](https://learn.github.com/) or Codecademy's [Learn Git & GitHub](https://www.codecademy.com/learn/learn-git).
   - For instructors, [the Git parable](https://tom.preston-werner.com/2009/05/19/the-git-parable.html) is useful background reading.
-
-
